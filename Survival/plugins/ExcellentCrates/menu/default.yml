@@ -1,0 +1,70 @@
+Use_Mini_Message: false
+
+Crate:
+  Name: '#9af7ff&l%crate_name%'
+  Lore:
+  - '%crate_item_lore%'
+  - ''
+  - '#9af7ff&lInfo:'
+  - '#9af7ff▪ #ddeceeYour Keys: #9af7ffx%keys%'
+  - '#9af7ff▪ #ddeceeCooldown: #9af7ff%crate_opening_cooldown%'
+  - ''
+  - '#a5ff9a&lActions:'
+  - '#a5ff9a▪ #ddeceeLeft Click: #a5ff9aPreview'
+  - '#a5ff9a▪ #ddeceeRight Click: #a5ff9aOpen'
+  - ''
+  - '#f39aff&lPurchase Keys:'
+  - '#f39aff▪ #ddeceeStore: #f39affhttp://samplesmp.com/store'
+  # Put here crate IDs and slots where they will be displayed.
+  # Crate IDs are equals to their config file names.
+  Slots:
+    your_crate_id: 13
+# ==================== GUI CONTENT ====================
+# You can freely edit items in this section as you wish (add, remove, modify items).
+# The following values are available as button Types:
+# CLOSE
+# ==================== ITEM OPTIONS ====================
+# > Item: Item to display. Please check: https://github.com/nulli0n/nightcore-spigot/wiki/ItemStack-Options
+# > Priority: Button priority. Better values will override other item(s) in the same slot(s).
+# > Slots: Button slots. From [0] to [Size - 1]. Split with commas.
+# > Click_Commands: Execute custom commands on click. PlaceholderAPI available here.
+#     Available click types: LEFT, RIGHT, SHIFT_LEFT, SHIFT_RIGHT, DROP_KEY, SWAP_KEY, NUMBER_1, NUMBER_2, NUMBER_3, NUMBER_4, NUMBER_5, NUMBER_6, NUMBER_7, NUMBER_8, NUMBER_9
+#     Use prefix 'player:' to run command by a player.
+#     Click_Commands:
+#       LEFT:
+#       - say Hello
+#       - give %player_name% diamond 1
+#       - player: menu open shops
+# ==================================================
+Content:
+  panes_1:
+    Priority: 0
+    Item:
+      Material: BLACK_STAINED_GLASS_PANE
+    Slots: 1,2,3,5,6,7,9,18,27,17,26,35,37,38,39,40,41,42,43
+  
+  panes_2:
+    Priority: 0
+    Item:
+      Material: CYAN_STAINED_GLASS_PANE
+    Slots: 0,4,8,36,44
+  
+  exit:
+    Priority: 5
+    Item:
+      Material: PLAYER_HEAD
+      Name: '#FF5733(✕) &lExit'
+      SkinURL: 3ed1aba73f639f4bc42bd48196c715197be2712c3b962c97ebf9e9ed8efa025
+    Slots: 40
+    Type: CLOSE
+Settings:
+  # GUI title.
+  Title: '           &nVirtual Crates'
+  # GUI size. Must be multiply of 9.
+  # Useful for 'CHEST' Inventory Type only.
+  Size: 45
+  # GUI type.
+  # https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/event/inventory/InventoryType.html
+  Inventory_Type: CHEST
+  # Sets GUI auto-refresh interval (in seconds). Set this to 0 to disable.
+  Auto_Refresh: 0

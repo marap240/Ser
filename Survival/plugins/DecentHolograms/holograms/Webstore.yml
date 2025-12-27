@@ -1,0 +1,20 @@
+location: Spawn:1.500:91.000:20.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: GOLD_INGOT'
+    height: 0.6
+  - content: '&#FFD700&lTienda Web'
+    height: 0.3
+  - content: '&f¡Visita nuestra Tienda Web!'
+    height: 0.3
+  - content: '&r'
+    height: 0.3
+  - content: '&7Haz clic para Abrir'
+    height: 0.3
+  actions: {}

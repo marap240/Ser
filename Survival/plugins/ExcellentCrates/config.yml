@@ -1,0 +1,238 @@
+Editor:
+  Title:
+    # Title for the Crate Editor GUIs.
+    Crate: Crate Editor
+    # Title for the Key Editor GUIs.
+    Key: Key Editor
+Crate:
+  Cooldown_Formatter:
+    # Sets time formatter for crate opening cooldown.
+    # 'hh' - hours, 'mm' - minutes, 'ss' - seconds.
+    Time: hh:mm:ss
+    # Sets the custom message instead of empty counter when there is no cooldown for a crate.
+    Ready: '&aReady to Open!'
+  # When 'true' replaces PlaceholderAPI placeholders in reward item's name and lore when obtained by players.
+  # NOTE: This setting may 'corrupt' item's lore layout in some cases. Ask PlaceholderAPI devs if you're experiencing issues.
+  PlaceholderAPI_For_Rewards: false
+  # When 'true' and if crate has NO opening animation, holographic reward will appear above crate block for a short amount of time.
+  # This option will have effect only when interacted with crate blocks.
+  Display_Reward_Above_Block: true
+  # Sets whether player must hold key in main hand in order to open crate.
+  # NOTE: This setting will not work if crate has virtual keys assigned.
+  Hold_Key_To_Open: false
+  # When 'true' prevents force closing opening animations to get reward instantly.
+  Prevent_Opening_Skip: false
+  # Sets how soon (in ticks) crate opening animation GUI will be closed when completed.
+  # 1 second = 20 ticks. 20 ticks by default.
+  Opening_Close_Time: 20
+  Block_Pushback:
+    # Sets the Y offset for crate block pushback.
+    Y: -0.4
+    # Vector multiplier for crate block pushback. The higher value - the harder pushback.
+    Multiply: -1.25
+  # Defines the crate behavior on certain clicks.
+  # Allowed click types: LEFT, RIGHT, SHIFT_LEFT, SHIFT_RIGHT
+  # Allowed crate actions: CRATE_OPEN, CRATE_MASS_OPEN, CRATE_PREVIEW
+  Click_Actions:
+    LEFT: CRATE_PREVIEW
+    SHIFT_RIGHT: CRATE_MASS_OPEN
+    RIGHT: CRATE_OPEN
+  Holograms:
+    # Sets which hologram handler will be used to display crate holograms.
+    # Available values: INTERNAL, DECENT_HOLOGRAMS, HOLOGRAPHIC_DISPLAYS
+    # For all handlers, except the 'INTERNAL' one, you will have to install respective holograms plugin.
+    # For 'INTERNAL' hologram handler you must have ProtocolLib installed and to be on 1.19.4 or newer.
+    Handler: INTERNAL
+    # [For EXTERNAL handlers only]
+    # Sets Y offset for hologram location.
+    Y_Offset: 1.5
+    # Sets the gap between hologram lines.
+    LineGap: 0.3
+    # Sets how often (in seconds) crate holograms will update.
+    Update_Interval: 5
+    # [1.20.4+ only]
+    # When enabled, uses Display Entities for holograms instead of Armor Stands.
+    DisplayEntities: true
+    # Controls if crate holograms should pivot to face player when rendered.
+    # It can be FIXED (both vertical and horizontal angles are fixed), VERTICAL (faces player around vertical axis), HORIZONTAL (pivots around horizontal axis), and CENTER (pivots around center point).
+    # [Default is VERTICAL]
+    Billboard: VERTICAL
+    # Alpha value of rendered text. Value ranges from 0 to 255. Values up to 3 are treated as fully opaque (255).
+    # The text rendering is discarded for values between 4 and 26. Defaults to -1, which represents 255 and is completely opaque.
+    # [Default is -1]
+    TextOpacity: -1
+    # Whether the text be visible through blocks.
+    # [Default is false]
+    SeeThrough: false
+    # Whether the text is displayed with shadow.
+    # [Default is true]
+    Shadow: true
+    # The background color, arranged by [A,R,G,B]. Where: A = Alpha (opacity), R = Red, G = Green, B = Blue.
+    # [Default is 64,0,0,0]
+    BackgroundColor: 64,0,0,0
+    # Custom hologram templates to display above crate blocks.
+    # Allowed Placeholders:
+    # - PlaceholderAPI placeholders.
+    # - Crate placeholders: https://nightexpressdev.com/excellentcrates/placeholders/internal
+    TemplateList:
+      default:
+        Text:
+        - '#ead931&l%crate_name%'
+        - '#aaa8a8Purchase keys at #ead931http://samplesmp.com/store'
+        - '#aaa8a8You currently have #ead931%excellentcrates_keys_%crate_id%%#aaa8a8 keys'
+      vote:
+        Text:
+        - '#33effb&lV#42f0fb&lO#52f0fc&lT#61f1fc&lE #70f1fc&lC#7ff2fc&lR#8ff2fd&lA#9ef3fd&lT#adf3fd&lE'
+        - '&fOpen #33effbV#42f0fbo#52f0fct#61f1fce #70f1fcC#7ff2fcr#8ff2fda#9ef3fdt#adf3fdes &fhere.'
+        - '&r'
+        - '&7→ Right Click to Open'
+        - '&7← Left Click to Preview'
+      legendary:
+        Text:
+        - '&d&ki&r #e700fb&lL#e600f3&lE#e600eb&lG#e500e3&lE#e500db&lN#e400d3&lD#e300cb&lA#e300c3&lR#e200bb&lY #e100b3&lC#e100ab&lR#e000a3&lA#e0009b&lT#df0093&lE &d&ki'
+        - '&fOpen #e700fbL#e600f4e#e600ecg#e500e5e#e500ddn#e400d6d#e400cea#e300c7r#e200c0y #e200b8C#e100b1r#e100a9a#e000a2t#e0009ae#df0093s &fhere.'
+        - '&r'
+        - '&7→ Right Click to Open'
+        - '&7← Left Click to Preview'
+      seasonal:
+        Text:
+        - '&c&ki&r #af0000&lS#b60501&lE#bc0a03&lA#c30f04&lS#c91405&lO#d01907&lN#d61e08&lA#dd2209&lL #e3270b&lC#ea2c0c&lR#f0310d&lA#f7360f&lT#fd3b10&lE &c&ki'
+        - '&fOpen #af0000S#b50501e#bb0902a#c10e04s#c71205o#cd1706n#d31b07a#d92009l #df240aC#e5290br#eb2d0ca#f1320et#f7360fe#fd3b10s &fhere.'
+        - '&r'
+        - '&7→ Right Click to Open'
+        - '&7← Left Click to Preview'
+      ultimate:
+        Text:
+        - '#fbb500&lU#f9b800&lL#f6bb00&lT#f4bd00&lI#f2c000&lM#efc300&lA#edc600&lT#ebc800&lE #e8cb00&lC#e6ce00&lR#e4d100&lA#e1d300&lT#dfd600&lE'
+        - '&fOpen #fbb500U#f9b800l#f7ba00t#f5bd00i#f2bf00m#f0c200a#eec400t#ecc700e #eac900C#e8cc00r#e5ce00a#e3d100t#e1d300e#dfd600s &fhere.'
+        - '&r'
+        - '&7→ Right Click to Open'
+        - '&7← Left Click to Preview'
+      premium:
+        Text:
+        - '#f6fb00&lP#f4f300&lR#f2eb00&lE#f0e200&lM#eeda00&lI#ecd200&lU#e9ca00&lM #e7c200&lC#e5ba00&lR#e3b100&lA#e1a900&lT#dfa100&lE'
+        - '&fOpen #f6fb00P#f4f400r#f2ec00e#f0e500m#eedd00i#ecd600u#ebce00m #e9c700C#e7bf00r#e5b800a#e3b000t#e1a900e#dfa100s &fhere.'
+        - '&r'
+        - '&7→ Right Click to Open'
+        - '&7← Left Click to Preview'
+      petCrate:
+        Text:
+        - '&6&ki&r #ff8000&lP#ffa500&lE#ffca00&lT #d4ff00&lC#aaff00&lR#80ff00&lA#55ff00&lT#2bff00&lE &6&ki'
+        - '&fAbre #ff8000C#ffa500a#ffca00j#ffef00a#d4ff00s #aaff00d#80ff00e #55ff00M#2bff00a#00ff00s#00ff00c#00ff00o#00ff00t#00ff00a#00ff00s &faquí.'
+        - '&r'
+        - '&7→ Click Derecho para Abrir'
+        - '&7← Click Izquierdo para Previsualizar'
+
+  Effects:
+    # Sets max. distance where players can see crate particles and holograms.
+    Visibility_Distance: 24
+  # Limits amount of crate openings for the Mass Opening feature to this value.
+  # [*] STABILITY NOTICE:
+  #   Stability highly depends on reward's content.
+  #   Using high values may result in freezes, stutters, bugs and errors.
+  Mass_Opening_Limit: 30
+  # Sets cooldown (in milliseconds) for crate preview by clicking crate block(s).
+  # The main purpose of this setting is to prevent exploit using hacked clients by sending a lot of crate interaction packets causing server overload by GUI generation.
+  # Resets on player quit.
+  # [Default is 2500]
+  Preview_Cooldown: 2500
+  # Sets whether or not players can skip crate opening animations.
+  # When enabled, make sure the check out the 'Max_Ticks_To_Skip' setting in the /openingsv2/ configs.
+  Opening_Allow_Skip: false
+  # Sets save interval (in seconds) for crates that were changed using the in-game editor.
+  # [Default is 300 (5 min)]
+  SaveInterval: 300
+  # Sets the Link Tool item layout.
+  LinkTool:
+    Material: minecraft:blaze_rod
+    Display_Name: <gold><b>Link Tool</b></gold>
+    Lore:
+    - <gray>Click a block to link it</gray>
+    - <gray>with the crate!</gray>
+    Hide_Components: true
+  # When enabled allows crates to be assigned to 'air' blocks and disables block validation on crate load.
+  Allow_Crates_In_Air_Blocks: false
+  # Sets crate cooldown format type.
+  # Available values: [LITERAL, DIGITAL, SECONDS]
+  Cooldown_Format_Type: DIGITAL
+  Opening:
+    Confirmation:
+      # Controls whether the Costs GUI will appear even if there is only cost option available.
+      ForSingleCost: false
+  MassOpening:
+    # Controls whether players can do Mass Opening for crates with no cost options defined.
+    AllowForNoCost: false
+    # Controls whether players can do Mass Opening by opening crates while sneaking.
+    SneakToUse: true
+  # Controls whether click actions, when interacting with crate blocks, should be reversed.
+  # By default it uses Left Click to preview crates, and Right Click to open them.
+  Reverse_Click_Actions: false
+Logs:
+  # Sets date format for crate opening logs.
+  DateFormat: dd/MM/yyyy HH:mm:ss
+  Enabled:
+    # Sets whether or not all crate openings & reward wins will be logged to console.
+    Console: false
+    # Sets whether or not all crate openings & reward wins will be logged to a file.
+    File: true
+Currency:
+  xp:
+    Enabled: true
+    Name: Xp
+    Format: '%amount% %currency_name%'
+  money:
+    Enabled: true
+    Name: Money
+    Format: '%amount% %currency_name%'
+  levels:
+    Enabled: true
+    Name: XP Levels
+    Format: '%amount% %name%'
+Milestones:
+  # Controls whether Milestones feature is enabled.
+  Enabled: false
+Rewards:
+  Rarities:
+    common:
+      Name: Common
+      Weight: 50.0
+      Default: false
+Data:
+  Rewards:
+    Limits:
+      # When enabled, synchronizes reward limits datas (both, global and player ones) in addition to player data sync.
+      # [*] CAUTION: Removes all reward limit entries from the database when a crate/reward gets deleted.
+      # [*] Useless for SQLite.
+      Synchronize: true
+      # Sets auto-save interval for reward's limit datas.
+      # Data also saved on plugin reload and server reboot.
+      # [*] You can increase this value to improve performance if you don't sync/share reward limit data across multiple servers.
+      Save_Interval: 3
+  Crates:
+    GlobalData:
+      # When enabled, synchronizes global crate datas in addition to player data sync.
+      # [*] CAUTION: Removes all crate data entries from the database when a crate gets deleted.
+      # [*] Useless for SQLite.
+      Synchronize: true
+      # Sets auto-save interval for crate's datas.
+      # Data also saved on plugin reload and server reboot.
+      # Crate data stores the following information:
+      # - Latest opener ID
+      # - Latest opener Name
+      # - Latest reward ID
+      # [*] You can increase this value to improve performance if you don't sync/share crate data across multiple servers.
+      Save_Interval: 60
+Features:
+  # Whether Mass Opening feature is enabled.
+  MassOpening: true
+Holograms:
+  # Controls whether the Holograms feature is available.
+  # [*] One of the following plugins is required for holograms to work: packetevents or ProtocolLib
+  Enabled: true
+Openings:
+  GUI:
+    # [ THIS SETTING DOES NOT AFFECT THE FINAL REWARD, IT IS PREDICTED WHEN PLAYER OPENED A CRATE ]
+    # Controls whether reward's weight and rarity should be respected when displaying rewards during GUI opening animation.
+    # When disabled, rewards choosen by a blind random.
+    # [Default is false]
+    Simulate_Real_Chances: false

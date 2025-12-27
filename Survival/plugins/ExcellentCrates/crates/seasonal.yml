@@ -1,0 +1,915 @@
+Name: '&c&ki&r #af0000&lS#b60501&lE#bc0a03&lA#c30f04&lS#c91405&lO#d01907&lN#d61e08&lA#dd2209&lL #e3270b&lC#ea2c0c&lR#f0310d&lA#f7360f&lT#fd3b10&lE &c&ki'
+Permission_Required: false
+Block:
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Template: seasonal
+  Effect:
+    Model: HELIX
+    Particle:
+      Name: REDSTONE
+      Color: 255,0,0
+      Size: 1.0
+  Positions:
+  - 70,89,90,Spawn
+Rewards:
+  List:
+    i_seasonal_helmet_i_:
+      Name: '&c&ki&r #AF0000&lS#B50501&lE#BB0902&lA#C10E04&lS#C71205&lO#CD1706&lN#D31B07&lA#D92009&lL #DF240A&lH#E5290B&lE#EB2D0C&lL#F1320E&lM#F7360F&lE#FD3B10&lT&r &c&ki&r '
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"red",italic:0b,obfuscated:1b,strikethrough:0b,text:"i",underlined:0b},{italic:0b,obfuscated:0b,text:" "},{bold:1b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#B50501",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#BB0902",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#C10E04",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#C71205",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#CD1706",italic:0b,obfuscated:0b,strikethrough:0b,text:"N",underlined:0b},{bold:1b,color:"#D31B07",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#D92009",italic:0b,obfuscated:0b,strikethrough:0b,text:"L
+            ",underlined:0b},{bold:1b,color:"#DF240A",italic:0b,obfuscated:0b,strikethrough:0b,text:"H",underlined:0b},{bold:1b,color:"#E5290B",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#EB2D0C",italic:0b,obfuscated:0b,strikethrough:0b,text:"L",underlined:0b},{bold:1b,color:"#F1320E",italic:0b,obfuscated:0b,strikethrough:0b,text:"M",underlined:0b},{bold:1b,color:"#F7360F",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"T",underlined:0b},{bold:0b,italic:0b,text:"
+            "},{color:"red",italic:0b,obfuscated:1b,text:"i"},{italic:0b,obfuscated:0b,text:" "}],text:""},"minecraft:enchantments":{"minecraft:aqua_affinity":1,"minecraft:protection":7,"minecraft:respiration":5,"minecraft:unbreaking":5}},count:1,id:"minecraft:diamond_helmet"}'
+          DataVersion: 4440
+      Type: ITEM
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"red",italic:0b,obfuscated:1b,strikethrough:0b,text:"i",underlined:0b},{italic:0b,obfuscated:0b,text:" "},{bold:1b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#B50501",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#BB0902",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#C10E04",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#C71205",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#CD1706",italic:0b,obfuscated:0b,strikethrough:0b,text:"N",underlined:0b},{bold:1b,color:"#D31B07",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#D92009",italic:0b,obfuscated:0b,strikethrough:0b,text:"L
+              ",underlined:0b},{bold:1b,color:"#DF240A",italic:0b,obfuscated:0b,strikethrough:0b,text:"H",underlined:0b},{bold:1b,color:"#E5290B",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#EB2D0C",italic:0b,obfuscated:0b,strikethrough:0b,text:"L",underlined:0b},{bold:1b,color:"#F1320E",italic:0b,obfuscated:0b,strikethrough:0b,text:"M",underlined:0b},{bold:1b,color:"#F7360F",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"T",underlined:0b},{bold:0b,italic:0b,text:"
+              "},{color:"red",italic:0b,obfuscated:1b,text:"i"},{italic:0b,obfuscated:0b,text:" "}],text:""},"minecraft:enchantments":{"minecraft:aqua_affinity":1,"minecraft:protection":7,"minecraft:respiration":5,"minecraft:unbreaking":5}},count:1,id:"minecraft:diamond_helmet"}'
+            DataVersion: 4440
+      Custom_Preview: false
+    i_seasonal_chestplate_i_:
+      Name: '&c&ki&r #AF0000&lS#B40301&lE#B80702&lA#BD0A03&lS#C10E04&lO#C61105&lN#CB1506&lA#CF1807&lL #D41C08&lC#D81F08&lH#DD2309&lE#E1260A&lS#E62A0B&lT#EB2D0C&lP#EF310D&lL#F4340E&lA#F8380F&lT#FD3B10&lE&r &c&ki&r '
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"red",italic:0b,obfuscated:1b,strikethrough:0b,text:"i",underlined:0b},{italic:0b,obfuscated:0b,text:" "},{bold:1b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#B40301",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#B80702",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#BD0A03",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#C10E04",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#C61105",italic:0b,obfuscated:0b,strikethrough:0b,text:"N",underlined:0b},{bold:1b,color:"#CB1506",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#CF1807",italic:0b,obfuscated:0b,strikethrough:0b,text:"L
+            ",underlined:0b},{bold:1b,color:"#D41C08",italic:0b,obfuscated:0b,strikethrough:0b,text:"C",underlined:0b},{bold:1b,color:"#D81F08",italic:0b,obfuscated:0b,strikethrough:0b,text:"H",underlined:0b},{bold:1b,color:"#DD2309",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#E1260A",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#E62A0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"T",underlined:0b},{bold:1b,color:"#EB2D0C",italic:0b,obfuscated:0b,strikethrough:0b,text:"P",underlined:0b},{bold:1b,color:"#EF310D",italic:0b,obfuscated:0b,strikethrough:0b,text:"L",underlined:0b},{bold:1b,color:"#F4340E",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#F8380F",italic:0b,obfuscated:0b,strikethrough:0b,text:"T",underlined:0b},{bold:1b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:0b,italic:0b,text:"
+            "},{color:"red",italic:0b,obfuscated:1b,text:"i"},{italic:0b,obfuscated:0b,text:" "}],text:""},"minecraft:enchantments":{"minecraft:protection":7,"minecraft:unbreaking":5}},count:1,id:"minecraft:diamond_chestplate"}'
+          DataVersion: 4440
+      Type: ITEM
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"red",italic:0b,obfuscated:1b,strikethrough:0b,text:"i",underlined:0b},{italic:0b,obfuscated:0b,text:" "},{bold:1b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#B40301",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#B80702",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#BD0A03",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#C10E04",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#C61105",italic:0b,obfuscated:0b,strikethrough:0b,text:"N",underlined:0b},{bold:1b,color:"#CB1506",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#CF1807",italic:0b,obfuscated:0b,strikethrough:0b,text:"L
+              ",underlined:0b},{bold:1b,color:"#D41C08",italic:0b,obfuscated:0b,strikethrough:0b,text:"C",underlined:0b},{bold:1b,color:"#D81F08",italic:0b,obfuscated:0b,strikethrough:0b,text:"H",underlined:0b},{bold:1b,color:"#DD2309",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#E1260A",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#E62A0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"T",underlined:0b},{bold:1b,color:"#EB2D0C",italic:0b,obfuscated:0b,strikethrough:0b,text:"P",underlined:0b},{bold:1b,color:"#EF310D",italic:0b,obfuscated:0b,strikethrough:0b,text:"L",underlined:0b},{bold:1b,color:"#F4340E",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#F8380F",italic:0b,obfuscated:0b,strikethrough:0b,text:"T",underlined:0b},{bold:1b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:0b,italic:0b,text:"
+              "},{color:"red",italic:0b,obfuscated:1b,text:"i"},{italic:0b,obfuscated:0b,text:" "}],text:""},"minecraft:enchantments":{"minecraft:protection":7,"minecraft:unbreaking":5}},count:1,id:"minecraft:diamond_chestplate"}'
+            DataVersion: 4440
+      Custom_Preview: false
+    i_seasonal_leggings_i_:
+      Name: '&c&ki&r #AF0000&lS#B40401&lE#B90802&lA#BF0C03&lS#C41004&lO#C91405&lN#CE1806&lA#D31C07&lL #D91F09&lL#DE230A&lE#E3270B&lG#E82B0C&lG#ED2F0D&lI#F3330E&lN#F8370F&lG#FD3B10&lS&r &c&ki&r '
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"red",italic:0b,obfuscated:1b,strikethrough:0b,text:"i",underlined:0b},{italic:0b,obfuscated:0b,text:" "},{bold:1b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#B40401",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#B90802",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#BF0C03",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#C41004",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#C91405",italic:0b,obfuscated:0b,strikethrough:0b,text:"N",underlined:0b},{bold:1b,color:"#CE1806",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#D31C07",italic:0b,obfuscated:0b,strikethrough:0b,text:"L
+            ",underlined:0b},{bold:1b,color:"#D91F09",italic:0b,obfuscated:0b,strikethrough:0b,text:"L",underlined:0b},{bold:1b,color:"#DE230A",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#E3270B",italic:0b,obfuscated:0b,strikethrough:0b,text:"G",underlined:0b},{bold:1b,color:"#E82B0C",italic:0b,obfuscated:0b,strikethrough:0b,text:"G",underlined:0b},{bold:1b,color:"#ED2F0D",italic:0b,obfuscated:0b,strikethrough:0b,text:"I",underlined:0b},{bold:1b,color:"#F3330E",italic:0b,obfuscated:0b,strikethrough:0b,text:"N",underlined:0b},{bold:1b,color:"#F8370F",italic:0b,obfuscated:0b,strikethrough:0b,text:"G",underlined:0b},{bold:1b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:0b,italic:0b,text:"
+            "},{color:"red",italic:0b,obfuscated:1b,text:"i"},{italic:0b,obfuscated:0b,text:" "}],text:""},"minecraft:enchantments":{"minecraft:protection":7,"minecraft:unbreaking":5}},count:1,id:"minecraft:diamond_leggings"}'
+          DataVersion: 4440
+      Type: ITEM
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"red",italic:0b,obfuscated:1b,strikethrough:0b,text:"i",underlined:0b},{italic:0b,obfuscated:0b,text:" "},{bold:1b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#B40401",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#B90802",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#BF0C03",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#C41004",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#C91405",italic:0b,obfuscated:0b,strikethrough:0b,text:"N",underlined:0b},{bold:1b,color:"#CE1806",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#D31C07",italic:0b,obfuscated:0b,strikethrough:0b,text:"L
+              ",underlined:0b},{bold:1b,color:"#D91F09",italic:0b,obfuscated:0b,strikethrough:0b,text:"L",underlined:0b},{bold:1b,color:"#DE230A",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#E3270B",italic:0b,obfuscated:0b,strikethrough:0b,text:"G",underlined:0b},{bold:1b,color:"#E82B0C",italic:0b,obfuscated:0b,strikethrough:0b,text:"G",underlined:0b},{bold:1b,color:"#ED2F0D",italic:0b,obfuscated:0b,strikethrough:0b,text:"I",underlined:0b},{bold:1b,color:"#F3330E",italic:0b,obfuscated:0b,strikethrough:0b,text:"N",underlined:0b},{bold:1b,color:"#F8370F",italic:0b,obfuscated:0b,strikethrough:0b,text:"G",underlined:0b},{bold:1b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:0b,italic:0b,text:"
+              "},{color:"red",italic:0b,obfuscated:1b,text:"i"},{italic:0b,obfuscated:0b,text:" "}],text:""},"minecraft:enchantments":{"minecraft:protection":7,"minecraft:unbreaking":5}},count:1,id:"minecraft:diamond_leggings"}'
+            DataVersion: 4440
+      Custom_Preview: false
+    i_seasonal_boots_i_:
+      Name: '&c&ki&r #AF0000&lS#B60501&lE#BC0A03&lA#C30F04&lS#C91405&lO#D01907&lN#D61E08&lA#DD2209&lL #E3270B&lB#EA2C0C&lO#F0310D&lO#F7360F&lT#FD3B10&lS&r &c&ki&r '
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"red",italic:0b,obfuscated:1b,strikethrough:0b,text:"i",underlined:0b},{italic:0b,obfuscated:0b,text:" "},{bold:1b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#B60501",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#BC0A03",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#C30F04",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#C91405",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#D01907",italic:0b,obfuscated:0b,strikethrough:0b,text:"N",underlined:0b},{bold:1b,color:"#D61E08",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#DD2209",italic:0b,obfuscated:0b,strikethrough:0b,text:"L
+            ",underlined:0b},{bold:1b,color:"#E3270B",italic:0b,obfuscated:0b,strikethrough:0b,text:"B",underlined:0b},{bold:1b,color:"#EA2C0C",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#F0310D",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#F7360F",italic:0b,obfuscated:0b,strikethrough:0b,text:"T",underlined:0b},{bold:1b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:0b,italic:0b,text:" "},{color:"red",italic:0b,obfuscated:1b,text:"i"},{italic:0b,obfuscated:0b,text:"
+            "}],text:""},"minecraft:enchantments":{"minecraft:depth_strider":3,"minecraft:feather_falling":5,"minecraft:protection":7,"minecraft:unbreaking":5}},count:1,id:"minecraft:diamond_boots"}'
+          DataVersion: 4440
+      Type: ITEM
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"red",italic:0b,obfuscated:1b,strikethrough:0b,text:"i",underlined:0b},{italic:0b,obfuscated:0b,text:" "},{bold:1b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#B60501",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#BC0A03",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#C30F04",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#C91405",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#D01907",italic:0b,obfuscated:0b,strikethrough:0b,text:"N",underlined:0b},{bold:1b,color:"#D61E08",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#DD2209",italic:0b,obfuscated:0b,strikethrough:0b,text:"L
+              ",underlined:0b},{bold:1b,color:"#E3270B",italic:0b,obfuscated:0b,strikethrough:0b,text:"B",underlined:0b},{bold:1b,color:"#EA2C0C",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#F0310D",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#F7360F",italic:0b,obfuscated:0b,strikethrough:0b,text:"T",underlined:0b},{bold:1b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:0b,italic:0b,text:" "},{color:"red",italic:0b,obfuscated:1b,text:"i"},{italic:0b,obfuscated:0b,text:"
+              "}],text:""},"minecraft:enchantments":{"minecraft:depth_strider":3,"minecraft:feather_falling":5,"minecraft:protection":7,"minecraft:unbreaking":5}},count:1,id:"minecraft:diamond_boots"}'
+            DataVersion: 4440
+      Custom_Preview: false
+    i_seasonal_sword_i_:
+      Name: '&c&ki&r #AF0000&lS#B60501&lE#BC0A03&lA#C30F04&lS#C91405&lO#D01907&lN#D61E08&lA#DD2209&lL #E3270B&lS#EA2C0C&lW#F0310D&lO#F7360F&lR#FD3B10&lD&r &c&ki&r '
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"red",italic:0b,obfuscated:1b,strikethrough:0b,text:"i",underlined:0b},{italic:0b,obfuscated:0b,text:" "},{bold:1b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#B60501",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#BC0A03",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#C30F04",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#C91405",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#D01907",italic:0b,obfuscated:0b,strikethrough:0b,text:"N",underlined:0b},{bold:1b,color:"#D61E08",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#DD2209",italic:0b,obfuscated:0b,strikethrough:0b,text:"L
+            ",underlined:0b},{bold:1b,color:"#E3270B",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#EA2C0C",italic:0b,obfuscated:0b,strikethrough:0b,text:"W",underlined:0b},{bold:1b,color:"#F0310D",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#F7360F",italic:0b,obfuscated:0b,strikethrough:0b,text:"R",underlined:0b},{bold:1b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"D",underlined:0b},{bold:0b,italic:0b,text:" "},{color:"red",italic:0b,obfuscated:1b,text:"i"},{italic:0b,obfuscated:0b,text:"
+            "}],text:""},"minecraft:enchantments":{"minecraft:looting":5,"minecraft:sharpness":7,"minecraft:unbreaking":5}},count:1,id:"minecraft:diamond_sword"}'
+          DataVersion: 4440
+      Type: ITEM
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"red",italic:0b,obfuscated:1b,strikethrough:0b,text:"i",underlined:0b},{italic:0b,obfuscated:0b,text:" "},{bold:1b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#B60501",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#BC0A03",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#C30F04",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#C91405",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#D01907",italic:0b,obfuscated:0b,strikethrough:0b,text:"N",underlined:0b},{bold:1b,color:"#D61E08",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#DD2209",italic:0b,obfuscated:0b,strikethrough:0b,text:"L
+              ",underlined:0b},{bold:1b,color:"#E3270B",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#EA2C0C",italic:0b,obfuscated:0b,strikethrough:0b,text:"W",underlined:0b},{bold:1b,color:"#F0310D",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#F7360F",italic:0b,obfuscated:0b,strikethrough:0b,text:"R",underlined:0b},{bold:1b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"D",underlined:0b},{bold:0b,italic:0b,text:" "},{color:"red",italic:0b,obfuscated:1b,text:"i"},{italic:0b,obfuscated:0b,text:"
+              "}],text:""},"minecraft:enchantments":{"minecraft:looting":5,"minecraft:sharpness":7,"minecraft:unbreaking":5}},count:1,id:"minecraft:diamond_sword"}'
+            DataVersion: 4440
+      Custom_Preview: false
+    i_seasonal_pickaxe_|_fortune_i_:
+      Name: '&c&ki&r #AF0000&lS#B50401&lE#BA0802&lA#C00D03&lS#C51105&lO#CB1506&lN#D01907&lA#D61E08&lL #DC2209&lP#E1260A&lI#E72A0B&lC#EC2E0D&lK#F2330E&lA#F7370F&lX#FD3B10&lE&7 | #AF0000F#BC0A03o#C91405r#D61E08t#E3270Bu#F0310Dn#FD3B10e &c&ki '
+      Weight: 12.5
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"red",italic:0b,obfuscated:1b,strikethrough:0b,text:"i",underlined:0b},{italic:0b,obfuscated:0b,text:" "},{bold:1b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#B50401",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#BA0802",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#C00D03",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#C51105",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#CB1506",italic:0b,obfuscated:0b,strikethrough:0b,text:"N",underlined:0b},{bold:1b,color:"#D01907",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#D61E08",italic:0b,obfuscated:0b,strikethrough:0b,text:"L
+            ",underlined:0b},{bold:1b,color:"#DC2209",italic:0b,obfuscated:0b,strikethrough:0b,text:"P",underlined:0b},{bold:1b,color:"#E1260A",italic:0b,obfuscated:0b,strikethrough:0b,text:"I",underlined:0b},{bold:1b,color:"#E72A0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"C",underlined:0b},{bold:1b,color:"#EC2E0D",italic:0b,obfuscated:0b,strikethrough:0b,text:"K",underlined:0b},{bold:1b,color:"#F2330E",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#F7370F",italic:0b,obfuscated:0b,strikethrough:0b,text:"X",underlined:0b},{bold:1b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:0b,color:"gray",italic:0b,text:"
+            | "},{bold:0b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"F",underlined:0b},{bold:0b,color:"#BC0A03",italic:0b,obfuscated:0b,strikethrough:0b,text:"o",underlined:0b},{bold:0b,color:"#C91405",italic:0b,obfuscated:0b,strikethrough:0b,text:"r",underlined:0b},{bold:0b,color:"#D61E08",italic:0b,obfuscated:0b,strikethrough:0b,text:"t",underlined:0b},{bold:0b,color:"#E3270B",italic:0b,obfuscated:0b,strikethrough:0b,text:"u",underlined:0b},{bold:0b,color:"#F0310D",italic:0b,obfuscated:0b,strikethrough:0b,text:"n",underlined:0b},{bold:0b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"e
+            ",underlined:0b},{color:"red",italic:0b,obfuscated:1b,text:"i "}],text:""},"minecraft:enchantments":{"minecraft:efficiency":7,"minecraft:fortune":5,"minecraft:unbreaking":5}},count:1,id:"minecraft:diamond_pickaxe"}'
+          DataVersion: 4440
+      Type: ITEM
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"red",italic:0b,obfuscated:1b,strikethrough:0b,text:"i",underlined:0b},{italic:0b,obfuscated:0b,text:" "},{bold:1b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#B50401",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#BA0802",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#C00D03",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#C51105",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#CB1506",italic:0b,obfuscated:0b,strikethrough:0b,text:"N",underlined:0b},{bold:1b,color:"#D01907",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#D61E08",italic:0b,obfuscated:0b,strikethrough:0b,text:"L
+              ",underlined:0b},{bold:1b,color:"#DC2209",italic:0b,obfuscated:0b,strikethrough:0b,text:"P",underlined:0b},{bold:1b,color:"#E1260A",italic:0b,obfuscated:0b,strikethrough:0b,text:"I",underlined:0b},{bold:1b,color:"#E72A0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"C",underlined:0b},{bold:1b,color:"#EC2E0D",italic:0b,obfuscated:0b,strikethrough:0b,text:"K",underlined:0b},{bold:1b,color:"#F2330E",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#F7370F",italic:0b,obfuscated:0b,strikethrough:0b,text:"X",underlined:0b},{bold:1b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:0b,color:"gray",italic:0b,text:"
+              | "},{bold:0b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"F",underlined:0b},{bold:0b,color:"#BC0A03",italic:0b,obfuscated:0b,strikethrough:0b,text:"o",underlined:0b},{bold:0b,color:"#C91405",italic:0b,obfuscated:0b,strikethrough:0b,text:"r",underlined:0b},{bold:0b,color:"#D61E08",italic:0b,obfuscated:0b,strikethrough:0b,text:"t",underlined:0b},{bold:0b,color:"#E3270B",italic:0b,obfuscated:0b,strikethrough:0b,text:"u",underlined:0b},{bold:0b,color:"#F0310D",italic:0b,obfuscated:0b,strikethrough:0b,text:"n",underlined:0b},{bold:0b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"e
+              ",underlined:0b},{color:"red",italic:0b,obfuscated:1b,text:"i "}],text:""},"minecraft:enchantments":{"minecraft:efficiency":7,"minecraft:fortune":5,"minecraft:unbreaking":5}},count:1,id:"minecraft:diamond_pickaxe"}'
+            DataVersion: 4440
+      Custom_Preview: false
+    i_seasonal_pickaxe_|_silk_touch_i_:
+      Name: '&c&ki&r #AF0000&lS#B50401&lE#BA0802&lA#C00D03&lS#C51105&lO#CB1506&lN#D01907&lA#D61E08&lL #DC2209&lP#E1260A&lI#E72A0B&lC#EC2E0D&lK#F2330E&lA#F7370F&lX#FD3B10&lE&7 | #AF0000S#B90702i#C30F04l#CC1606k #D61E08T#E0250Ao#EA2C0Cu#F3340Ec#FD3B10h &c&ki '
+      Weight: 12.5
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"red",italic:0b,obfuscated:1b,strikethrough:0b,text:"i",underlined:0b},{italic:0b,obfuscated:0b,text:" "},{bold:1b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#B50401",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#BA0802",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#C00D03",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#C51105",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#CB1506",italic:0b,obfuscated:0b,strikethrough:0b,text:"N",underlined:0b},{bold:1b,color:"#D01907",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#D61E08",italic:0b,obfuscated:0b,strikethrough:0b,text:"L
+            ",underlined:0b},{bold:1b,color:"#DC2209",italic:0b,obfuscated:0b,strikethrough:0b,text:"P",underlined:0b},{bold:1b,color:"#E1260A",italic:0b,obfuscated:0b,strikethrough:0b,text:"I",underlined:0b},{bold:1b,color:"#E72A0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"C",underlined:0b},{bold:1b,color:"#EC2E0D",italic:0b,obfuscated:0b,strikethrough:0b,text:"K",underlined:0b},{bold:1b,color:"#F2330E",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#F7370F",italic:0b,obfuscated:0b,strikethrough:0b,text:"X",underlined:0b},{bold:1b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:0b,color:"gray",italic:0b,text:"
+            | "},{bold:0b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:0b,color:"#B90702",italic:0b,obfuscated:0b,strikethrough:0b,text:"i",underlined:0b},{bold:0b,color:"#C30F04",italic:0b,obfuscated:0b,strikethrough:0b,text:"l",underlined:0b},{bold:0b,color:"#CC1606",italic:0b,obfuscated:0b,strikethrough:0b,text:"k ",underlined:0b},{bold:0b,color:"#D61E08",italic:0b,obfuscated:0b,strikethrough:0b,text:"T",underlined:0b},{bold:0b,color:"#E0250A",italic:0b,obfuscated:0b,strikethrough:0b,text:"o",underlined:0b},{bold:0b,color:"#EA2C0C",italic:0b,obfuscated:0b,strikethrough:0b,text:"u",underlined:0b},{bold:0b,color:"#F3340E",italic:0b,obfuscated:0b,strikethrough:0b,text:"c",underlined:0b},{bold:0b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"h
+            ",underlined:0b},{color:"red",italic:0b,obfuscated:1b,text:"i "}],text:""},"minecraft:enchantments":{"minecraft:efficiency":7,"minecraft:silk_touch":1,"minecraft:unbreaking":5}},count:1,id:"minecraft:diamond_pickaxe"}'
+          DataVersion: 4440
+      Type: ITEM
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"red",italic:0b,obfuscated:1b,strikethrough:0b,text:"i",underlined:0b},{italic:0b,obfuscated:0b,text:" "},{bold:1b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#B50401",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#BA0802",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#C00D03",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#C51105",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#CB1506",italic:0b,obfuscated:0b,strikethrough:0b,text:"N",underlined:0b},{bold:1b,color:"#D01907",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#D61E08",italic:0b,obfuscated:0b,strikethrough:0b,text:"L
+              ",underlined:0b},{bold:1b,color:"#DC2209",italic:0b,obfuscated:0b,strikethrough:0b,text:"P",underlined:0b},{bold:1b,color:"#E1260A",italic:0b,obfuscated:0b,strikethrough:0b,text:"I",underlined:0b},{bold:1b,color:"#E72A0B",italic:0b,obfuscated:0b,strikethrough:0b,text:"C",underlined:0b},{bold:1b,color:"#EC2E0D",italic:0b,obfuscated:0b,strikethrough:0b,text:"K",underlined:0b},{bold:1b,color:"#F2330E",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#F7370F",italic:0b,obfuscated:0b,strikethrough:0b,text:"X",underlined:0b},{bold:1b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:0b,color:"gray",italic:0b,text:"
+              | "},{bold:0b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:0b,color:"#B90702",italic:0b,obfuscated:0b,strikethrough:0b,text:"i",underlined:0b},{bold:0b,color:"#C30F04",italic:0b,obfuscated:0b,strikethrough:0b,text:"l",underlined:0b},{bold:0b,color:"#CC1606",italic:0b,obfuscated:0b,strikethrough:0b,text:"k ",underlined:0b},{bold:0b,color:"#D61E08",italic:0b,obfuscated:0b,strikethrough:0b,text:"T",underlined:0b},{bold:0b,color:"#E0250A",italic:0b,obfuscated:0b,strikethrough:0b,text:"o",underlined:0b},{bold:0b,color:"#EA2C0C",italic:0b,obfuscated:0b,strikethrough:0b,text:"u",underlined:0b},{bold:0b,color:"#F3340E",italic:0b,obfuscated:0b,strikethrough:0b,text:"c",underlined:0b},{bold:0b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"h
+              ",underlined:0b},{color:"red",italic:0b,obfuscated:1b,text:"i "}],text:""},"minecraft:enchantments":{"minecraft:efficiency":7,"minecraft:silk_touch":1,"minecraft:unbreaking":5}},count:1,id:"minecraft:diamond_pickaxe"}'
+            DataVersion: 4440
+      Custom_Preview: false
+    i_seasonal_shovel_|_fortune_i_:
+      Name: '&c&ki&r #AF0000&lS#B50501&lE#BB0902&lA#C10E04&lS#C71205&lO#CD1706&lN#D31B07&lA#D92009&lL #DF240A&lS#E5290B&lH#EB2D0C&lO#F1320E&lV#F7360F&lE#FD3B10&lL&7 | #AF0000F#BC0A03o#C91405r#D61E08t#E3270Bu#F0310Dn#FD3B10e &c&ki '
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"red",italic:0b,obfuscated:1b,strikethrough:0b,text:"i",underlined:0b},{italic:0b,obfuscated:0b,text:" "},{bold:1b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#B50501",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#BB0902",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#C10E04",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#C71205",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#CD1706",italic:0b,obfuscated:0b,strikethrough:0b,text:"N",underlined:0b},{bold:1b,color:"#D31B07",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#D92009",italic:0b,obfuscated:0b,strikethrough:0b,text:"L
+            ",underlined:0b},{bold:1b,color:"#DF240A",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#E5290B",italic:0b,obfuscated:0b,strikethrough:0b,text:"H",underlined:0b},{bold:1b,color:"#EB2D0C",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#F1320E",italic:0b,obfuscated:0b,strikethrough:0b,text:"V",underlined:0b},{bold:1b,color:"#F7360F",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"L",underlined:0b},{bold:0b,color:"gray",italic:0b,text:"
+            | "},{bold:0b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"F",underlined:0b},{bold:0b,color:"#BC0A03",italic:0b,obfuscated:0b,strikethrough:0b,text:"o",underlined:0b},{bold:0b,color:"#C91405",italic:0b,obfuscated:0b,strikethrough:0b,text:"r",underlined:0b},{bold:0b,color:"#D61E08",italic:0b,obfuscated:0b,strikethrough:0b,text:"t",underlined:0b},{bold:0b,color:"#E3270B",italic:0b,obfuscated:0b,strikethrough:0b,text:"u",underlined:0b},{bold:0b,color:"#F0310D",italic:0b,obfuscated:0b,strikethrough:0b,text:"n",underlined:0b},{bold:0b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"e
+            ",underlined:0b},{color:"red",italic:0b,obfuscated:1b,text:"i "}],text:""},"minecraft:enchantments":{"minecraft:efficiency":7,"minecraft:fortune":5,"minecraft:unbreaking":5}},count:1,id:"minecraft:diamond_shovel"}'
+          DataVersion: 4440
+      Type: ITEM
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"red",italic:0b,obfuscated:1b,strikethrough:0b,text:"i",underlined:0b},{italic:0b,obfuscated:0b,text:" "},{bold:1b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#B50501",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#BB0902",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#C10E04",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#C71205",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#CD1706",italic:0b,obfuscated:0b,strikethrough:0b,text:"N",underlined:0b},{bold:1b,color:"#D31B07",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#D92009",italic:0b,obfuscated:0b,strikethrough:0b,text:"L
+              ",underlined:0b},{bold:1b,color:"#DF240A",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#E5290B",italic:0b,obfuscated:0b,strikethrough:0b,text:"H",underlined:0b},{bold:1b,color:"#EB2D0C",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#F1320E",italic:0b,obfuscated:0b,strikethrough:0b,text:"V",underlined:0b},{bold:1b,color:"#F7360F",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"L",underlined:0b},{bold:0b,color:"gray",italic:0b,text:"
+              | "},{bold:0b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"F",underlined:0b},{bold:0b,color:"#BC0A03",italic:0b,obfuscated:0b,strikethrough:0b,text:"o",underlined:0b},{bold:0b,color:"#C91405",italic:0b,obfuscated:0b,strikethrough:0b,text:"r",underlined:0b},{bold:0b,color:"#D61E08",italic:0b,obfuscated:0b,strikethrough:0b,text:"t",underlined:0b},{bold:0b,color:"#E3270B",italic:0b,obfuscated:0b,strikethrough:0b,text:"u",underlined:0b},{bold:0b,color:"#F0310D",italic:0b,obfuscated:0b,strikethrough:0b,text:"n",underlined:0b},{bold:0b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"e
+              ",underlined:0b},{color:"red",italic:0b,obfuscated:1b,text:"i "}],text:""},"minecraft:enchantments":{"minecraft:efficiency":7,"minecraft:fortune":5,"minecraft:unbreaking":5}},count:1,id:"minecraft:diamond_shovel"}'
+            DataVersion: 4440
+      Custom_Preview: false
+    i_seasonal_shovel_|_silk_touch_i_:
+      Name: '&c&ki&r #AF0000&lS#B50501&lE#BB0902&lA#C10E04&lS#C71205&lO#CD1706&lN#D31B07&lA#D92009&lL #DF240A&lS#E5290B&lH#EB2D0C&lO#F1320E&lV#F7360F&lE#FD3B10&lL&7 | #AF0000S#B90702i#C30F04l#CC1606k #D61E08T#E0250Ao#EA2C0Cu#F3340Ec#FD3B10h &c&ki '
+      Weight: 20.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"red",italic:0b,obfuscated:1b,strikethrough:0b,text:"i",underlined:0b},{italic:0b,obfuscated:0b,text:" "},{bold:1b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#B50501",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#BB0902",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#C10E04",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#C71205",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#CD1706",italic:0b,obfuscated:0b,strikethrough:0b,text:"N",underlined:0b},{bold:1b,color:"#D31B07",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#D92009",italic:0b,obfuscated:0b,strikethrough:0b,text:"L
+            ",underlined:0b},{bold:1b,color:"#DF240A",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#E5290B",italic:0b,obfuscated:0b,strikethrough:0b,text:"H",underlined:0b},{bold:1b,color:"#EB2D0C",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#F1320E",italic:0b,obfuscated:0b,strikethrough:0b,text:"V",underlined:0b},{bold:1b,color:"#F7360F",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"L",underlined:0b},{bold:0b,color:"gray",italic:0b,text:"
+            | "},{bold:0b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:0b,color:"#B90702",italic:0b,obfuscated:0b,strikethrough:0b,text:"i",underlined:0b},{bold:0b,color:"#C30F04",italic:0b,obfuscated:0b,strikethrough:0b,text:"l",underlined:0b},{bold:0b,color:"#CC1606",italic:0b,obfuscated:0b,strikethrough:0b,text:"k ",underlined:0b},{bold:0b,color:"#D61E08",italic:0b,obfuscated:0b,strikethrough:0b,text:"T",underlined:0b},{bold:0b,color:"#E0250A",italic:0b,obfuscated:0b,strikethrough:0b,text:"o",underlined:0b},{bold:0b,color:"#EA2C0C",italic:0b,obfuscated:0b,strikethrough:0b,text:"u",underlined:0b},{bold:0b,color:"#F3340E",italic:0b,obfuscated:0b,strikethrough:0b,text:"c",underlined:0b},{bold:0b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"h
+            ",underlined:0b},{color:"red",italic:0b,obfuscated:1b,text:"i "}],text:""},"minecraft:enchantments":{"minecraft:efficiency":7,"minecraft:silk_touch":1,"minecraft:unbreaking":5}},count:1,id:"minecraft:diamond_shovel"}'
+          DataVersion: 4440
+      Type: ITEM
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"red",italic:0b,obfuscated:1b,strikethrough:0b,text:"i",underlined:0b},{italic:0b,obfuscated:0b,text:" "},{bold:1b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#B50501",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#BB0902",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#C10E04",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#C71205",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#CD1706",italic:0b,obfuscated:0b,strikethrough:0b,text:"N",underlined:0b},{bold:1b,color:"#D31B07",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#D92009",italic:0b,obfuscated:0b,strikethrough:0b,text:"L
+              ",underlined:0b},{bold:1b,color:"#DF240A",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#E5290B",italic:0b,obfuscated:0b,strikethrough:0b,text:"H",underlined:0b},{bold:1b,color:"#EB2D0C",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#F1320E",italic:0b,obfuscated:0b,strikethrough:0b,text:"V",underlined:0b},{bold:1b,color:"#F7360F",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"L",underlined:0b},{bold:0b,color:"gray",italic:0b,text:"
+              | "},{bold:0b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:0b,color:"#B90702",italic:0b,obfuscated:0b,strikethrough:0b,text:"i",underlined:0b},{bold:0b,color:"#C30F04",italic:0b,obfuscated:0b,strikethrough:0b,text:"l",underlined:0b},{bold:0b,color:"#CC1606",italic:0b,obfuscated:0b,strikethrough:0b,text:"k ",underlined:0b},{bold:0b,color:"#D61E08",italic:0b,obfuscated:0b,strikethrough:0b,text:"T",underlined:0b},{bold:0b,color:"#E0250A",italic:0b,obfuscated:0b,strikethrough:0b,text:"o",underlined:0b},{bold:0b,color:"#EA2C0C",italic:0b,obfuscated:0b,strikethrough:0b,text:"u",underlined:0b},{bold:0b,color:"#F3340E",italic:0b,obfuscated:0b,strikethrough:0b,text:"c",underlined:0b},{bold:0b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"h
+              ",underlined:0b},{color:"red",italic:0b,obfuscated:1b,text:"i "}],text:""},"minecraft:enchantments":{"minecraft:efficiency":7,"minecraft:silk_touch":1,"minecraft:unbreaking":5}},count:1,id:"minecraft:diamond_shovel"}'
+            DataVersion: 4440
+      Custom_Preview: false
+    i_seasonal_axe_i_:
+      Name: '&c&ki&r #AF0000&lS#B70602&lE#BF0C03&lA#C61205&lS#CE1806&lO#D61E08&lN#DE230A&lA#E6290B&lL #ED2F0D&lA#F5350E&lX#FD3B10&lE &c&ki '
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"red",italic:0b,obfuscated:1b,strikethrough:0b,text:"i",underlined:0b},{italic:0b,obfuscated:0b,text:" "},{bold:1b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#B70602",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#BF0C03",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#C61205",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#CE1806",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#D61E08",italic:0b,obfuscated:0b,strikethrough:0b,text:"N",underlined:0b},{bold:1b,color:"#DE230A",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#E6290B",italic:0b,obfuscated:0b,strikethrough:0b,text:"L
+            ",underlined:0b},{bold:1b,color:"#ED2F0D",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#F5350E",italic:0b,obfuscated:0b,strikethrough:0b,text:"X",underlined:0b},{bold:1b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"E ",underlined:0b},{bold:0b,color:"red",italic:0b,obfuscated:1b,text:"i "}],text:""},"minecraft:enchantments":{"minecraft:efficiency":7,"minecraft:looting":5,"minecraft:sharpness":7,"minecraft:unbreaking":5}},count:1,id:"minecraft:diamond_axe"}'
+          DataVersion: 4440
+      Type: ITEM
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"red",italic:0b,obfuscated:1b,strikethrough:0b,text:"i",underlined:0b},{italic:0b,obfuscated:0b,text:" "},{bold:1b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#B70602",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#BF0C03",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#C61205",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#CE1806",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#D61E08",italic:0b,obfuscated:0b,strikethrough:0b,text:"N",underlined:0b},{bold:1b,color:"#DE230A",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#E6290B",italic:0b,obfuscated:0b,strikethrough:0b,text:"L
+              ",underlined:0b},{bold:1b,color:"#ED2F0D",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#F5350E",italic:0b,obfuscated:0b,strikethrough:0b,text:"X",underlined:0b},{bold:1b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"E ",underlined:0b},{bold:0b,color:"red",italic:0b,obfuscated:1b,text:"i "}],text:""},"minecraft:enchantments":{"minecraft:efficiency":7,"minecraft:looting":5,"minecraft:sharpness":7,"minecraft:unbreaking":5}},count:1,id:"minecraft:diamond_axe"}'
+            DataVersion: 4440
+      Custom_Preview: false
+    i_seasonal_elytra_i_:
+      Name: '&c&ki&r #AF0000&lS#B50501&lE#BB0902&lA#C10E04&lS#C71205&lO#CD1706&lN#D31B07&lA#D92009&lL #DF240A&lE#E5290B&lL#EB2D0C&lY#F1320E&lT#F7360F&lR#FD3B10&lA &c&ki '
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"red",italic:0b,obfuscated:1b,strikethrough:0b,text:"i",underlined:0b},{italic:0b,obfuscated:0b,text:" "},{bold:1b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#B50501",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#BB0902",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#C10E04",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#C71205",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#CD1706",italic:0b,obfuscated:0b,strikethrough:0b,text:"N",underlined:0b},{bold:1b,color:"#D31B07",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#D92009",italic:0b,obfuscated:0b,strikethrough:0b,text:"L
+            ",underlined:0b},{bold:1b,color:"#DF240A",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#E5290B",italic:0b,obfuscated:0b,strikethrough:0b,text:"L",underlined:0b},{bold:1b,color:"#EB2D0C",italic:0b,obfuscated:0b,strikethrough:0b,text:"Y",underlined:0b},{bold:1b,color:"#F1320E",italic:0b,obfuscated:0b,strikethrough:0b,text:"T",underlined:0b},{bold:1b,color:"#F7360F",italic:0b,obfuscated:0b,strikethrough:0b,text:"R",underlined:0b},{bold:1b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"A
+            ",underlined:0b},{bold:0b,color:"red",italic:0b,obfuscated:1b,text:"i "}],text:""},"minecraft:enchantments":{"minecraft:unbreaking":5}},count:1,id:"minecraft:elytra"}'
+          DataVersion: 4440
+      Type: ITEM
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"red",italic:0b,obfuscated:1b,strikethrough:0b,text:"i",underlined:0b},{italic:0b,obfuscated:0b,text:" "},{bold:1b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#B50501",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#BB0902",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#C10E04",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#C71205",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#CD1706",italic:0b,obfuscated:0b,strikethrough:0b,text:"N",underlined:0b},{bold:1b,color:"#D31B07",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#D92009",italic:0b,obfuscated:0b,strikethrough:0b,text:"L
+              ",underlined:0b},{bold:1b,color:"#DF240A",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#E5290B",italic:0b,obfuscated:0b,strikethrough:0b,text:"L",underlined:0b},{bold:1b,color:"#EB2D0C",italic:0b,obfuscated:0b,strikethrough:0b,text:"Y",underlined:0b},{bold:1b,color:"#F1320E",italic:0b,obfuscated:0b,strikethrough:0b,text:"T",underlined:0b},{bold:1b,color:"#F7360F",italic:0b,obfuscated:0b,strikethrough:0b,text:"R",underlined:0b},{bold:1b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"A
+              ",underlined:0b},{bold:0b,color:"red",italic:0b,obfuscated:1b,text:"i "}],text:""},"minecraft:enchantments":{"minecraft:unbreaking":5}},count:1,id:"minecraft:elytra"}'
+            DataVersion: 4440
+      Custom_Preview: false
+    i_seasonal_bow_i_:
+      Name: '&c&ki&r #AF0000&lS#B70602&lE#BF0C03&lA#C61205&lS#CE1806&lO#D61E08&lN#DE230A&lA#E6290B&lL #ED2F0D&lB#F5350E&lO#FD3B10&lW &c&ki '
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"red",italic:0b,obfuscated:1b,strikethrough:0b,text:"i",underlined:0b},{italic:0b,obfuscated:0b,text:" "},{bold:1b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#B70602",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#BF0C03",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#C61205",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#CE1806",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#D61E08",italic:0b,obfuscated:0b,strikethrough:0b,text:"N",underlined:0b},{bold:1b,color:"#DE230A",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#E6290B",italic:0b,obfuscated:0b,strikethrough:0b,text:"L
+            ",underlined:0b},{bold:1b,color:"#ED2F0D",italic:0b,obfuscated:0b,strikethrough:0b,text:"B",underlined:0b},{bold:1b,color:"#F5350E",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"W ",underlined:0b},{bold:0b,color:"red",italic:0b,obfuscated:1b,text:"i "}],text:""},"minecraft:enchantments":{"minecraft:flame":1,"minecraft:infinity":1,"minecraft:power":7,"minecraft:punch":3,"minecraft:unbreaking":5}},count:1,id:"minecraft:bow"}'
+          DataVersion: 4440
+      Type: ITEM
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"red",italic:0b,obfuscated:1b,strikethrough:0b,text:"i",underlined:0b},{italic:0b,obfuscated:0b,text:" "},{bold:1b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#B70602",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#BF0C03",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#C61205",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#CE1806",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#D61E08",italic:0b,obfuscated:0b,strikethrough:0b,text:"N",underlined:0b},{bold:1b,color:"#DE230A",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#E6290B",italic:0b,obfuscated:0b,strikethrough:0b,text:"L
+              ",underlined:0b},{bold:1b,color:"#ED2F0D",italic:0b,obfuscated:0b,strikethrough:0b,text:"B",underlined:0b},{bold:1b,color:"#F5350E",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"W ",underlined:0b},{bold:0b,color:"red",italic:0b,obfuscated:1b,text:"i "}],text:""},"minecraft:enchantments":{"minecraft:flame":1,"minecraft:infinity":1,"minecraft:power":7,"minecraft:punch":3,"minecraft:unbreaking":5}},count:1,id:"minecraft:bow"}'
+            DataVersion: 4440
+      Custom_Preview: false
+    i_seasonal_rod_i_:
+      Name: '&c&ki&r #AF0000&lS#B70602&lE#BF0C03&lA#C61205&lS#CE1806&lO#D61E08&lN#DE230A&lA#E6290B&lL #ED2F0D&lR#F5350E&lO#FD3B10&lD &c&ki '
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"red",italic:0b,obfuscated:1b,strikethrough:0b,text:"i",underlined:0b},{italic:0b,obfuscated:0b,text:" "},{bold:1b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#B70602",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#BF0C03",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#C61205",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#CE1806",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#D61E08",italic:0b,obfuscated:0b,strikethrough:0b,text:"N",underlined:0b},{bold:1b,color:"#DE230A",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#E6290B",italic:0b,obfuscated:0b,strikethrough:0b,text:"L
+            ",underlined:0b},{bold:1b,color:"#ED2F0D",italic:0b,obfuscated:0b,strikethrough:0b,text:"R",underlined:0b},{bold:1b,color:"#F5350E",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"D ",underlined:0b},{bold:0b,color:"red",italic:0b,obfuscated:1b,text:"i "}],text:""},"minecraft:enchantments":{"minecraft:luck_of_the_sea":7,"minecraft:lure":3,"minecraft:unbreaking":5}},count:1,id:"minecraft:fishing_rod"}'
+          DataVersion: 4440
+      Type: ITEM
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_name":{extra:[{bold:0b,color:"red",italic:0b,obfuscated:1b,strikethrough:0b,text:"i",underlined:0b},{italic:0b,obfuscated:0b,text:" "},{bold:1b,color:"#AF0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#B70602",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#BF0C03",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#C61205",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#CE1806",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#D61E08",italic:0b,obfuscated:0b,strikethrough:0b,text:"N",underlined:0b},{bold:1b,color:"#DE230A",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#E6290B",italic:0b,obfuscated:0b,strikethrough:0b,text:"L
+              ",underlined:0b},{bold:1b,color:"#ED2F0D",italic:0b,obfuscated:0b,strikethrough:0b,text:"R",underlined:0b},{bold:1b,color:"#F5350E",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#FD3B10",italic:0b,obfuscated:0b,strikethrough:0b,text:"D ",underlined:0b},{bold:0b,color:"red",italic:0b,obfuscated:1b,text:"i "}],text:""},"minecraft:enchantments":{"minecraft:luck_of_the_sea":7,"minecraft:lure":3,"minecraft:unbreaking":5}},count:1,id:"minecraft:fishing_rod"}'
+            DataVersion: 4440
+      Custom_Preview: false
+    5,000_bonus_claim_blocks:
+      Name: '&e5,000 Bonus Claim Blocks'
+      Weight: 25.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Commands:
+      - adjustbonusclaimblocks %player_name% 5000
+      Ignored_For_Permissions: []
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{color:"yellow",italic:0b,text:"5,000 Bonus Claim Blocks"}],text:""}},count:5,id:"minecraft:grass_block"}'
+          DataVersion: 4440
+      Type: COMMAND
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    7,000_bonus_claim_blocks:
+      Name: '&e7,000 Bonus Claim Blocks'
+      Weight: 12.5
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Commands:
+      - adjustbonusclaimblocks %player_name% 7000
+      Ignored_For_Permissions: []
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{color:"yellow",italic:0b,text:"7,000 Bonus Claim Blocks"}],text:""}},count:7,id:"minecraft:grass_block"}'
+          DataVersion: 4440
+      Type: COMMAND
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    10,000_bonus_claim_blocks:
+      Name: '&e10,000 Bonus Claim Blocks'
+      Weight: 5.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Commands:
+      - adjustbonusclaimblocks %player_name% 10000
+      Ignored_For_Permissions: []
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{color:"yellow",italic:0b,text:"10,000 Bonus Claim Blocks"}],text:""}},count:10,id:"minecraft:grass_block"}'
+          DataVersion: 4440
+      Type: COMMAND
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    15,000_bonus_claim_blocks:
+      Name: '&e15,000 Bonus Claim Blocks'
+      Weight: 1.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Commands:
+      - adjustbonusclaimblocks %player_name% 15000
+      Ignored_For_Permissions: []
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{color:"yellow",italic:0b,text:"15,000 Bonus Claim Blocks"}],text:""}},count:15,id:"minecraft:grass_block"}'
+          DataVersion: 4440
+      Type: COMMAND
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    $5,000,000:
+      Name: '&2$&a5,000,000'
+      Weight: 12.5
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Commands:
+      - eco give %player_name% 5000000
+      Ignored_For_Permissions: []
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{color:"dark_green",italic:0b,text:"$"},{color:"green",italic:0b,text:"5,000,000"}],text:""}},count:1,id:"minecraft:paper"}'
+          DataVersion: 4440
+      Type: COMMAND
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    $10,000,000:
+      Name: '&2$&a10,000,000'
+      Weight: 5.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Commands:
+      - eco give %player_name% 10000000
+      Ignored_For_Permissions: []
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{color:"dark_green",italic:0b,text:"$"},{color:"green",italic:0b,text:"10,000,000"}],text:""}},count:1,id:"minecraft:paper"}'
+          DataVersion: 4440
+      Type: COMMAND
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    $15,000,000:
+      Name: '&2$&a15,000,000'
+      Weight: 1.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Commands:
+      - eco give %player_name% 15000000
+      Ignored_For_Permissions: []
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{color:"dark_green",italic:0b,text:"$"},{color:"green",italic:0b,text:"15,000,000"}],text:""}},count:1,id:"minecraft:paper"}'
+          DataVersion: 4440
+      Type: COMMAND
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    premium_crate_|_crate_key_:
+      Name: '#F6FB00&lP#F4F300&lR#F2EB00&lE#F0E200&lM#EEDA00&lI#ECD200&lU#E9CA00&lM #E7C200&lC#E5BA00&lR#E3B100&lA#E1A900&lT#DFA100&lE&r &8| &7Crate Key '
+      Weight: 12.5
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Commands:
+      - crates key give %player_name% premium 6
+      Ignored_For_Permissions: []
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{bold:1b,color:"#F6FB00",italic:0b,obfuscated:0b,strikethrough:0b,text:"P",underlined:0b},{bold:1b,color:"#F4F300",italic:0b,obfuscated:0b,strikethrough:0b,text:"R",underlined:0b},{bold:1b,color:"#F2EB00",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#F0E200",italic:0b,obfuscated:0b,strikethrough:0b,text:"M",underlined:0b},{bold:1b,color:"#EEDA00",italic:0b,obfuscated:0b,strikethrough:0b,text:"I",underlined:0b},{bold:1b,color:"#ECD200",italic:0b,obfuscated:0b,strikethrough:0b,text:"U",underlined:0b},{bold:1b,color:"#E9CA00",italic:0b,obfuscated:0b,strikethrough:0b,text:"M
+            ",underlined:0b},{bold:1b,color:"#E7C200",italic:0b,obfuscated:0b,strikethrough:0b,text:"C",underlined:0b},{bold:1b,color:"#E5BA00",italic:0b,obfuscated:0b,strikethrough:0b,text:"R",underlined:0b},{bold:1b,color:"#E3B100",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#E1A900",italic:0b,obfuscated:0b,strikethrough:0b,text:"T",underlined:0b},{bold:1b,color:"#DFA100",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"
+            ",underlined:0b},{color:"dark_gray",italic:0b,text:"| "},{color:"gray",italic:0b,text:"Crate Key "}],text:""}},count:6,id:"minecraft:yellow_dye"}'
+          DataVersion: 4440
+      Type: COMMAND
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    ultimate_crate_|_crate_key_:
+      Name: '#FBB500&lU#F9B800&lL#F6BB00&lT#F4BD00&lI#F2C000&lM#EFC300&lA#EDC600&lT#EBC800&lE #E8CB00&lC#E6CE00&lR#E4D100&lA#E1D300&lT#DFD600&lE&r &8| &7Crate Key '
+      Weight: 5.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Commands:
+      - crates key give %player_name% ultimate 5
+      Ignored_For_Permissions: []
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{bold:1b,color:"#FBB500",italic:0b,obfuscated:0b,strikethrough:0b,text:"U",underlined:0b},{bold:1b,color:"#F9B800",italic:0b,obfuscated:0b,strikethrough:0b,text:"L",underlined:0b},{bold:1b,color:"#F6BB00",italic:0b,obfuscated:0b,strikethrough:0b,text:"T",underlined:0b},{bold:1b,color:"#F4BD00",italic:0b,obfuscated:0b,strikethrough:0b,text:"I",underlined:0b},{bold:1b,color:"#F2C000",italic:0b,obfuscated:0b,strikethrough:0b,text:"M",underlined:0b},{bold:1b,color:"#EFC300",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#EDC600",italic:0b,obfuscated:0b,strikethrough:0b,text:"T",underlined:0b},{bold:1b,color:"#EBC800",italic:0b,obfuscated:0b,strikethrough:0b,text:"E
+            ",underlined:0b},{bold:1b,color:"#E8CB00",italic:0b,obfuscated:0b,strikethrough:0b,text:"C",underlined:0b},{bold:1b,color:"#E6CE00",italic:0b,obfuscated:0b,strikethrough:0b,text:"R",underlined:0b},{bold:1b,color:"#E4D100",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#E1D300",italic:0b,obfuscated:0b,strikethrough:0b,text:"T",underlined:0b},{bold:1b,color:"#DFD600",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"
+            ",underlined:0b},{color:"dark_gray",italic:0b,text:"| "},{color:"gray",italic:0b,text:"Crate Key "}],text:""}},count:5,id:"minecraft:orange_dye"}'
+          DataVersion: 4440
+      Type: COMMAND
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    500_coins:
+      Name: '&e500 Coins'
+      Weight: 12.5
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Commands:
+      - coins give %player_name% 500
+      Ignored_For_Permissions: []
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{color:"yellow",italic:0b,text:"500 Coins"}],text:""}},count:1,id:"minecraft:gold_ingot"}'
+          DataVersion: 4440
+      Type: COMMAND
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    1,000_coins:
+      Name: '&e1,000 Coins'
+      Weight: 5.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Commands:
+      - coins give %player_name% 1000
+      Ignored_For_Permissions: []
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{color:"yellow",italic:0b,text:"1,000 Coins"}],text:""}},count:1,id:"minecraft:raw_gold"}'
+          DataVersion: 4440
+      Type: COMMAND
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    summer_|_exclusive_seasonal_tag_:
+      Name: '#FBA900&lS#FB9400&lU#FC7F00&lM#FC6A00&lM#FD5500&lE#FD4000&lR&r &8| &7Exclusive Seasonal Tag '
+      Weight: 1.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Commands:
+      - lp user %player_name% permission set tags.seasonal_summer true
+      Ignored_For_Permissions: []
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{bold:1b,color:"#FBA900",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:1b,color:"#FB9400",italic:0b,obfuscated:0b,strikethrough:0b,text:"U",underlined:0b},{bold:1b,color:"#FC7F00",italic:0b,obfuscated:0b,strikethrough:0b,text:"M",underlined:0b},{bold:1b,color:"#FC6A00",italic:0b,obfuscated:0b,strikethrough:0b,text:"M",underlined:0b},{bold:1b,color:"#FD5500",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#FD4000",italic:0b,obfuscated:0b,strikethrough:0b,text:"R",underlined:0b},{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"
+            ",underlined:0b},{color:"dark_gray",italic:0b,text:"| "},{color:"gray",italic:0b,text:"Exclusive Seasonal Tag "}],text:""}},count:1,id:"minecraft:name_tag"}'
+          DataVersion: 4440
+      Type: COMMAND
+      Limits:
+        Enabled: true
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: 1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    exotic_|_exclusive_seasonal_tag_:
+      Name: '#00FBE0&lE#00FBD1&lX#00FCC2&lO#00FCB4&lT#00FDA5&lI#00FD96&lC&r &8| &7Exclusive Seasonal Tag '
+      Weight: 1.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Commands:
+      - lp user %player_name% permission set tags.seasonal_exotic true
+      Ignored_For_Permissions: []
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{bold:1b,color:"#00FBE0",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#00FBD1",italic:0b,obfuscated:0b,strikethrough:0b,text:"X",underlined:0b},{bold:1b,color:"#00FCC2",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:1b,color:"#00FCB4",italic:0b,obfuscated:0b,strikethrough:0b,text:"T",underlined:0b},{bold:1b,color:"#00FDA5",italic:0b,obfuscated:0b,strikethrough:0b,text:"I",underlined:0b},{bold:1b,color:"#00FD96",italic:0b,obfuscated:0b,strikethrough:0b,text:"C",underlined:0b},{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"
+            ",underlined:0b},{color:"dark_gray",italic:0b,text:"| "},{color:"gray",italic:0b,text:"Exclusive Seasonal Tag "}],text:""}},count:1,id:"minecraft:name_tag"}'
+          DataVersion: 4440
+      Type: COMMAND
+      Limits:
+        Enabled: true
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: 1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    beach_|_exclusive_seasonal_tag_:
+      Name: '#FFFDC8&lB#FFF896&lE#FEF264&lA#FEED32&lC#FDE700&lH &8| &7Exclusive Seasonal Tag '
+      Weight: 1.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Commands:
+      - lp user %player_name% permission set tags.seasonal_beach true
+      Ignored_For_Permissions: []
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_name":{extra:[{bold:1b,color:"#FFFDC8",italic:0b,obfuscated:0b,strikethrough:0b,text:"B",underlined:0b},{bold:1b,color:"#FFF896",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:1b,color:"#FEF264",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:1b,color:"#FEED32",italic:0b,obfuscated:0b,strikethrough:0b,text:"C",underlined:0b},{bold:1b,color:"#FDE700",italic:0b,obfuscated:0b,strikethrough:0b,text:"H ",underlined:0b},{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"|
+            ",underlined:0b},{color:"gray",italic:0b,text:"Exclusive Seasonal Tag "}],text:""}},count:1,id:"minecraft:name_tag"}'
+          DataVersion: 4440
+      Type: COMMAND
+      Limits:
+        Enabled: true
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: 1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    goat_spawner:
+      Name: '&eGoat &fSpawner'
+      Weight: 5.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Commands:
+      - silkspawners give %player_name% goat 3
+      Ignored_For_Permissions: []
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:block_entity_data":{EntityId:"goat",EntityTag:{id:"minecraft:goat"},SpawnData:{entity:{id:"minecraft:goat"}},SpawnPotentials:{},id:"minecraft:mob_spawner"},"minecraft:custom_data":{SilkSpawners:{entity:"goat"}},"minecraft:custom_name":{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"Goat ",underlined:0b},{color:"white",italic:0b,text:"Spawner"}],text:""}},count:3,id:"minecraft:spawner"}'
+          DataVersion: 4440
+      Type: COMMAND
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    pufferfish_spawner:
+      Name: '&ePufferfish &fSpawner'
+      Weight: 5.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Commands:
+      - silkspawners give %player_name% pufferfish 3
+      Ignored_For_Permissions: []
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:block_entity_data":{EntityId:"pufferfish",EntityTag:{id:"minecraft:pufferfish"},SpawnData:{entity:{id:"minecraft:pufferfish"}},SpawnPotentials:{},id:"minecraft:mob_spawner"},"minecraft:custom_data":{SilkSpawners:{entity:"pufferfish"}},"minecraft:custom_name":{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"Pufferfish ",underlined:0b},{color:"white",italic:0b,text:"Spawner"}],text:""}},count:3,id:"minecraft:spawner"}'
+          DataVersion: 4440
+      Type: COMMAND
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    guardian_spawner:
+      Name: '&eGuardian &fSpawner'
+      Weight: 5.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Commands:
+      - silkspawners give %player_name% guardian 3
+      Ignored_For_Permissions: []
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:block_entity_data":{EntityId:"guardian",EntityTag:{id:"minecraft:guardian"},SpawnData:{entity:{id:"minecraft:guardian"}},SpawnPotentials:{},id:"minecraft:mob_spawner"},"minecraft:custom_data":{SilkSpawners:{entity:"guardian"}},"minecraft:custom_name":{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"Guardian ",underlined:0b},{color:"white",italic:0b,text:"Spawner"}],text:""}},count:3,id:"minecraft:spawner"}'
+          DataVersion: 4440
+      Type: COMMAND
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    piglin_spawner:
+      Name: '&ePiglin &fSpawner'
+      Weight: 5.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Commands:
+      - silkspawners give %player_name% piglin 3
+      Ignored_For_Permissions: []
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:block_entity_data":{EntityId:"piglin",EntityTag:{id:"minecraft:piglin"},SpawnData:{entity:{id:"minecraft:piglin"}},SpawnPotentials:{},id:"minecraft:mob_spawner"},"minecraft:custom_data":{SilkSpawners:{entity:"piglin"}},"minecraft:custom_name":{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"Piglin ",underlined:0b},{color:"white",italic:0b,text:"Spawner"}],text:""}},count:3,id:"minecraft:spawner"}'
+          DataVersion: 4440
+      Type: COMMAND
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    drowned_spawner:
+      Name: '&eDrowned &fSpawner'
+      Weight: 5.0
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Commands:
+      - silkspawners give %player_name% drowned 3
+      Ignored_For_Permissions: []
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:block_entity_data":{EntityId:"drowned",EntityTag:{id:"minecraft:drowned"},SpawnData:{entity:{id:"minecraft:drowned"}},SpawnPotentials:{},id:"minecraft:mob_spawner"},"minecraft:custom_data":{SilkSpawners:{entity:"drowned"}},"minecraft:custom_name":{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"Drowned ",underlined:0b},{color:"white",italic:0b,text:"Spawner"}],text:""}},count:3,id:"minecraft:spawner"}'
+          DataVersion: 4440
+      Type: COMMAND
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+    _s_100:
+      Name: '#EE0000&lᴜɴʟɪᴍɪᴛᴇᴅ sᴇʟʟᴡᴀɴᴅ &7(100%)'
+      Weight: 0.25
+      Rarity: common
+      Broadcast: false
+      Placeholder_Apply: false
+      Ignored_For_Permissions: []
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{axsellwands-lastused:0L,axsellwands-max-uses:-1,axsellwands-multiplier:1.0f,axsellwands-sold-amount:0,axsellwands-sold-price:0.0d,axsellwands-type:"unlimited-sellwand",axsellwands-uses:-1,axsellwands-uuid:[I;-624670517,-55686709,-2051844672,-2015781411]},"minecraft:custom_name":{extra:[{bold:1b,color:"#EE0000",text:"ᴜɴʟɪᴍɪᴛᴇᴅ sᴇʟʟᴡᴀɴᴅ "},{color:"gray",text:"(100%)"}],italic:0b,text:""},"minecraft:enchantment_glint_override":1b,"minecraft:lore":[{italic:0b,text:""},{color:"#EE0000",italic:0b,text:"ɪɴғᴏ"},{extra:[{color:"dark_gray",text:"❙
+            "},{color:"white",text:"Multiplier: "},{color:"#EE0000",text:"1.0x"}],italic:0b,text:" "},{extra:[{color:"dark_gray",text:"❙ "},{color:"white",text:"Uses: "},{color:"#EE0000",text:"∞/∞"}],italic:0b,text:" "},{italic:0b,text:""},{color:"#EE0000",italic:0b,text:"sᴛᴀᴛs"},{extra:[{color:"dark_gray",text:"❙ "},{color:"white",text:"Sold items: "},{color:"#EE0000",text:"0"}],italic:0b,text:" "},{extra:[{color:"dark_gray",text:"❙ "},{color:"white",text:"Money made: "},{color:"#EE0000",text:"0$"}],italic:0b,text:"
+            "},{italic:0b,text:""},{extra:[{bold:1b,color:"#EE0000",text:"> "},{color:"#EE0000",text:"Left Click "},{color:"dark_gray",text:"- "},{color:"#EE0000",text:"Inspect"}],italic:0b,text:""},{extra:[{bold:1b,color:"#EE0000",text:"> "},{color:"#EE0000",text:"Right Click "},{color:"dark_gray",text:"- "},{color:"#EE0000",text:"Sell"}],italic:0b,text:""}]},count:1,id:"minecraft:blaze_rod"}'
+          DataVersion: 4440
+      Type: ITEM
+      Limits:
+        Enabled: false
+        CooldownType: CUSTOM
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{axsellwands-lastused:0L,axsellwands-max-uses:-1,axsellwands-multiplier:1.0f,axsellwands-sold-amount:0,axsellwands-sold-price:0.0d,axsellwands-type:"unlimited-sellwand",axsellwands-uses:-1,axsellwands-uuid:[I;-624670517,-55686709,-2051844672,-2015781411]},"minecraft:custom_name":{extra:[{bold:1b,color:"#EE0000",text:"ᴜɴʟɪᴍɪᴛᴇᴅ sᴇʟʟᴡᴀɴᴅ "},{color:"gray",text:"(100%)"}],italic:0b,text:""},"minecraft:enchantment_glint_override":1b,"minecraft:lore":[{italic:0b,text:""},{color:"#EE0000",italic:0b,text:"ɪɴғᴏ"},{extra:[{color:"dark_gray",text:"❙
+              "},{color:"white",text:"Multiplier: "},{color:"#EE0000",text:"1.0x"}],italic:0b,text:" "},{extra:[{color:"dark_gray",text:"❙ "},{color:"white",text:"Uses: "},{color:"#EE0000",text:"∞/∞"}],italic:0b,text:" "},{italic:0b,text:""},{color:"#EE0000",italic:0b,text:"sᴛᴀᴛs"},{extra:[{color:"dark_gray",text:"❙ "},{color:"white",text:"Sold items: "},{color:"#EE0000",text:"0"}],italic:0b,text:" "},{extra:[{color:"dark_gray",text:"❙ "},{color:"white",text:"Money made: "},{color:"#EE0000",text:"0$"}],italic:0b,text:"
+              "},{italic:0b,text:""},{extra:[{bold:1b,color:"#EE0000",text:"> "},{color:"#EE0000",text:"Left Click "},{color:"dark_gray",text:"- "},{color:"#EE0000",text:"Inspect"}],italic:0b,text:""},{extra:[{bold:1b,color:"#EE0000",text:"> "},{color:"#EE0000",text:"Right Click "},{color:"dark_gray",text:"- "},{color:"#EE0000",text:"Sell"}],italic:0b,text:""}]},count:1,id:"minecraft:blaze_rod"}'
+            DataVersion: 4440
+      Custom_Preview: false
+Milestones:
+  Repeatable: false
+_dataver: 600
+ItemProvider:
+  Provider: vanilla
+  Data:
+    Value: '{components:{"minecraft:custom_name":{bold:0b,extra:[{bold:0b,extra:[{bold:0b,extra:[{bold:0b,color:"#e63232",italic:0b,obfuscated:1b,strikethrough:0b,text:"i",underlined:0b},{bold:0b,extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:" ",underlined:0b},{bold:0b,extra:[{bold:0b,extra:[{bold:1b,color:"#af0000",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:0b,extra:[{bold:0b,extra:[{bold:1b,color:"#b60501",italic:0b,obfuscated:0b,strikethrough:0b,text:"E",underlined:0b},{bold:0b,extra:[{bold:0b,extra:[{bold:1b,color:"#bc0a03",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:0b,extra:[{bold:0b,extra:[{bold:1b,color:"#c30f04",italic:0b,obfuscated:0b,strikethrough:0b,text:"S",underlined:0b},{bold:0b,extra:[{bold:0b,extra:[{bold:1b,color:"#c91405",italic:0b,obfuscated:0b,strikethrough:0b,text:"O",underlined:0b},{bold:0b,extra:[{bold:0b,extra:[{bold:1b,color:"#d01907",italic:0b,obfuscated:0b,strikethrough:0b,text:"N",underlined:0b},{bold:0b,extra:[{bold:0b,extra:[{bold:1b,color:"#d61e08",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:0b,extra:[{bold:0b,extra:[{bold:1b,color:"#dd2209",italic:0b,obfuscated:0b,strikethrough:0b,text:"L
+      ",underlined:0b},{bold:0b,extra:[{bold:0b,extra:[{bold:1b,color:"#e3270b",italic:0b,obfuscated:0b,strikethrough:0b,text:"C",underlined:0b},{bold:0b,extra:[{bold:0b,extra:[{bold:1b,color:"#ea2c0c",italic:0b,obfuscated:0b,strikethrough:0b,text:"R",underlined:0b},{bold:0b,extra:[{bold:0b,extra:[{bold:1b,color:"#f0310d",italic:0b,obfuscated:0b,strikethrough:0b,text:"A",underlined:0b},{bold:0b,extra:[{bold:0b,extra:[{bold:1b,color:"#f7360f",italic:0b,obfuscated:0b,strikethrough:0b,text:"T",underlined:0b},{bold:0b,extra:[{bold:0b,extra:[{bold:1b,color:"#fd3b10",italic:0b,obfuscated:0b,strikethrough:0b,text:"E
+      ",underlined:0b},{bold:0b,extra:[{bold:0b,extra:[{bold:1b,color:"#e63232",italic:0b,obfuscated:1b,strikethrough:0b,text:"i",underlined:0b},{bold:0b,extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:" ",underlined:0b},{bold:0b,extra:[{bold:0b,color:"#6c6c62",italic:0b,obfuscated:0b,strikethrough:0b,text:"| ",underlined:0b},{bold:0b,extra:[{bold:0b,color:"#a1a1a1",italic:0b,obfuscated:0b,strikethrough:0b,text:"Crate Key ",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b},"minecraft:lore":[{bold:0b,extra:[{bold:0b,extra:[{bold:0b,color:"#6c6c62",italic:0b,obfuscated:0b,strikethrough:0b,text:"Crate
+      Key",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b},{bold:0b,extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b},{bold:0b,extra:[{bold:0b,extra:[{bold:0b,color:"#a1a1a1",italic:0b,obfuscated:0b,strikethrough:0b,text:"Open this key to unlock powerful",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b},{bold:0b,extra:[{bold:0b,extra:[{bold:0b,color:"#a1a1a1",italic:0b,obfuscated:0b,strikethrough:0b,text:"rewards,
+      ranging from armor and",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b},{bold:0b,extra:[{bold:0b,extra:[{bold:0b,color:"#a1a1a1",italic:0b,obfuscated:0b,strikethrough:0b,text:"gear to exclusive cosmetics!",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b},{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b},{bold:0b,extra:[{bold:0b,extra:[{bold:0b,color:"#e6e632",italic:0b,obfuscated:0b,strikethrough:0b,text:"→
+      ",underlined:0b},{bold:0b,extra:[{bold:0b,extra:[{bold:1b,color:"#e6e632",italic:0b,obfuscated:0b,strikethrough:0b,text:"RIGHT CLICK ",underlined:0b},{bold:0b,extra:[{bold:1b,color:"#e6e632",italic:0b,obfuscated:0b,strikethrough:0b,text:"to open!",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],"minecraft:tooltip_display":{hidden_components:["minecraft:unbreakable","minecraft:chicken/variant","minecraft:equippable","minecraft:dyed_color","minecraft:salmon/size","minecraft:jukebox_playable","minecraft:container_loot","minecraft:writable_book_content","minecraft:map_color","minecraft:tool","minecraft:map_post_processing","minecraft:instrument","minecraft:bundle_contents","minecraft:provides_banner_patterns","minecraft:wolf/sound_variant","minecraft:tropical_fish/base_color","minecraft:can_break","minecraft:villager/variant","minecraft:provides_trim_material","minecraft:rarity","minecraft:painting/variant","minecraft:stored_enchantments","minecraft:map_decorations","minecraft:frog/variant","minecraft:bees","minecraft:intangible_projectile","minecraft:food","minecraft:max_stack_size","minecraft:damage","minecraft:lock","minecraft:base_color","minecraft:enchantment_glint_override","minecraft:enchantments","minecraft:break_sound","minecraft:cat/variant","minecraft:creative_slot_lock","minecraft:wolf/collar","minecraft:sheep/color","minecraft:suspicious_stew_effects","minecraft:firework_explosion","minecraft:bucket_entity_data","minecraft:enchantable","minecraft:can_place_on","minecraft:map_id","minecraft:use_remainder","minecraft:profile","minecraft:horse/variant","minecraft:weapon","minecraft:fox/variant","minecraft:death_protection","minecraft:fireworks","minecraft:recipes","minecraft:wolf/variant","minecraft:potion_contents","minecraft:damage_resistant","minecraft:entity_data","minecraft:lodestone_tracker","minecraft:consumable","minecraft:tropical_fish/pattern_color","minecraft:block_entity_data","minecraft:banner_patterns","minecraft:block_state","minecraft:repair_cost","minecraft:repairable","minecraft:charged_projectiles","minecraft:llama/variant","minecraft:debug_stick_state","minecraft:trim","minecraft:max_damage","minecraft:use_cooldown","minecraft:pig/variant","minecraft:parrot/variant","minecraft:cat/collar","minecraft:ominous_bottle_amplifier","minecraft:tropical_fish/pattern","minecraft:pot_decorations","minecraft:axolotl/variant","minecraft:attribute_modifiers","minecraft:potion_duration_scale","minecraft:mooshroom/variant","minecraft:rabbit/variant","minecraft:custom_data","minecraft:container","minecraft:shulker/color","minecraft:glider","minecraft:blocks_attacks","minecraft:written_book_content","minecraft:cow/variant","minecraft:note_block_sound"]}},count:1,id:"minecraft:tripwire_hook"}'
+    DataVersion: 4440
+Preview:
+  Enabled: true
+  Id: default
+Animation:
+  Enabled: false
+  Id: default
+OpeningCooldown:
+  Enabled: false
+  Value: 0
+CostOptions:
+  key_seasonal:
+    Enabled: true
+    Name: seasonal Key
+    Icon:
+      Provider: vanilla
+      Data:
+        Value: '{count:1,id:"minecraft:trial_key"}'
+        DataVersion: 4440
+    Entries:
+      '0':
+        Type: key
+        Key: seasonal
+        Amount: 1

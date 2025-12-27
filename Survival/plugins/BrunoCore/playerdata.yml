@@ -1,0 +1,48 @@
+26ed0e51-3dbb-3950-b9ae-1b7db8ac61c6:
+  visitoSurvival: true
+  ultimaUbicacion:
+    ==: org.bukkit.Location
+    world: world
+    x: -2496.41654478582
+    y: 68.0
+    z: -2823.0497595307675
+    pitch: 12.35372
+    yaw: -47.57837
+fb3917eb-9fe6-31ce-a729-d659b2ebdf67:
+  visitoSurvival: true
+  ultimaUbicacion:
+    ==: org.bukkit.Location
+    world: mina
+    x: 182.63493913593462
+    y: 26.0
+    z: 165.6428635136007
+    pitch: 11.640183
+    yaw: 65.65662
+0d45db84-9179-4b23-93b7-38a90642b372:
+  visitoSurvival: true
+  ultimaUbicacion:
+    ==: org.bukkit.Location
+    world: world
+    x: 2343.7841735341785
+    y: 88.0
+    z: 2361.004184094619
+    pitch: 18.125813
+    yaw: -32.704224
+c832f10d-3fc3-3b4e-bff6-a86f8c5759e0:
+  ultimaUbicacion:
+    ==: org.bukkit.Location
+    world: world
+    x: 64.5
+    y: 51.0
+    z: -47.5
+    pitch: 0.0
+    yaw: 0.0
+bb2ede77-c3c4-3323-877e-8931495ef075:
+  ultimaUbicacion:
+    ==: org.bukkit.Location
+    world: world
+    x: 64.5
+    y: 51.0
+    z: -47.5
+    pitch: 0.0
+    yaw: 0.0

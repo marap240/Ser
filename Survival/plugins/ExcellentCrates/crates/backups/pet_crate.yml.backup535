@@ -1,0 +1,129 @@
+Rewards:
+  List:
+    # ==========================================
+    # CUBEES (Corrección estricta)
+    # ==========================================
+    cubee_ebony_cat:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:prevent_crafting_with":1b,"mythicmobs:prevent_repairing_with":1b,"mythicmobs:prevent_smithing_with":1b,"mythicmobs:type":"Item_cubee-ebony_cat"}},"minecraft:custom_model_data":{floats:[7191157.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Ebony Cat Cubee"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Ebony Cat Cubee."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:prevent_crafting_with":1b,"mythicmobs:prevent_repairing_with":1b,"mythicmobs:prevent_smithing_with":1b,"mythicmobs:type":"Item_cubee-ebony_cat"}},"minecraft:custom_model_data":{floats:[7191157.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Ebony Cat Cubee"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Ebony Cat Cubee."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+            DataVersion: 4440
+
+    cubee_gothic_hag:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:prevent_crafting_with":1b,"mythicmobs:prevent_repairing_with":1b,"mythicmobs:prevent_smithing_with":1b,"mythicmobs:type":"Item_cubee-gothic_hag"}},"minecraft:custom_model_data":{floats:[7191159.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Gothic Hag Cubee"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Gothic Hag Cubee."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:prevent_crafting_with":1b,"mythicmobs:prevent_repairing_with":1b,"mythicmobs:prevent_smithing_with":1b,"mythicmobs:type":"Item_cubee-gothic_hag"}},"minecraft:custom_model_data":{floats:[7191159.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Gothic Hag Cubee"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Gothic Hag Cubee."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+            DataVersion: 4440
+
+    cubee_skelly_warlock:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:prevent_crafting_with":1b,"mythicmobs:prevent_repairing_with":1b,"mythicmobs:prevent_smithing_with":1b,"mythicmobs:type":"Item_cubee-skelly_warlock"}},"minecraft:custom_model_data":{floats:[7191161.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Skelly Warlock"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Skelly Warlock."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:prevent_crafting_with":1b,"mythicmobs:prevent_repairing_with":1b,"mythicmobs:prevent_smithing_with":1b,"mythicmobs:type":"Item_cubee-skelly_warlock"}},"minecraft:custom_model_data":{floats:[7191161.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Skelly Warlock"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Skelly Warlock."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+            DataVersion: 4440
+
+    cubee_soul_weaver:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:prevent_crafting_with":1b,"mythicmobs:prevent_repairing_with":1b,"mythicmobs:prevent_smithing_with":1b,"mythicmobs:type":"Item_cubee-soul_weaver"}},"minecraft:custom_model_data":{floats:[7191162.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Soul Weaver Cubee"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Soul Weaver Cubee."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:prevent_crafting_with":1b,"mythicmobs:prevent_repairing_with":1b,"mythicmobs:prevent_smithing_with":1b,"mythicmobs:type":"Item_cubee-soul_weaver"}},"minecraft:custom_model_data":{floats:[7191162.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Soul Weaver Cubee"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Soul Weaver Cubee."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+            DataVersion: 4440
+
+    cubee_candy_corn_crab:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:prevent_crafting_with":1b,"mythicmobs:prevent_repairing_with":1b,"mythicmobs:prevent_smithing_with":1b,"mythicmobs:type":"Item_cubee-candy_corn_crab"}},"minecraft:custom_model_data":{floats:[7191315.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Candy Corn Crab"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Candy Corn Crab."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:prevent_crafting_with":1b,"mythicmobs:prevent_repairing_with":1b,"mythicmobs:prevent_smithing_with":1b,"mythicmobs:type":"Item_cubee-candy_corn_crab"}},"minecraft:custom_model_data":{floats:[7191315.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Candy Corn Crab"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Candy Corn Crab."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+            DataVersion: 4440
+
+    # ==========================================
+    # SERIES E - SHARK (Para probar otro tipo)
+    # ==========================================
+    pet_baby_shark:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:prevent_crafting_with":1b,"mythicmobs:prevent_repairing_with":1b,"mythicmobs:prevent_smithing_with":1b,"mythicmobs:type":"Item_E_Pet_Shark_Baby_Shark"}},"minecraft:custom_model_data":{floats:[12051.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Baby Shark"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Baby Shark."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:prevent_crafting_with":1b,"mythicmobs:prevent_repairing_with":1b,"mythicmobs:prevent_smithing_with":1b,"mythicmobs:type":"Item_E_Pet_Shark_Baby_Shark"}},"minecraft:custom_model_data":{floats:[12051.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Baby Shark"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Baby Shark."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+            DataVersion: 4440
+
+    # ==========================================
+    # DRAGON (El que funciona, para referencia)
+    # ==========================================
+    pet_fire_dragon:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:prevent_crafting_with":1b,"mythicmobs:prevent_repairing_with":1b,"mythicmobs:prevent_smithing_with":1b,"mythicmobs:type":"Item_Pet_Fire_Dragon_Fire"}},"minecraft:custom_model_data":{floats:[12003.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Fire Dragon"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Fire Dragon."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:prevent_crafting_with":1b,"mythicmobs:prevent_repairing_with":1b,"mythicmobs:prevent_smithing_with":1b,"mythicmobs:type":"Item_Pet_Fire_Dragon_Fire"}},"minecraft:custom_model_data":{floats:[12003.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Fire Dragon"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Fire Dragon."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+            DataVersion: 4440

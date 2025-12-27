@@ -1,0 +1,30 @@
+habilidades:
+  # Configuración del Rayo
+  rayo:
+    cooldown: 5
+    dano: 10.0
+    rango: 50
+
+  # Configuración de Congelar
+  relentizar:
+    cooldown: 10
+    duracion: 3         # Segundos
+    nivel_freno: 255    # 255 = Inmóvil
+    bloquear_salto: false
+    rango: 30
+
+  # Configuración Explosiva
+  explosiva:
+    radio: 3.0
+    romper_bloques: false
+    fuego: false
+
+  # Configuración Doble Salto
+  doble_salto:
+    impulso_frontal: 1.5
+    impulso_arriba: 1.0
+
+  # Configuración Curación
+  curacion:
+    cooldown: 20
+    cantidad_vida: 6.0  # 6.0 = 3 corazones

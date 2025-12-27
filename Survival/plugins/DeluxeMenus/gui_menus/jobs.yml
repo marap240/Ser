@@ -1,0 +1,262 @@
+menu_title: 'Menú de Trabajos'
+open_command: 
+- job
+- jobs
+- jobsmenu
+- jobs browse
+- jobs
+- jobs help
+- jobs:help
+- jobs:jobs
+- jobs:join
+- trabajos
+open_commands:
+- '[sound] UI_BUTTON_CLICK'
+size: 36
+items:
+  'items1':
+    material: head-%player_name%
+    slot: 16
+    display_name: '&#4a9dff&lᴛ&#4a9dff&lᴜ &#4a9dff&lᴘ&#4a9dff&lᴇ&#4a9dff&lʀ&#4a9dff&lғ&#4a9dff&lɪ&#4a9dff&lʟ'
+    lore:
+    - ''
+    - '&fAquí puedes ver tu progreso'
+    - '&fy poder elegir un trabajo.'
+    - ''
+    - '&#4a9dff&lɪɴғᴏ:'
+    - '&8▪ &fᴛʀᴀʙᴀᴊᴏs:&b %jobsr_user_joinedjobcount%/%jobsr_maxjobs%'
+    - '&8▪ &fɴɪᴠᴇʟ: &b%jobsr_user_totallevels%✪'   
+    - ''  
+  'items2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjQ5OWZkZGY4ZjQ2YjZkZTI1NDYyZWY4ZWEzNmZhZmI3ZjY3MTM2OTI3MWY4YWRjYzM2Y2MwY2IxYWI4In19fQ==
+    slot: 10
+    display_name: '&x&2&9&b&2&f&f&lᴍ&x&2&9&b&2&f&f&lɪ&x&2&9&b&2&f&f&lɴ&x&2&9&b&2&f&f&lᴇ&x&2&9&b&2&f&f&lʀ&x&2&9&b&2&f&f&lᴏ &8- &fᴇᴍᴘʟᴇᴀᴅᴏs &8(&x&2&9&b&2&f&f&l%jobsr_totalplayers_minero%&8)'
+    lore:
+    - '&fɴɪᴠᴇʟ: &x&2&9&b&2&f&f%jobsr_user_jlevel_minero%/%jobsr_user_jmaxlvl_minero%'
+    - '&f'   
+    - '&x&2&9&b&2&f&fGana dinero extrayendo minerales' 
+    - '&x&2&9&b&2&f&fy bloques.'   
+    - '&f'   
+    - '&fLas acciones válidas son:'   
+    - '&8-&x&2&9&b&2&f&f Romper'   
+    - '&8-&x&2&9&b&2&f&f Explorar'   
+    - '&8-&x&2&9&b&2&f&f Colocar'   
+    - '&8-&x&2&9&b&2&f&f Matar'   
+    - '&f'   
+    - '&a✔ &fClic izquierdo para entrar'
+    - '&c✘ &fClick derecho para salir'
+
+    right_click_commands:
+    - '[player] jobs leave minero'
+    left_click_commands:
+    - '[player] jobs join minero'
+  'items3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2UzNGM5ZWVhY2QxZjMzNWRjMTA3NzdmMzBlMGQzYmNkMzM4ZmU4OTY1ZDM2NWQ2NDU2YjU2OGE1ZjQ5NmQyOSJ9fX0=
+    slot: 11
+    display_name: '&#ffe600&lᴄ&#ffe201&lᴏ&#ffdd03&lɴ&#fed904&ls&#fed405&lᴛ&#fed007&lʀ&#fecc08&lᴜ&#fec709&lᴄ&#fdc30a&lᴛ&#fdbe0c&lᴏ&#fdba0d&lʀ &8- &fᴇᴍᴘʟᴇᴀᴅᴏs &8(&#ffe600&l%jobsr_totalplayers_constructor%&8) '
+    lore:
+    - '&fɴɪᴠᴇʟ: &#ffe600%jobsr_user_jlevel_constructor%/%jobsr_user_jmaxlvl_constructor%'
+    - '&f'   
+    - '&#ffe600Gana dinero contruyendo' 
+    - '&#ffe600structuras.'   
+    - '&f'   
+    - '&fLas acciones válidas son:'   
+    - '&8-&#ffe600 Colocar'  
+    - '&8-&#ffe600 Matar'   
+    - '&f'   
+    - '&a✔ &fClic izquierdo para entrar'
+    - '&c✘ &fClick derecho para salir'
+    right_click_commands:
+    - '[player] jobs leave Constructor'
+    left_click_commands:
+    - '[player] jobs join Constructor'
+  'items4':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzRiYjg0ZTU2YzgzYThjZGE4YTE2MDkyOThmMDg2ZGU2ZTczY2I3NTE3YzVhMzQxNGVlN2M3ZDUwN2I4MzU3MSJ9fX0=
+    slot: 14
+    display_name: '&x&f&d&3&8&4&3&lᴄ&x&f&d&3&8&4&3&lᴀ&x&f&d&3&8&4&3&lᴢ&x&f&d&3&8&4&3&lᴀ&x&f&d&3&8&4&3&lᴅ&x&f&d&3&8&4&3&lᴏ&x&f&d&3&8&4&3&lʀ &8- &fᴇᴍᴘʟᴇᴀᴅᴏs &8(&x&f&d&3&8&4&3&l%jobsr_totalplayers_Cazador%&8) '
+    lore:
+    - '&fɴɪᴠᴇʟ: &x&f&d&3&8&4&3%jobsr_user_jlevel_Cazador%/%jobsr_user_jmaxlvl_Cazador%'
+    - '&f'   
+    - '&x&f&d&3&8&4&3Gana dinero asinando y cazando' 
+    - '&x&f&d&3&8&4&3mobs'   
+    - '&f'   
+    - '&fLas acciones válidas son:'   
+    - '&8-&x&f&d&3&8&4&3 Colocar'  
+    - '&8-&x&f&d&3&8&4&3 Matar'   
+    - '&f'   
+    - '&a✔ &fClic izquierdo para entrar'
+    - '&c✘ &fClick derecho para salir'
+    right_click_commands:
+    - '[player] jobs leave Cazador'
+    left_click_commands:
+    - '[player] jobs join Cazador'
+  'items5':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzMyMTE1ZDIwZGU2ZjJiZjMwMzY3MjBkNDc4MTkwNjc3NWIzZmQ2YzY5YWQxNjU2Yzk0N2RmOGU2NjJmZTg0MyJ9fX0=
+    slot: 12
+    display_name: '&x&f&d&9&8&2&1&lᴄ&x&f&d&9&8&2&1&lᴀ&x&f&d&9&8&2&1&lʀ&x&f&d&9&8&2&1&lᴘ&x&f&d&9&8&2&1&lɪ&x&f&d&9&8&2&1&lɴ&x&f&d&9&8&2&1&lᴛ&x&f&d&9&8&2&1&lᴇ&x&f&d&9&8&2&1&lʀ&x&f&d&9&8&2&1&lᴏ &8- &fᴇᴍᴘʟᴇᴀᴅᴏs &8(&x&f&d&9&8&2&1&l%jobsr_totalplayers_carpintero%&8)'
+    lore:
+    - '&fɴɪᴠᴇʟ: &x&f&d&9&8&2&1%jobsr_user_jlevel_carpintero%/%jobsr_user_jmaxlvl_carpintero%'
+    - '&f'   
+    - '&x&f&d&9&8&2&1Gana dinero talando arboles'    
+    - '&f'   
+    - '&fLas acciones válidas son:'   
+    - '&8-&x&f&d&9&8&2&1 Romper'   
+    - '&8-&x&f&d&9&8&2&1 Asesinar'
+    - '&8-&x&f&d&9&8&2&1 Matar'   
+    - '&f'   
+    - '&a✔ &fClic izquierdo para entrar'
+    - '&c✘ &fClick derecho para salir'
+    right_click_commands:
+    - '[player] jobs leave carpintero'
+    left_click_commands:
+    - '[player] jobs join carpintero'
+  'items6':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2I0M2IyMzE4OWRjZjEzMjZkYTQyNTNkMWQ3NTgyZWY1YWQyOWY2YzI3YjE3MWZlYjE3ZTMxZDA4NGUzYTdkIn19fQ==
+    slot: 13
+    display_name: '&x&1&7&b&d&4&f&lᴀ&x&1&7&b&d&4&f&lɢ&x&1&7&b&d&4&f&lʀ&x&1&7&b&d&4&f&lɪ&x&1&7&b&d&4&f&lᴄ&x&1&7&b&d&4&f&lᴜ&x&1&7&b&d&4&f&lʟ&x&1&7&b&d&4&f&lᴛ&x&1&7&b&d&4&f&lᴏ&x&1&7&b&d&4&f&lʀ &8- &fᴇᴍᴘʟᴇᴀᴅᴏs &8(&x&1&7&b&d&4&f&l%jobsr_totalplayers_agricultor%&8)'
+    lore:
+    - '&fɴɪᴠᴇʟ: &x&1&7&b&d&4&f%jobsr_user_jlevel_agricultor%/%jobsr_user_jmaxlvl_agricultor%'
+    - '&f'   
+    - '&x&1&7&b&d&4&fGana dinero farmeando'   
+    - '&f'   
+    - '&fLas acciones válidas son:'   
+    - '&8-&x&1&7&b&d&4&f Romper'   
+    - '&8-&x&1&7&b&d&4&f Colocar'   
+    - '&8-&x&1&7&b&d&4&f Criar'   
+    - '&8-&x&1&7&b&d&4&f Domar'   
+    - '&8-&x&1&7&b&d&4&f Esquilar'   
+    - '&8-&x&1&7&b&d&4&f Ordeñar'      
+    - '&f'   
+    - '&a✔ &fClic izquierdo para entrar'
+    - '&c✘ &fClick derecho para salir'
+    right_click_commands:
+    - '[player] jobs leave agricultor'
+    left_click_commands:
+    - '[player] jobs join agricultor'
+  'items7':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGFhNmMyZDFiZDgwZmRkNmE2MzJjYzdjYWZkMjVmMDllZjIwM2VlYzJhNjkzYjdjYmEwM2QxNzZiMmNjMDcxYiJ9fX0=
+    slot: 19
+    display_name: '&x&9&6&f&2&f&f&lᴇ&x&9&6&f&2&f&f&lx&x&9&6&f&2&f&f&lᴘ&x&9&6&f&2&f&f&lʟ&x&9&6&f&2&f&f&lᴏ&x&9&6&f&2&f&f&lʀ&x&9&6&f&2&f&f&lᴀ&x&9&6&f&2&f&f&lᴅ&x&9&6&f&2&f&f&lᴏ&x&9&6&f&2&f&f&lʀ &8- &fᴇᴍᴘʟᴇᴀᴅᴏs &8(&x&9&6&f&2&f&f&l%jobsr_totalplayers_explorador%&8)'
+    lore:
+    - '&fɴɪᴠᴇʟ: &x&9&6&f&2&f&f%jobsr_user_jlevel_explorador%/%jobsr_user_jmaxlvl_explorador%'
+    - '&f'   
+    - '&x&9&6&f&2&f&fGana dinero explorando'   
+    - '&f'   
+    - '&fLas acciones válidas son:'   
+    - '&8-&x&9&6&f&2&f&f Matar'   
+    - '&8-&x&9&6&f&2&f&f Explorando'       
+    - '&f'   
+    - '&a✔ &fClic izquierdo para entrar'
+    - '&c✘ &fClick derecho para salir'
+    right_click_commands:
+    - '[player] jobs leave explorador'
+    left_click_commands:
+    - '[player] jobs join explorador'
+  'items8':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWMxNWU1ZmI1NmZhMTZiMDc0N2IxYmNiMDUzMzVmNTVkMWZhMzE1NjFjMDgyYjVlMzY0M2RiNTU2NTQxMDg1MiJ9fX0=
+    slot: 20
+    display_name: '&x&1&4&f&1&f&f&lᴘ&x&1&9&e&0&f&f&lᴇ&x&1&e&d&0&f&f&ls&x&2&3&b&f&f&f&lᴄ&x&2&9&a&e&f&f&lᴀ&x&2&e&9&d&f&f&lᴅ&x&3&3&8&d&f&f&lᴏ&x&3&8&7&c&f&f&lʀ &8- &fᴇᴍᴘʟᴇᴀᴅᴏs &8(&#14f1ff&l%jobsr_totalplayers_pescador%&8)'
+    lore:
+    - '&fɴɪᴠᴇʟ: &#14f1ff%jobsr_user_jlevel_pescador%/%jobsr_user_jmaxlvl_pescador%'
+    - '&f'   
+    - '&#14f1ffGana dinero pescando'   
+    - '&f'   
+    - '&fLas acciones válidas son:'   
+    - '&8-&#14f1ff Matar'   
+    - '&8-&#14f1ff Pescar'       
+    - '&f'   
+    - '&a✔ &fClic izquierdo para entrar'
+    - '&c✘ &fClick derecho para salir'
+    right_click_commands:
+    - '[player] jobs leave pescador'
+    left_click_commands:
+    - '[player] jobs join pescador'
+  'items9':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQwZjY4OWZjNDdkM2Y3NzczZGJmYzM2YWY0NmE0MWUxNGU0M2I0ODBkODkxYmY0YjliZjFlYjgwNDM4MTc0MiJ9fX0=
+    slot: 21
+    display_name: '&x&7&a&f&f&8&8&lᴄ&x&7&a&f&f&8&8&lᴀ&x&7&a&f&f&8&8&lᴠ&x&7&a&f&f&8&8&lᴀ&x&7&a&f&f&8&8&lᴅ&x&7&a&f&f&8&8&lᴏ&x&7&a&f&f&8&8&lʀ &8- &fᴇᴍᴘʟᴇᴀᴅᴏs &8(&x&7&a&f&f&8&8&l%jobsr_totalplayers_cavador%&8)'
+    lore:
+    - '&fɴɪᴠᴇʟ: &x&7&a&f&f&8&8%jobsr_user_jlevel_cavador%/%jobsr_user_jmaxlvl_cavador%'
+    - '&f'   
+    - '&x&7&a&f&f&8&8Gana dinero excavando'   
+    - '&f'   
+    - '&fLas acciones válidas son:'   
+    - '&8-&x&7&a&f&f&8&8 Romper'   
+    - '&8-&x&7&a&f&f&8&8 Matar'
+    - '&8-&x&7&a&f&f&8&8 Baja personalizada'
+    - '&f'   
+    - '&a✔ &fClic izquierdo para entrar'
+    - '&c✘ &fClick derecho para salir'
+    right_click_commands:
+    - '[player] jobs leave cavador'
+    left_click_commands:
+    - '[player] jobs join cavador'
+  'items10':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2FlOWFkN2JlZTgzYzNiMmQxNjVjYTBjZDgyNmE2OGY0NWJmNmQ3YjA5NWZmNTc1YzQ0ZWM5YmIzZjBiYTE0YSJ9fX0=
+    slot: 22
+    display_name: '&x&d&6&7&f&f&f&lғ&x&c&e&7&f&f&f&lᴏ&x&c&6&7&e&f&f&lʀ&x&b&e&7&e&f&f&lᴊ&x&b&5&7&e&f&f&lᴀ&x&a&d&7&e&f&f&lᴅ&x&a&5&7&d&f&f&lᴏ&x&9&d&7&d&f&f&lʀ &8- &fᴇᴍᴘʟᴇᴀᴅᴏs &8(&x&d&6&7&f&f&f&l%jobsr_totalplayers_forjador%&8)'
+    lore:
+    - '&fɴɪᴠᴇʟ: &x&d&6&7&f&f&f%jobsr_user_jlevel_forjador%/%jobsr_user_jmaxlvl_forjador%'
+    - '&f'   
+    - '&x&d&6&7&f&f&fGana dinero forjando'   
+    - '&f'   
+    - '&fLas acciones válidas son:'   
+    - '&8-&x&d&6&7&f&f&f Craftear'   
+    - '&8-&x&d&6&7&f&f&f Fundir'
+    - '&8-&x&d&6&7&f&f&f Reparar'
+    - '&f'   
+    - '&a✔ &fClic izquierdo para entrar'
+    - '&c✘ &fClick derecho para salir'
+    right_click_commands:
+    - '[player] jobs leave forjador'
+    left_click_commands:
+    - '[player] jobs join forjador'
+  'items11':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2JmYzE3ZWQ5MjhhZGZhZmZmYmY5ZjkxNTg5ZjBkNWI3YWIyMTZmNzRjMGQ3MjE0ZjI5ZTY5NDM4ZTYwOTdiMCJ9fX0=
+    slot: 23
+    display_name: '&#ff6ece&lᴍ&#ff6fbd&lᴀ&#ff6fac&lɢ&#ff709b&lᴏ &8- &fᴇᴍᴘʟᴇᴀᴅᴏs &8(&x&f&f&6&e&c&e&l%jobsr_totalplayers_mago%&8)'
+    lore:
+    - '&fɴɪᴠᴇʟ: &x&f&f&6&e&c&e%jobsr_user_jlevel_mago%/%jobsr_user_jmaxlvl_mago%'
+    - '&f'   
+    - '&x&f&f&6&e&c&eGana dinero haciendo pociones'   
+    - '&f'   
+    - '&fLas acciones válidas son:'   
+    - '&8-&x&f&f&6&e&c&e Matar'   
+    - '&8-&x&f&f&6&e&c&e Pescar'
+    - '&f'   
+    - '&a✔ &fClic izquierdo para entrar'
+    - '&c✘ &fClick derecho para salir'
+    right_click_commands:
+    - '[player] jobs leave mago'
+    left_click_commands:
+    - '[player] jobs join mago'
+  'glass':
+    material: black_STAINED_GLASS_PANE
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 15
+    - 17
+    - 18
+    - 24
+    - 25
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    
+    display_name: '&f '

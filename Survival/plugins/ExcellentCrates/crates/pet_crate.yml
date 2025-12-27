@@ -1,0 +1,1066 @@
+Name: Pet Crate
+Description: []
+ItemProvider:
+  Provider: vanilla
+  Data:
+    Value: '{count:1,id:"minecraft:pink_shulker_box"}'
+    DataVersion: 4440
+ItemStackable: false
+Permission_Required: false
+Preview:
+  Enabled: true
+  Id: default
+Animation:
+  Enabled: true
+  Id: csgo_auto
+OpeningCooldown:
+  Enabled: false
+  Value: 0
+OpeningLimits:
+  Amount: 1
+Block:
+  Positions:
+  - -103,94,90,Spawn
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: true
+    Template: petcrate
+    Y_Offset: 0.0
+  Effect:
+    Enabled: false
+    Model: helix
+    Particle:
+      Name: CLOUD
+_dataver: 600
+
+Rewards:
+  List:
+    pet_cacti_desert:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_Pet_Cacti_Desert"}},"minecraft:custom_model_data":{floats:[12000.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Desert Cacti"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Desert Cacti."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_Pet_Cacti_Desert"}},"minecraft:custom_model_data":{floats:[12000.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Desert Cacti"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Desert Cacti."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+            DataVersion: 4440
+    pet_fire_dragon:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_Pet_Fire_Dragon_Fire"}},"minecraft:custom_model_data":{floats:[12003.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Fire Dragon"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Fire Dragon."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_Pet_Fire_Dragon_Fire"}},"minecraft:custom_model_data":{floats:[12003.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Fire Dragon"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Fire Dragon."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+            DataVersion: 4440
+    pet_frog_green:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_Pet_Frog_Green"}},"minecraft:custom_model_data":{floats:[12008.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Green Frog"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Green Frog."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_Pet_Frog_Green"}},"minecraft:custom_model_data":{floats:[12008.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Green Frog"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Green Frog."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+            DataVersion: 4440
+    pet_griffon:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_A_Pet_Griffon_Griffon"}},"minecraft:custom_model_data":{floats:[12034.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Griffon"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Griffon."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_A_Pet_Griffon_Griffon"}},"minecraft:custom_model_data":{floats:[12034.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Griffon"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Griffon."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+            DataVersion: 4440
+    pet_griffon_khonsu:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_A_Pet_Griffon_Khonsu"}},"minecraft:custom_model_data":{floats:[12035.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Khonsu Griffon"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Khonsu Griffon."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_A_Pet_Griffon_Khonsu"}},"minecraft:custom_model_data":{floats:[12035.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Khonsu Griffon"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Khonsu Griffon."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+            DataVersion: 4440
+    pet_griffon_phoenix:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_A_Pet_Griffon_Phoenix"}},"minecraft:custom_model_data":{floats:[12036.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Phoenix Griffon"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Phoenix Griffon."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_A_Pet_Griffon_Phoenix"}},"minecraft:custom_model_data":{floats:[12036.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Phoenix Griffon"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Phoenix Griffon."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+            DataVersion: 4440
+    pet_griffon_ra:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_A_Pet_Griffon_Ra"}},"minecraft:custom_model_data":{floats:[12037.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Ra Griffon"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Ra Griffon."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_A_Pet_Griffon_Ra"}},"minecraft:custom_model_data":{floats:[12037.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Ra Griffon"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Ra Griffon."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+            DataVersion: 4440
+    pet_griffon_rockstar:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_A_Pet_Griffon_Rockstar"}},"minecraft:custom_model_data":{floats:[12038.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Rockstar Griffon"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Rockstar Griffon."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_A_Pet_Griffon_Rockstar"}},"minecraft:custom_model_data":{floats:[12038.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Rockstar Griffon"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Rockstar Griffon."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+            DataVersion: 4440
+    pet_knight_castle:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_Pet_Knight_Castle"}},"minecraft:custom_model_data":{floats:[12012.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Castle Knight"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Castle Knight."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_Pet_Knight_Castle"}},"minecraft:custom_model_data":{floats:[12012.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Castle Knight"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Castle Knight."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+            DataVersion: 4440
+    pet_necro_fire:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_B_Pet_Necromancer_Cat_Fire_Mage"}},"minecraft:custom_model_data":{floats:[12039.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Fire Mage Necromancer"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Fire Mage Necromancer."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_B_Pet_Necromancer_Cat_Fire_Mage"}},"minecraft:custom_model_data":{floats:[12039.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Fire Mage Necromancer"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Fire Mage Necromancer."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+            DataVersion: 4440
+    pet_necro_ice:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_B_Pet_Necromancer_Cat_Ice_Mage"}},"minecraft:custom_model_data":{floats:[12040.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Ice Mage Necromancer"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Ice Mage Necromancer."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_B_Pet_Necromancer_Cat_Ice_Mage"}},"minecraft:custom_model_data":{floats:[12040.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Ice Mage Necromancer"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Ice Mage Necromancer."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+            DataVersion: 4440
+    pet_necro_cat:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_B_Pet_Necromancer_Cat_Necromancer"}},"minecraft:custom_model_data":{floats:[12041.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Necromancer Cat"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Necromancer Cat."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_B_Pet_Necromancer_Cat_Necromancer"}},"minecraft:custom_model_data":{floats:[12041.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Necromancer Cat"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Necromancer Cat."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+            DataVersion: 4440
+    pet_necro_santa:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_B_Pet_Necromancer_Cat_Santa"}},"minecraft:custom_model_data":{floats:[12042.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Santa Necromancer"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Santa Necromancer."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_B_Pet_Necromancer_Cat_Santa"}},"minecraft:custom_model_data":{floats:[12042.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Santa Necromancer"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Santa Necromancer."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+            DataVersion: 4440
+    pet_outlaw_cyborg:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_C_Pet_Outlaw_Cyborg"}},"minecraft:custom_model_data":{floats:[12043.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Cyborg Outlaw"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Cyborg Outlaw."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_C_Pet_Outlaw_Cyborg"}},"minecraft:custom_model_data":{floats:[12043.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Cyborg Outlaw"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Cyborg Outlaw."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+            DataVersion: 4440
+    pet_outlaw_officer:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_C_Pet_Outlaw_Officer"}},"minecraft:custom_model_data":{floats:[12044.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Officer Outlaw"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Officer Outlaw."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_C_Pet_Outlaw_Officer"}},"minecraft:custom_model_data":{floats:[12044.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Officer Outlaw"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Officer Outlaw."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+            DataVersion: 4440
+    pet_outlaw_steampunk:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_C_Pet_Outlaw_Steampunk"}},"minecraft:custom_model_data":{floats:[12045.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Steampunk Outlaw"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Steampunk Outlaw."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_C_Pet_Outlaw_Steampunk"}},"minecraft:custom_model_data":{floats:[12045.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Steampunk Outlaw"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Steampunk Outlaw."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+            DataVersion: 4440
+    pet_outlaw_wild_west:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_C_Pet_Outlaw_Wild_West"}},"minecraft:custom_model_data":{floats:[12046.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Wild West Outlaw"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Wild West Outlaw."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_C_Pet_Outlaw_Wild_West"}},"minecraft:custom_model_data":{floats:[12046.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Wild West Outlaw"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Wild West Outlaw."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+            DataVersion: 4440
+    pet_samurai_bamboo:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_D_Pet_Samurai_Shiba_Samurai_Bamboo"}},"minecraft:custom_model_data":{floats:[12047.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Bamboo Samurai"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Bamboo Samurai."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_D_Pet_Samurai_Shiba_Samurai_Bamboo"}},"minecraft:custom_model_data":{floats:[12047.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Bamboo Samurai"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Bamboo Samurai."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+            DataVersion: 4440
+    pet_samurai_new_year:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_D_Pet_Samurai_Shiba_Samurai_New_Year"}},"minecraft:custom_model_data":{floats:[12048.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de New Year Samurai"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de New Year Samurai."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_D_Pet_Samurai_Shiba_Samurai_New_Year"}},"minecraft:custom_model_data":{floats:[12048.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de New Year Samurai"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de New Year Samurai."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+            DataVersion: 4440
+    pet_samurai_pirate:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_D_Pet_Samurai_Shiba_Samurai_Pirate"}},"minecraft:custom_model_data":{floats:[12049.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Pirate Samurai"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Pirate Samurai."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_D_Pet_Samurai_Shiba_Samurai_Pirate"}},"minecraft:custom_model_data":{floats:[12049.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Pirate Samurai"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Pirate Samurai."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+            DataVersion: 4440
+    pet_samurai_shiba:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_D_Pet_Samurai_Shiba_Samurai"}},"minecraft:custom_model_data":{floats:[12050.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Samurai Shiba"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Samurai Shiba."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_D_Pet_Samurai_Shiba_Samurai"}},"minecraft:custom_model_data":{floats:[12050.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Samurai Shiba"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Samurai Shiba."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+            DataVersion: 4440
+    pet_shark_baby:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_E_Pet_Shark_Baby_Shark"}},"minecraft:custom_model_data":{floats:[12051.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Baby Shark"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Baby Shark."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_E_Pet_Shark_Baby_Shark"}},"minecraft:custom_model_data":{floats:[12051.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Baby Shark"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Baby Shark."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+            DataVersion: 4440
+    pet_shark_chef:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_E_Pet_Shark_Chef"}},"minecraft:custom_model_data":{floats:[12052.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Chef Shark"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Chef Shark."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_E_Pet_Shark_Chef"}},"minecraft:custom_model_data":{floats:[12052.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Chef Shark"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Chef Shark."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+            DataVersion: 4440
+    pet_shark_dragonborn:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_E_Pet_Shark_Dragonborn"}},"minecraft:custom_model_data":{floats:[12053.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Dragonborn Shark"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Dragonborn Shark."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_E_Pet_Shark_Dragonborn"}},"minecraft:custom_model_data":{floats:[12053.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Dragonborn Shark"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Dragonborn Shark."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+            DataVersion: 4440
+    pet_shark_oceanic:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_E_Pet_Shark_Oceanic"}},"minecraft:custom_model_data":{floats:[12054.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Oceanic Shark"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Oceanic Shark."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_E_Pet_Shark_Oceanic"}},"minecraft:custom_model_data":{floats:[12054.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Oceanic Shark"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Oceanic Shark."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+            DataVersion: 4440
+    pet_unicorn_heavenly:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_Pet_Unicorn_Heavenly"}},"minecraft:custom_model_data":{floats:[12016.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Heavenly Unicorn"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Heavenly Unicorn."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_Pet_Unicorn_Heavenly"}},"minecraft:custom_model_data":{floats:[12016.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Heavenly Unicorn"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Heavenly Unicorn."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:brick"}'
+            DataVersion: 4440
+    cubee_ebony_cat:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_cubee-ebony_cat"}},"minecraft:custom_model_data":{floats:[7191157.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Ebony Cat Cubee"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Ebony Cat Cubee."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:golden_horse_armor"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_cubee-ebony_cat"}},"minecraft:custom_model_data":{floats:[7191157.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Ebony Cat Cubee"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Ebony Cat Cubee."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:golden_horse_armor"}'
+            DataVersion: 4440
+    cubee_gothic_hag:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_cubee-gothic_hag"}},"minecraft:custom_model_data":{floats:[7191159.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Gothic Hag Cubee"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Gothic Hag Cubee."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:golden_horse_armor"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_cubee-gothic_hag"}},"minecraft:custom_model_data":{floats:[7191159.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Gothic Hag Cubee"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Gothic Hag Cubee."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:golden_horse_armor"}'
+            DataVersion: 4440
+    cubee_skelly_warlock:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_cubee-skelly_warlock"}},"minecraft:custom_model_data":{floats:[7191161.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Skelly Warlock Cubee"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Skelly Warlock Cubee."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:golden_horse_armor"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_cubee-skelly_warlock"}},"minecraft:custom_model_data":{floats:[7191161.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Skelly Warlock Cubee"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Skelly Warlock Cubee."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:golden_horse_armor"}'
+            DataVersion: 4440
+    cubee_soul_weaver:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_cubee-soul_weaver"}},"minecraft:custom_model_data":{floats:[7191162.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Soul Weaver Cubee"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Soul Weaver Cubee."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:golden_horse_armor"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_cubee-soul_weaver"}},"minecraft:custom_model_data":{floats:[7191162.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Soul Weaver Cubee"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Soul Weaver Cubee."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:golden_horse_armor"}'
+            DataVersion: 4440
+    cubee_air_dragon:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_cubee-air_dragon"}},"minecraft:custom_model_data":{floats:[7191281.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Air Dragon Cubee"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Air Dragon Cubee."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:golden_horse_armor"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_cubee-air_dragon"}},"minecraft:custom_model_data":{floats:[7191281.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Air Dragon Cubee"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Air Dragon Cubee."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:golden_horse_armor"}'
+            DataVersion: 4440
+    cubee_darkness_dragon:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_cubee-darkness_dragon"}},"minecraft:custom_model_data":{floats:[7191282.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Darkness Dragon Cubee"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Darkness Dragon Cubee."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:golden_horse_armor"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_cubee-darkness_dragon"}},"minecraft:custom_model_data":{floats:[7191282.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Darkness Dragon Cubee"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Darkness Dragon Cubee."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:golden_horse_armor"}'
+            DataVersion: 4440
+    cubee_earth_dragon:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_cubee-earth_dragon"}},"minecraft:custom_model_data":{floats:[7191142.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Earth Guard Cubee"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Earth Guard Cubee."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:golden_horse_armor"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_cubee-earth_dragon"}},"minecraft:custom_model_data":{floats:[7191142.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Earth Guard Cubee"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Earth Guard Cubee."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:golden_horse_armor"}'
+            DataVersion: 4440
+    cubee_fire_dragon_cubee:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_cubee-fire_dragon"}},"minecraft:custom_model_data":{floats:[7191143.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Fire Dragon Cubee"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Fire Dragon Cubee."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:golden_horse_armor"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_cubee-fire_dragon"}},"minecraft:custom_model_data":{floats:[7191143.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Fire Dragon Cubee"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Fire Dragon Cubee."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:golden_horse_armor"}'
+            DataVersion: 4440
+    cubee_galaxy_dragon:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_cubee-galaxy_dragon"}},"minecraft:custom_model_data":{floats:[7191144.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Galaxy Dragon Cubee"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Galaxy Dragon Cubee."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:golden_horse_armor"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_cubee-galaxy_dragon"}},"minecraft:custom_model_data":{floats:[7191144.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Galaxy Dragon Cubee"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Galaxy Dragon Cubee."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:golden_horse_armor"}'
+            DataVersion: 4440
+    cubee_ice_dragon:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_cubee-ice_dragon"}},"minecraft:custom_model_data":{floats:[7191145.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Ice Dragon Cubee"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Ice Dragon Cubee."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:golden_horse_armor"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_cubee-ice_dragon"}},"minecraft:custom_model_data":{floats:[7191145.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Ice Dragon Cubee"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Ice Dragon Cubee."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:golden_horse_armor"}'
+            DataVersion: 4440
+    cubee_light_dragon:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_cubee-light_dragon"}},"minecraft:custom_model_data":{floats:[7191146.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Light Dragon Cubee"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Light Dragon Cubee."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:golden_horse_armor"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_cubee-light_dragon"}},"minecraft:custom_model_data":{floats:[7191146.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Light Dragon Cubee"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Light Dragon Cubee."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:golden_horse_armor"}'
+            DataVersion: 4440
+    cubee_nature_dragon:
+      Type: ITEM
+      PreviewData:
+        Provider: vanilla
+        Data:
+          Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_cubee-nature_dragon"}},"minecraft:custom_model_data":{floats:[7191147.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Nature Dragon Cubee"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Nature Dragon Cubee."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:golden_horse_armor"}'
+          DataVersion: 4440
+      Weight: 10.0
+      Rarity: common
+      Broadcast: false
+      Limits:
+        Enabled: false
+        CooldownType: DAILY
+        GlobalAmount: -1
+        PlayerAmount: -1
+        GlobalCooldown: 0
+        PlayerCooldown: 0
+      Ignored_For_Permissions: []
+      Required_Permissions: []
+      Custom_Preview: false
+      Placeholder_Apply: false
+      ItemsData:
+        '0':
+          Provider: vanilla
+          Data:
+            Value: '{components:{"minecraft:custom_data":{PublicBukkitValues:{"mythicmobs:type":"Item_cubee-nature_dragon"}},"minecraft:custom_model_data":{floats:[7191147.0f]},"minecraft:custom_name":{color:"gold",italic:0b,text:"Huevo de Nature Dragon Cubee"},"minecraft:lore":[{color:"gray",italic:0b,text:"Un huevo mágico de Nature Dragon Cubee."},{color:"white",italic:0b,text:""},{color:"yellow",italic:0b,text:"➤ Click Derecho para desbloquear"}]},count:1,id:"minecraft:golden_horse_armor"}'
+            DataVersion: 4440
+Post-Open:
+  Commands: []

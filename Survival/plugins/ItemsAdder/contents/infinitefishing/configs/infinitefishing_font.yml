@@ -1,0 +1,349 @@
+info:
+  namespace: infinitefishing
+font_images:
+
+  evaluator:
+    path: "font/ui/evaluator.png"
+    y_position: 97
+    scale_ratio: 256
+    symbol: "큓"
+
+  pointer:
+    path: "font/bars/pointer.png"
+    y_position: 22
+    scale_ratio: 30
+    symbol: "뀁"
+
+  fish_bars1:
+    path: "font/bars/bar1.png"
+    y_position: 48
+    scale_ratio: 128
+    symbol: "뀂"
+
+  fish_bars2:
+    path: "font/bars/bar2.png"
+    y_position: 48
+    scale_ratio: 128
+    symbol: "뀃"
+
+
+  fish_bars3:
+    path: "font/bars/bar3.png"
+    y_position: 48
+    scale_ratio: 128
+    symbol: "뀄"
+
+
+  fish_bars4:
+    path: "font/bars/bar4.png"
+    y_position: 48
+    scale_ratio: 128
+    symbol: "뀅"
+
+
+  fish_bars5:
+    path: "font/bars/bar5.png"
+    y_position: 48
+    scale_ratio: 128
+    symbol: "뀆"
+
+
+  fish_bars6:
+    path: "font/bars/bar6.png"
+    y_position: 48
+    scale_ratio: 128
+    symbol: "뀇"
+
+
+  fish_bars7:
+    path: "font/bars/bar7.png"
+    y_position: 48
+    scale_ratio: 128
+    symbol: "뀈"
+
+
+  fish_bars8:
+    path: "font/bars/bar8.png"
+    y_position: 48
+    scale_ratio: 128
+    symbol: "뀉"
+
+
+  fish_bars9:
+    path: "font/bars/bar9.png"
+    y_position: 48
+    scale_ratio: 128
+    symbol: "뀊"
+
+
+  fish_bars_rainbow:
+    path: "font/bars/bar1.png"
+    y_position: 48
+    scale_ratio: 128
+    symbol: "뀋"
+
+
+  fish_bars10:
+    path: "font/bars/bar10.png"
+    y_position: 48
+    scale_ratio: 128
+    symbol: "뀌"
+
+  fish_bars11:
+    path: "font/bars/bar11.png"
+    y_position: 48
+    scale_ratio: 128
+    symbol: "뀑"
+
+  fish_bars_icon:
+    path: "font/bars/fish_icon.png"
+    y_position: 4
+    scale_ratio: 5
+    symbol: "뀍"
+
+  fish_bars_iconstruggling2:
+    path: "font/bars/struggling_fish_icon.png"
+    y_position: 4
+    scale_ratio: 5
+    symbol: "뀏"
+
+  fish_bars_iconstruggling3:
+    path: "font/bars/struggling_fish_icon.png"
+    y_position: 3
+    scale_ratio: 5
+    symbol: "뀐"
+
+  fish_bars_area_easy:
+    path: "font/bars/judgment_area_easy.png"
+    y_position: 48
+    scale_ratio: 128
+    symbol: "뀒"
+
+  fish_bars_area_normal:
+    path: "font/bars/judgment_area_normal.png"
+    y_position: 48
+    scale_ratio: 128
+    symbol: "뀓"
+
+  fish_bars_area_normal:
+    path: "font/bars/judgment_area_hard.png"
+    y_position: 48
+    scale_ratio: 128
+    symbol: "뀔"
+
+  fish_bars_color_1:
+    path: "font/bars/bar_color_1.png"
+    y_position: 48
+    scale_ratio: 128
+    symbol: "뀕"
+
+  fish_bars_color_2:
+    path: "font/bars/bar_color_2.png"
+    y_position: 48
+    scale_ratio: 128
+    symbol: "뀖"
+
+  fish_bars_color_3:
+    path: "font/bars/bar_color_3.png"
+    y_position: 48
+    scale_ratio: 128
+    symbol: "뀗"
+
+  fish_bars_color_4:
+    path: "font/bars/bar_color_4.png"
+    y_position: 48
+    scale_ratio: 128
+    symbol: "뀘"
+
+  fish_bars_color_5:
+    path: "font/bars/bar_color_5.png"
+    y_position: 48
+    scale_ratio: 128
+    symbol: "뀙"
+
+  fish_bars_color_6:
+    path: "font/bars/bar_color_6.png"
+    y_position: 48
+    scale_ratio: 128
+    symbol: "뀠"
+
+  fish_bars_color_7:
+    path: "font/bars/bar_color_7.png"
+    y_position: 48
+    scale_ratio: 128
+    symbol: "뀡"
+
+  fish_bars_color_8:
+    path: "font/bars/bar_color_8.png"
+    y_position: 48
+    scale_ratio: 128
+    symbol: "뀢"
+
+  fish_bars_color_9:
+    path: "font/bars/bar_color_9.png"
+    y_position: 48
+    scale_ratio: 128
+    symbol: "뀣"
+
+  fish_bars_color_rainbow:
+    path: "font/bars/bar_color_rainbow.png"
+    y_position: 48
+    scale_ratio: 128
+    symbol: "뀤"
+
+
+
+
+
+  fish_strain_1:
+    path: "font/icons/strain_1.png"
+    y_position: 13
+    scale_ratio: 13
+    symbol: "뀁"
+
+  fish_strain_2:
+    path: "font/icons/strain_2.png"
+    y_position: 13
+    scale_ratio: 13
+    symbol: "뀂"
+
+  fish_strain_3:
+    path: "font/icons/strain_3.png"
+    y_position: 13
+    scale_ratio: 13
+    symbol: "뀃"
+
+  fish_strain_4:
+    path: "font/icons/strain_4.png"
+    y_position: 13
+    scale_ratio: 13
+    symbol: "뀄"
+
+  fish_strain_5:
+    path: "font/icons/strain_5.png"
+    y_position: 13
+    scale_ratio: 13
+    symbol: "뀅"
+
+  fish_progress_6:
+    path: "font/icons/progress_6.png"
+    y_position: 13
+    scale_ratio: 13
+    symbol: "뀆"
+
+  fish_progress_7:
+    path: "font/icons/progress_7.png"
+    y_position: 13
+    scale_ratio: 13
+    symbol: "뀇"
+
+  fish_progress_8:
+    path: "font/icons/progress_8.png"
+    y_position: 13
+    scale_ratio: 13
+    symbol: "뀈"
+
+  fish_progress_9:
+    path: "font/icons/progress_9.png"
+    y_position: 13
+    scale_ratio: 13
+    symbol: "뀉"
+
+  fish_strain_1:
+    path: "font/icons/strain_1.png"
+    y_position: 13
+    scale_ratio: 13
+    symbol: "뀑"
+
+  fish_strain_2:
+    path: "font/icons/strain_2.png"
+    y_position: 13
+    scale_ratio: 13
+    symbol: "뀒"
+
+  fish_strain_3:
+    path: "font/icons/strain_3.png"
+    y_position: 13
+    scale_ratio: 13
+    symbol: "뀓"
+
+  fish_strain_4:
+    path: "font/icons/strain_4.png"
+    y_position: 13
+    scale_ratio: 13
+    symbol: "뀔"
+
+  fish_strain_5:
+    path: "font/icons/strain_5.png"
+    y_position: 13
+    scale_ratio: 13
+    symbol: "뀕"
+
+  fish_strain_6:
+    path: "font/icons/strain_6.png"
+    y_position: 13
+    scale_ratio: 13
+    symbol: "뀖"
+
+  fish_strain_7:
+    path: "font/icons/strain_7.png"
+    y_position: 13
+    scale_ratio: 13
+    symbol: "뀗"
+
+  fish_strain_8:
+    path: "font/icons/strain_8.png"
+    y_position: 13
+    scale_ratio: 13
+    symbol: "뀘"
+
+  fish_strain_9:
+    path: "font/icons/strain_9.png"
+    y_position: 13
+    scale_ratio: 13
+    symbol: "뀙"
+
+  fish_shift:
+    path: "font/icons/shift.png"
+    y_position: 13
+    scale_ratio: 13
+    symbol: "뀠"
+
+  fish_shift:
+    path: "font/icons/left_click.png"
+    y_position: 13
+    scale_ratio: 13
+    symbol: "뀡"
+
+  fish_shift2:
+    path: "font/icons/left_click.png"
+    y_position: 8
+    scale_ratio: 8
+    symbol: "뀢"
+
+  fish_right_click:
+    path: "font/icons/right_click.png"
+    y_position: 8
+    scale_ratio: 8
+    symbol: "뀣"
+
+  fish_right_space:
+    path: "font/icons/space.png"
+    y_position: 8
+    scale_ratio: 8
+    symbol: "뀤"
+
+  fish_right_shift:
+    path: "font/icons/shift.png"
+    y_position: 8
+    scale_ratio: 8
+    symbol: "뀥"
+
+  fish_right_barrier:
+    path: "font/icons/barrier.png"
+    y_position: 8
+    scale_ratio: 8
+    symbol: "뀦"
+
+
+#MGZ1sEZ3dXOTJ3czQXQQVXdvBTV1UEVPl3ZX9kRWVUYPZEWRlnaYVGeClTMzYXRy4USjh2M
