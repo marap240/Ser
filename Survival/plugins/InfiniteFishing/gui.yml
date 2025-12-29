@@ -134,4 +134,4 @@ fish-finder:
     lore:
       - "&7Click to go to the previous page"
 evaluator:
-  title: "&1Fish Evaluator" # Title of the fish evaluator GUI
+  title: "&1Evaluador" # Title of the fish evaluator GUI

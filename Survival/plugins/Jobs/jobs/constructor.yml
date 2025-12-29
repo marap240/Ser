@@ -1,0 +1,682 @@
+Constructor:
+  fullname: Constructor
+  shortname: C
+  displayName: "{#ffee57}Constructor"
+  FullDescription:
+  - "Gana dinero y xp construyendo una estructura."
+  ChatColour: YELLOW
+  chat-display: shortjob
+  BossBarColour: YELLOW
+  max-level: 100
+  leveling-progression-equation: 13*(joblevel)+(joblevel*joblevel*5)
+  income-progression-equation: baseincome+(baseincome*(joblevel-2)*0.01)-((baseincome+(baseincome*(joblevel-2)*0.01))
+      * ((numjobs-1)*0.01))
+  points-progression-equation: basepoints+(basepoints*(joblevel-2)*0.01)-((basepoints+(basepoints*(joblevel-2)*0.01))
+      * ((numjobs-1)*0.01))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  maxDailyQuests: 1
+  Quests:
+    '1':
+      Name: "Constructor 1"
+      Objectives:
+      - Place;OAK_PLANKS;8
+      - Place;SPRUCE_PLANKS;8
+      - Place;BIRCH_PLANKS;8
+      - Place;DARK_OAK_PLANKS;8
+      - Place;ACACIA_PLANKS;8
+      - Place;JUNGLE_PLANKS;8
+      RewardCommands:
+      - "eco give [playerName] 500"
+      - "jobs exp [playerName] Builder add 500"
+      - 'title [playerName] title {"text":"§a§lMisión completada!"}'
+      - 'title [playerName] subtitle {"text":"§fHas completado la búsqueda del constructor.!"}'
+      RewardDesc:
+      - "{#707070}Debe construir una orden de estructura para completar!"
+      - ""
+      - "{#ffee57}&lRecompensas"
+      - " &8- &e&l$&e500"
+      - " &8- {#ffee57}500 &lXP"
+    '2':
+      Name: "Constructor 2"
+      Objectives:
+      - Place;DIRT;16
+      - Place;GRASS_BLOCK;16
+      - Place;COARSE_DIRT;16
+      RewardCommands:
+      - "eco give [playerName] 250"
+      - "jobs exp [playerName] Builder add 250"
+      - 'title [playerName] title {"text":"§a§lMisión completada!"}'
+      - 'title [playerName] subtitle {"text":"§fHas completado la búsqueda del constructor.!"}'
+      RewardDesc:
+      - "{#707070}Debe construir una orden de estructura para completar!"
+      - ""
+      - "{#ffee57}&lRecompensas"
+      - " &8- &e&l$&e250"
+      - " &8- {#ffee57}250 &lXP"
+    '3':
+      Name: "Constructor 3"
+      Objectives:
+      - Place;OAK_LOG;8
+      - Place;COBBLESTONE;16
+      - Place;WHITE_WOOL;3
+      - Place;RED_BED;1
+      RewardCommands:
+      - "eco give [playerName] 150"
+      - "jobs exp [playerName] Builder add 150"
+      - 'title [playerName] title {"text":"§a§lMisión completada!"}'
+      - 'title [playerName] subtitle {"text":"§fHas completado la búsqueda del constructor.!"}'
+      RewardDesc:
+      - "{#707070}Debe construir una orden de estructura para completar!"
+      - ""
+      - "{#ffee57}&lRecompensas"
+      - " &8- &e&l$&e150"
+      - " &8- {#ffee57}150 &lXP"
+    '4':
+      Name: "Constructor 4"
+      Objectives:
+      - Place;STONE;16
+      - Place;STONE_BRICKS;8
+      - Place;BRICKS;12
+      RewardCommands:
+      - "eco give [playerName] 300"
+      - "jobs exp [playerName] Builder add 300"
+      - 'title [playerName] title {"text":"§a§lMisión completada!"}'
+      - 'title [playerName] subtitle {"text":"§fHas completado la búsqueda del constructor.!"}'
+      RewardDesc:
+      - "{#707070}Debe construir una orden de estructura para completar!"
+      - ""
+      - "{#ffee57}&lRecompensas"
+      - " &8- &e&l$&e300"
+      - " &8- {#ffee57}300 &lXP"
+  Gui:
+    Item: SCAFFOLDING
+  Place:
+    ACACIA_FENCE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    ACACIA_FENCE_GATE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    ACACIA_STAIRS:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    BIRCH_FENCE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    BIRCH_FENCE_GATE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    BIRCH_STAIRS:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    BRICKS:
+      income: 1.5
+      points: 1.5
+      experience: 1.0
+    BRICK_STAIRS:
+      income: 1.5
+      points: 1.5
+      experience: 1.0
+    COBBLESTONE_WALL:
+      income: 0.5
+      points: 0.5
+      experience: 0.1
+    MOSSY_COBBLESTONE_WALL:
+      income: 0.5
+      points: 0.5
+      experience: 0.1
+    DARK_OAK_FENCE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    DARK_OAK_FENCE_GATE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    DARK_OAK_STAIRS:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    GLASS:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    GLASS_PANE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    JUNGLE_FENCE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    JUNGLE_FENCE_GATE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    JUNGLE_STAIRS:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    OAK_LEAVES:
+      income: 0.5
+      points: 0.5
+      experience: 0.1
+    SPRUCE_LEAVES:
+      income: 0.5
+      points: 0.5
+      experience: 0.1
+    JUNGLE_LEAVES:
+      income: 0.5
+      points: 0.5
+      experience: 0.1
+    BIRCH_LEAVES:
+      income: 0.5
+      points: 0.5
+      experience: 0.1
+    ACACIA_LEAVES:
+      income: 0.5
+      points: 0.5
+      experience: 0.1
+    DARK_OAK_LEAVES:
+      income: 0.5
+      points: 0.5
+      experience: 0.1
+    MOSSY_COBBLESTONE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    NETHER_BRICKS:
+      income: 2.0
+      points: 2.0
+      experience: 1.0
+    NETHER_BRICK_FENCE:
+      income: 2.0
+      points: 2.0
+      experience: 1.0
+    NETHER_BRICK_STAIRS:
+      income: 2.0
+      points: 2.0
+      experience: 1.0
+    NETHERRACK:
+      income: 0.5
+      points: 0.5
+      experience: 0.1
+    OBSIDIAN:
+      income: 5.0
+      points: 5.0
+      experience: 3.5
+    PACKED_ICE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    PRISMARINE:
+      income: 2.0
+      points: 2.0
+      experience: 1.0
+    PRISMARINE_BRICKS:
+      income: 4.0
+      points: 4.0
+      experience: 2.0
+    DARK_PRISMARINE:
+      income: 5.0
+      points: 5.0
+      experience: 3.0
+    QUARTZ_BLOCK:
+      income: 5.0
+      points: 5.0
+      experience: 3.0
+    QUARTZ_PILLAR:
+      income: 8.0
+      points: 8.0
+      experience: 6.0
+    CHISELED_QUARTZ_BLOCK:
+      income: 10.0
+      points: 10.0
+      experience: 8.0
+    QUARTZ_STAIRS:
+      income: 2.5
+      points: 2.5
+      experience: 1.5
+    RED_SANDSTONE:
+      income: 0.5
+      points: 0.5
+      experience: 0.1
+    CUT_RED_SANDSTONE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    CHISELED_RED_SANDSTONE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    RED_SANDSTONE_STAIRS:
+      income: 0.5
+      points: 0.5
+      experience: 0.1
+    SAND:
+      income: 0.5
+      points: 0.5
+      experience: 0
+    RED_SAND:
+      income: 0.5
+      points: 0.5
+      experience: 0
+    SANDSTONE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    CUT_SANDSTONE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    CHISELED_SANDSTONE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    SANDSTONE_STAIRS:
+      income: 1.0
+      points: 1.0
+      experience: 0.1
+    SPRUCE_FENCE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    SPRUCE_FENCE_GATE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    SPRUCE_STAIRS:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    RED_STAINED_GLASS:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    ORANGE_STAINED_GLASS:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    YELLOW_STAINED_GLASS:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    LIME_STAINED_GLASS:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    GREEN_STAINED_GLASS:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    LIGHT_BLUE_STAINED_GLASS:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    BLUE_STAINED_GLASS:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    CYAN_STAINED_GLASS:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    PURPLE_STAINED_GLASS:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    MAGENTA_STAINED_GLASS:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    PINK_STAINED_GLASS:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    WHITE_STAINED_GLASS:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    LIGHT_GRAY_STAINED_GLASS:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    GRAY_STAINED_GLASS:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    BROWN_STAINED_GLASS:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    BLACK_STAINED_GLASS:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    RED_STAINED_GLASS_PANE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    ORANGE_STAINED_GLASS_PANE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    YELLOW_STAINED_GLASS_PANE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    GREEN_STAINED_GLASS_PANE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    LIME_STAINED_GLASS_PANE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    LIGHT_BLUE_STAINED_GLASS_PANE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    BLUE_STAINED_GLASS_PANE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    CYAN_STAINED_GLASS_PANE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    PURPLE_STAINED_GLASS_PANE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    MAGENTA_STAINED_GLASS_PANE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    PINK_STAINED_GLASS_PANE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    WHITE_STAINED_GLASS_PANE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    LIGHT_GRAY_STAINED_GLASS_PANE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    GRAY_STAINED_GLASS_PANE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    BROWN_STAINED_GLASS_PANE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    BLACK_STAINED_GLASS_PANE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    TERRACOTTA:
+      income: 2.5
+      points: 2.5
+      experience: 1.5
+    RED_TERRACOTTA:
+      income: 2.5
+      points: 2.5
+      experience: 1.5
+    ORANGE_TERRACOTTA:
+      income: 2.5
+      points: 2.5
+      experience: 1.5
+    YELLOW_TERRACOTTA:
+      income: 2.5
+      points: 2.5
+      experience: 1.5
+    LIME_TERRACOTTA:
+      income: 2.5
+      points: 2.5
+      experience: 1.5
+    GREEN_TERRACOTTA:
+      income: 2.5
+      points: 2.5
+      experience: 1.5
+    LIGHT_BLUE_TERRACOTTA:
+      income: 2.5
+      points: 2.5
+      experience: 1.5
+    BLUE_TERRACOTTA:
+      income: 2.5
+      points: 2.5
+      experience: 1.5
+    CYAN_TERRACOTTA:
+      income: 2.5
+      points: 2.5
+      experience: 1.5
+    PURPLE_TERRACOTTA:
+      income: 2.5
+      points: 2.5
+      experience: 1.5
+    MAGENTA_TERRACOTTA:
+      income: 2.5
+      points: 2.5
+      experience: 1.5
+    PINK_TERRACOTTA:
+      income: 2.5
+      points: 2.5
+      experience: 1.5
+    WHITE_TERRACOTTA:
+      income: 2.5
+      points: 2.5
+      experience: 1.5
+    LIGHT_GRAY_TERRACOTTA:
+      income: 2.5
+      points: 2.5
+      experience: 1.5
+    GRAY_TERRACOTTA:
+      income: 2.5
+      points: 2.5
+      experience: 1.5
+    BROWN_TERRACOTTA:
+      income: 2.5
+      points: 2.5
+      experience: 1.5
+    BLACK_TERRACOTTA:
+      income: 2.5
+      points: 2.5
+      experience: 1.5
+    STONE:
+      income: 0.1
+      points: 0.1
+      experience: 0
+    GRANITE:
+      income: 0.1
+      points: 0.1
+      experience: 0
+    DIORITE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    ANDESITE:
+      income: 0.1
+      points: 0.1
+      experience: 0
+    POLISHED_GRANITE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    POLISHED_ANDESITE:
+      income: 0.1
+      points: 0.1
+      experience: 0
+    POLISHED_DIORITE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    STONE_BRICK_STAIRS:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    COBBLESTONE_SLAB:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    BRICK_SLAB:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    DARK_PRISMARINE_SLAB:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    PRISMARINE_BRICK_SLAB:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    PRISMARINE_SLAB:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    PURPUR_SLAB:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    QUARTZ_SLAB:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    RED_SANDSTONE_SLAB:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    SANDSTONE_SLAB:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    STONE_SLAB:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    STONE_BRICK_SLAB:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    COBBLESTONE_STAIRS:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    CHISELED_STONE_BRICKS:
+      income: 1.5
+      points: 1.5
+      experience: 1.0
+    STONE_BRICKS:
+      income: 1.5
+      points: 1.5
+      experience: 1.0
+    MOSSY_STONE_BRICKS:
+      income: 1.5
+      points: 1.5
+      experience: 1.0
+    CRACKED_STONE_BRICKS:
+      income: 1.5
+      points: 1.5
+      experience: 1.0
+    OAK_PRESSURE_PLATE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    SPRUCE_PRESSURE_PLATE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    BIRCH_PRESSURE_PLATE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    DARK_OAK_PRESSURE_PLATE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    JUNGLE_PRESSURE_PLATE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    ACACIA_PRESSURE_PLATE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    STONE_PRESSURE_PLATE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    RED_WOOL:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    ORANGE_WOOL:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    YELLOW_WOOL:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    LIME_WOOL:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    GREEN_WOOL:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    PURPLE_WOOL:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    MAGENTA_WOOL:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    PINK_WOOL:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    WHITE_WOOL:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    LIGHT_GRAY_WOOL:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    GRAY_WOOL:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    BROWN_WOOL:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    BLACK_WOOL:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    LIGHT_BLUE_WOOL:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    BLUE_WOOL:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    CYAN_WOOL:
+      income: 1.0
+      points: 1.0
+      experience: 0.5

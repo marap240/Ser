@@ -56,3 +56,11 @@ expansions:
       medium: '&e'
       high: '&c'
       low: '&a'
+  math:
+    Disable-Warnings: false
+    Rounding: half-up
+    Decimals: 3
+    Debug: false
+  checkitem:
+    give_enabled: false
+    remove_enabled: false

@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1766764967902
+  lastteleport: 1766968378643
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1766775370209
-  login: 1766770749589
+  logout: 1766974304692
+  login: 1766973632502
 money: '87875.0'
 last-account-name: Bruno240707
 lastlocation:
-  world: 0c52527c-f895-4989-828f-80caa9f6e8b5
-  world-name: Spawn
-  x: 8.641205075356929
-  y: 88.0
-  z: 13.75091795410626
-  yaw: -2.6240952014923096
-  pitch: -2.2203876972198486
-logoutlocation:
   world: 84574fde-df87-47b2-b7b6-fba349c79632
   world-name: world
-  x: -2496.41654478582
+  x: 2874.4060892728544
   y: 68.0
-  z: -2823.0497595307675
-  yaw: -47.578369140625
-  pitch: 12.353719711303711
+  z: -1056.3325136836943
+  yaw: -134.48291015625
+  pitch: 8.302661895751953
+logoutlocation:
+  world: 0c52527c-f895-4989-828f-80caa9f6e8b5
+  world-name: Spawn
+  x: 14.11689459589996
+  y: 88.0
+  z: 115.24813164607323
+  yaw: -92.517578125
+  pitch: 1.1031869649887085
 homes:
   home:
     world: 0c52527c-f895-4989-828f-80caa9f6e8b5

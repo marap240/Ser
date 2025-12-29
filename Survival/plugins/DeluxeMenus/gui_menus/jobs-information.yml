@@ -3,14 +3,14 @@ open_command: jobsinformation
 size: 45
 update_interval: 1
 items:
-  fishermanactive:
+  Pescadoractive:
     material: FISHING_ROD
     slot: 22
     priority: 2
     update: true
     item_flags: [HIDE_ENCHANTS]
     item_flags: [HIDE_ATTRIBUTES]
-    display_name: '&e&lFisherman Job&r'
+    display_name: '&e&lPescador Job&r'
     lore:
     - '&7Tropical Fish &f| &a$3,500.00 &e1,250.00EXP'
     - '&7Pufferfish &f| &a$750.00 &e250.00 EXP'
@@ -22,14 +22,14 @@ items:
     - '[refresh]'
 
 
-  mineractive:
+  Mineroactive:
     material: DIAMOND_PICKAXE
     slot: 20
     priority: 2
     update: true
     item_flags: [HIDE_ENCHANTS]
     item_flags: [HIDE_ATTRIBUTES]
-    display_name: '&e&lMiner Job&r'
+    display_name: '&e&lMinero Job&r'
     lore:
     - '&7Ancient Debris &f| &a$800.00 &e28.00 EXP'
     - '&7Emerald Ore &f| &a$500.00 &e16.00 EXP'
@@ -77,14 +77,14 @@ items:
     right_click_commands:
     - '[refresh]'
 
-  farmeractive:
+  Granjeroactive:
     material: IRON_HOE
     slot: 23
     priority: 2
     update: true
     item_flags: [HIDE_ENCHANTS]
     item_flags: [HIDE_ATTRIBUTES]
-    display_name: '&e&lFarmer Job&r'
+    display_name: '&e&lGranjero Job&r'
     lore:
     - '&7Cocoa Beans &f| &a$4.50 &e0.72 EXP'
     - '&7Pumpkin &f| &a$3.20 &e0.51 EXP'

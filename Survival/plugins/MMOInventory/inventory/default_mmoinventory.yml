@@ -43,9 +43,9 @@ ui_layout:
 # This option is only for custom inventories.
 open_command:
   enabled: true
-  name: 'custominv'
+  name: 'reliquias'
   permission: 'custom_inv.open.mmoinventory_default'
-  aliases: [ mmoinv, rpginv, rpginventory ]
+  aliases: [ mmoinv, rpginv, rpginventory, reliquias ]
 
   output:
     player-command: '&cThis command is only for players.'

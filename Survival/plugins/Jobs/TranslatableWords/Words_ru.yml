@@ -1232,59 +1232,59 @@ ItemList:
   YELLOW_CANDLE: Yellow Candle
   YELLOW_CANDLE_CAKE: Yellow Candle Cake
   MUSIC_DISC_OTHERSIDE: Music Disc Otherside
-  ACACIA_CHEST_BOAT: Acacia chest boat
-  ALLAY_SPAWN_EGG: Allay spawn egg
-  BIRCH_CHEST_BOAT: Birch chest boat
-  DARK_OAK_CHEST_BOAT: Dark oak chest boat
-  DISC_FRAGMENT_5: Disc fragment 5
-  ECHO_SHARD: Echo shard
+  ACACIA_CHEST_BOAT: Acacia Chest Boat
+  ALLAY_SPAWN_EGG: Allay Spawn Egg
+  BIRCH_CHEST_BOAT: Birch Chest Boat
+  DARK_OAK_CHEST_BOAT: Dark Oak Chest Boat
+  DISC_FRAGMENT_5: Disc Fragment 5
+  ECHO_SHARD: Echo Shard
   FROGSPAWN: Frogspawn
-  FROG_SPAWN_EGG: Frog spawn egg
-  GOAT_HORN: Goat horn
-  JUNGLE_CHEST_BOAT: Jungle chest boat
-  MANGROVE_BOAT: Mangrove boat
-  MANGROVE_BUTTON: Mangrove button
-  MANGROVE_CHEST_BOAT: Mangrove chest boat
-  MANGROVE_DOOR: Mangrove door
-  MANGROVE_FENCE: Mangrove fence
-  MANGROVE_FENCE_GATE: Mangrove fence gate
-  MANGROVE_LEAVES: Mangrove leaves
-  MANGROVE_LOG: Mangrove log
-  MANGROVE_PLANKS: Mangrove planks
-  MANGROVE_PRESSURE_PLATE: Mangrove pressure plate
-  MANGROVE_PROPAGULE: Mangrove propagule
-  MANGROVE_ROOTS: Mangrove roots
-  MANGROVE_SIGN: Mangrove sign
-  MANGROVE_WALL_SIGN: Mangrove wall sign
-  MANGROVE_SLAB: Mangrove slab
-  MANGROVE_STAIRS: Mangrove stairs
-  MANGROVE_TRAPDOOR: Mangrove trapdoor
-  MANGROVE_WOOD: Mangrove wood
+  FROG_SPAWN_EGG: Frog Spawn Egg
+  GOAT_HORN: Goat Horn
+  JUNGLE_CHEST_BOAT: Jungle Chest Boat
+  MANGROVE_BOAT: Mangrove Boat
+  MANGROVE_BUTTON: Mangrove Button
+  MANGROVE_CHEST_BOAT: Mangrove Chest Boat
+  MANGROVE_DOOR: Mangrove Door
+  MANGROVE_FENCE: Mangrove Fence
+  MANGROVE_FENCE_GATE: Mangrove Fence Gate
+  MANGROVE_LEAVES: Mangrove Leaves
+  MANGROVE_LOG: Mangrove Log
+  MANGROVE_PLANKS: Mangrove Planks
+  MANGROVE_PRESSURE_PLATE: Mangrove Pressure Plate
+  MANGROVE_PROPAGULE: Mangrove Propagule
+  MANGROVE_ROOTS: Mangrove Roots
+  MANGROVE_SIGN: Mangrove Sign
+  MANGROVE_WALL_SIGN: Mangrove Wall Sign
+  MANGROVE_SLAB: Mangrove Slab
+  MANGROVE_STAIRS: Mangrove Stairs
+  MANGROVE_TRAPDOOR: Mangrove Trapdoor
+  MANGROVE_WOOD: Mangrove Wood
   MUD: Mud
-  MUDDY_MANGROVE_ROOTS: Muddy mangrove roots
-  MUD_BRICKS: Mud bricks
-  MUD_BRICK_SLAB: Mud brick slab
-  MUD_BRICK_STAIRS: Mud brick stairs
-  MUD_BRICK_WALL: Mud brick wall
-  MUSIC_DISC_5: Music disc 5
-  OAK_CHEST_BOAT: Oak chest boat
-  OCHRE_FROGLIGHT: Ochre froglight
-  PACKED_MUD: Packed mud
-  PEARLESCENT_FROGLIGHT: Pearlescent froglight
-  POTTED_MANGROVE_PROPAGULE: Potted mangrove propagule
-  RECOVERY_COMPASS: Recovery compass
-  REINFORCED_DEEPSLATE: Reinforced deepslate
+  MUDDY_MANGROVE_ROOTS: Muddy Mangrove Roots
+  MUD_BRICKS: Mud Bricks
+  MUD_BRICK_SLAB: Mud Brick Slab
+  MUD_BRICK_STAIRS: Mud Brick Stairs
+  MUD_BRICK_WALL: Mud Brick Wall
+  MUSIC_DISC_5: Music Disc 5
+  OAK_CHEST_BOAT: Oak Chest Boat
+  OCHRE_FROGLIGHT: Ochre Froglight
+  PACKED_MUD: Packed Mud
+  PEARLESCENT_FROGLIGHT: Pearlescent Froglight
+  POTTED_MANGROVE_PROPAGULE: Potted Mangrove Propagule
+  RECOVERY_COMPASS: Recovery Compass
+  REINFORCED_DEEPSLATE: Reinforced Deepslate
   SCULK: Sculk
-  SCULK_CATALYST: Sculk catalyst
-  SCULK_SHRIEKER: Sculk shrieker
-  SCULK_VEIN: Sculk vein
-  SPRUCE_CHEST_BOAT: Spruce chest boat
-  STRIPPED_MANGROVE_LOG: Stripped mangrove log
-  STRIPPED_MANGROVE_WOOD: Stripped mangrove wood
-  TADPOLE_BUCKET: Tadpole bucket
-  TADPOLE_SPAWN_EGG: Tadpole spawn egg
-  VERDANT_FROGLIGHT: Verdant froglight
-  WARDEN_SPAWN_EGG: Warden spawn egg
+  SCULK_CATALYST: Sculk Catalyst
+  SCULK_SHRIEKER: Sculk Shrieker
+  SCULK_VEIN: Sculk Vein
+  SPRUCE_CHEST_BOAT: Spruce Chest Boat
+  STRIPPED_MANGROVE_LOG: Stripped Mangrove Log
+  STRIPPED_MANGROVE_WOOD: Stripped Mangrove Wood
+  TADPOLE_BUCKET: Tadpole Bucket
+  TADPOLE_SPAWN_EGG: Tadpole Spawn Egg
+  VERDANT_FROGLIGHT: Verdant Froglight
+  WARDEN_SPAWN_EGG: Warden Spawn Egg
   ACACIA_HANGING_SIGN: Acacia Hanging Sign
   ACACIA_WALL_HANGING_SIGN: Acacia Wall Hanging Sign
   ANGLER_POTTERY_SHERD: Angler Pottery Sherd
@@ -1653,7 +1653,7 @@ ItemList:
   LEGACY_BURNING_FURNACE: Горящая печь
   LEGACY_NETHER_WARTS: Адский нарост
   LEGACY_IRON_DOOR_BLOCK: Железная дверь
-  LEGACY_GLOWING_REDSTON_ORE: Glowing Redstone Ore
+  LEGACY_GLOWING_REDSTON_ORE: Legacy Glowing Redston Ore
   LEGACY_SUGAR_CANE_BLOCK: Сахарный тростник
   LEGACY_RAW_FISH: Сырая рыба
   LEGACY_SKULL: Голова
@@ -1664,18 +1664,18 @@ ItemList:
   LEGACY_CAKE_BLOCK: Торт
   LEGACY_DIODE_BLOCK_OFF: Красный повторитель (выкл)
   LEGACY_DIODE_BLOCK_ON: Красный повторитель (вкл)
-  LEGACY_MELON_BLOCK: Melon Block
+  LEGACY_MELON_BLOCK: Legacy Melon Block
   LEGACY_REDSTONE_COMPARATOR_OFF: Компаратор (неактивный)
   LEGACY_REDSTONE_COMPARATOR_ON: Компаратор (активный)
-  LEGACY_WOODEN_DOOR_BLOCK: Wooden Door Block
-  LEGACY_SPRUCE_DOOR: Spruce Door Block
-  LEGACY_BIRCH_DOOR: Birch Door Block
-  LEGACY_JUNGLE_DOOR: Jungle Door Block
-  LEGACY_ACACIA_DOOR: Acacia Door Block
-  LEGACY_DARK_OAK_DOOR: Dark Oak Door Block
+  LEGACY_WOODEN_DOOR_BLOCK: Legacy Wooden Door Block
+  LEGACY_SPRUCE_DOOR: Legacy Spruce Door
+  LEGACY_BIRCH_DOOR: Legacy Birch Door
+  LEGACY_JUNGLE_DOOR: Legacy Jungle Door
+  LEGACY_ACACIA_DOOR: Legacy Acacia Door
+  LEGACY_DARK_OAK_DOOR: Legacy Dark Oak Door
   LEGACY_GLOWING_REDSTONE_ORE: Светящаяся красная руда
   LEGACY_BREWING_STAND: Варочная стойка
-  LEGACY_WHEAT: Wheat Block
+  LEGACY_WHEAT: Legacy Wheat
 EntityList:
   0-ALLAY: Allay
   0-ARMADILLO: Armadillo

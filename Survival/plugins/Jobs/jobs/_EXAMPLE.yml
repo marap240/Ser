@@ -27,8 +27,6 @@ exampleJob:
   description: Earns money felling and planting trees
   # Full description of job to be shown in job browse command
   FullDescription:
-  - '&7Earns money felling and planting trees'
-  - ''
   - '&2Get money for:'
   - '  &7Planting trees'
   - '  &7Cutting down trees'
@@ -76,7 +74,7 @@ exampleJob:
   #   baseincome - the income for the action at level 1 (as set in the configuration).
   #   joblevel - the level the player has attained in the job.
   # NOTE: Please take care of the brackets when modifying this equation.
-  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(joblevel-1)*0.01)
     * ((numjobs-1)*0.05))
   # Equation used for calculating how much points is given per action for the job level.
   # Available parameters:
@@ -85,7 +83,7 @@ exampleJob:
   #   basepoints - the points for the action at level 1 (as set in the configuration).
   #   joblevel - the level the player has attained in the job.
   # NOTE: Please take care of the brackets when modifying this equation.
-  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(joblevel-1)*0.01)
     * ((numjobs-1)*0.05))
   # Equation used for calculating how much experience is given per action for the job level.
   # Available parameters:
@@ -94,7 +92,8 @@ exampleJob:
   #   baseexperience - the experience for the action at level 1 (as set in the configuration).
   #   joblevel - the level the player has attained in the job.
   # NOTE: Please take care of the brackets when modifying this equation.
-  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  experience-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(joblevel-1)*0.01)
+    * ((numjobs-1)*0.05))
   # Defines how often in seconds player can rejoin this job. Can be bypassed with jobs.rejoinbypass
   rejoinCooldown: 10
   # GUI icon information when using GUI function
@@ -102,7 +101,7 @@ exampleJob:
   Gui:
     ItemStack: oaklog;DURABILITY:1;hideenchants
     # Slot number to show the item in the specified row
-    slot: 2
+    slot: 5
   # Defines maximum amount of daily quests player can have from THIS job
   # This will not have effect on overall quest amount player will have
   maxDailyQuests: 3
@@ -118,13 +117,11 @@ exampleJob:
       # [actionType] can be any valid job action. Look lower for all possible action types
       # [actionTarget] can be material name, block type, entity name and so on. This is defined in same way as any generic payable job action
       # [amount] is how many times player should perform this action to complete quest
-      Objectives:
-      - Break;oak_log;300
-      - Place;stone,cobblestone;5
+      Objectives: Break;oak_log;300
       # Command list to be performed after quest is finished.
       # Use [playerName] to insert players name who finished that quest
       RewardCommands:
-      - eco give [playerName] 500
+      - money give [playerName] 500
       - msg [playerName] Completed quest!
       # Reward amount to be given to player after quest is finished
       RewardAmount: 0
@@ -201,17 +198,17 @@ exampleJob:
       income: 1.0
       experience: 1.0
     bonemeal:
-      income: 1.5
-      experience: 1.5
+      income: 1.0
+      experience: 1.0
     honeycomb:
-      income: 2.5
-      experience: 2.5
+      income: 1.0
+      experience: 1.0
     honey_bottle:
       income: 1.0
       experience: 1.0
     glow_berries:
-      income: 0.5
-      experience: 0.5
+      income: 1.0
+      experience: 1.0
   # Payment for catching entities in a bucket. Define material of a bucket and not entity you are catching.
   Bucket:
     PUFFERFISH_BUCKET:
@@ -238,7 +235,7 @@ exampleJob:
       income: 1.0
       experience: 1.0
     porkchop:
-      income: 0.5
+      income: 1.0
       experience: 1.0
   # Payment for stripping wood logs, only for 1.13+ servers
   StripLogs:
@@ -374,103 +371,103 @@ exampleJob:
   VTrade:
     emerald:
       income: 1.0
-      experience: 2.0
+      experience: 1.0
     # you can add enchanted book with sub-id
     enchanted_book-12:
       income: 1.0
-      experience: 2.0
+      experience: 1.0
   # Payment for killing any type of living entity
   Kill:
     Player:
-      income: 7.5
-      experience: 7.5
+      income: 1.0
+      experience: 1.0
   # Payment for killing a MythicMob
   MMKill:
     CustomNameHere:
-      income: 7.5
-      experience: 7.5
+      income: 1.0
+      experience: 1.0
   # Killing player with certain job
   custom-kill:
     Woodcutter:
-      income: 10.0
-      experience: 10.0
+      income: 1.0
+      experience: 1.0
   # Taming animals
   Tame:
     Wolf:
-      income: 2.0
-      experience: 5.0
+      income: 1.0
+      experience: 1.0
   # Breeding animals
   Breed:
     Wolf:
-      income: 2.0
-      experience: 5.0
+      income: 1.0
+      experience: 1.0
   # Eating food
   Eat:
     cooked_rabbit:
-      income: 5
-      experience: 5
+      income: 1.0
+      experience: 1.0
     baked_potato:
-      income: 5
-      experience: 5
+      income: 1.0
+      experience: 1.0
   # Milking cows
   Milk:
     Cow:
-      income: 2.0
-      experience: 5.0
+      income: 1.0
+      experience: 1.0
     MushroomCow:
-      income: 5.0
-      experience: 10.0
+      income: 1.0
+      experience: 1.0
   # Shear sheeps by its color
   # You can use 'color-all' identifier to specify all known colors.
   Shear:
     Black:
-      income: 2.0
-      experience: 5.0
+      income: 1.0
+      experience: 1.0
     Blue:
-      income: 2.0
-      experience: 5.0
+      income: 1.0
+      experience: 1.0
     Brown:
-      income: 2.0
-      experience: 5.0
+      income: 1.0
+      experience: 1.0
     Cyan:
-      income: 2.0
-      experience: 5.0
+      income: 1.0
+      experience: 1.0
     Gray:
-      income: 2.0
-      experience: 5.0
+      income: 1.0
+      experience: 1.0
     Green:
-      income: 2.0
-      experience: 5.0
+      income: 1.0
+      experience: 1.0
     Light_Blue:
-      income: 2.0
-      experience: 5.0
+      income: 1.0
+      experience: 1.0
     Lime:
-      income: 2.0
-      experience: 5.0
+      income: 1.0
+      experience: 1.0
     Magenta:
-      income: 2.0
-      experience: 5.0
+      income: 1.0
+      experience: 1.0
     Orange:
-      income: 2.0
-      experience: 5.0
+      income: 1.0
+      experience: 1.0
     Pink:
-      income: 2.0
-      experience: 5.0
+      income: 1.0
+      experience: 1.0
     Purple:
-      income: 2.0
-      experience: 5.0
+      income: 1.0
+      experience: 1.0
     Red:
-      income: 2.0
-      experience: 5.0
+      income: 1.0
+      experience: 1.0
     Light_Gray:
-      income: 2.0
-      experience: 5.0
+      income: 1.0
+      experience: 1.0
     White:
-      income: 2.0
-      experience: 5.0
+      income: 1.0
+      experience: 1.0
     Yellow:
-      income: 2.0
-      experience: 5.0
+      income: 1.0
+      experience: 1.0
   # dyeing armor
   Dye:
     leather_boots:
@@ -488,12 +485,12 @@ exampleJob:
   # Catching fish
   Fish:
     raw_fish:
-      income: 20.0
-      experience: 25.0
+      income: 1.0
+      experience: 1.0
     # If you are using below version 1.13
     legacy_raw_fish:
-      income: 20.0
-      experience: 25.0
+      income: 1.0
+      experience: 1.0
   # Catching CUSTOM fish of the PyroFishingPro plugin
   PyroFishingPro:
     CustomTier:
@@ -510,54 +507,54 @@ exampleJob:
       income: 1.0
       experience: 1.0
     iron_sword:
-      income: 2.0
-      experience: 2.0
+      income: 1.0
+      experience: 1.0
   # Crafting items
   Craft:
     wood_sword:
-      income: 1.5
-      experience: 3.0
+      income: 1.0
+      experience: 1.0
     leather_boots:
       income: 1.0
-      experience: 6.0
+      experience: 1.0
     '!Healing Bandage':
       income: 1.0
-      experience: 6.0
+      experience: 1.0
     # If you add ':' after the tipped_arrow then you can use effect names like in example
     tipped_arrow:slowness:
-      income: 3.0
+      income: 1.0
       experience: 1.0
   # Smelting ores in any type of furnaces
   Smelt:
     iron_ingot:
-      income: 2.0
-      experience: 8.0
+      income: 1.0
+      experience: 1.0
     gold_ingot:
-      income: 4.5
-      experience: 12
+      income: 1.0
+      experience: 1.0
   # Smelting ores in any type of furnaces
   Enchant:
     wood_sword:
-      income: 1.5
-      experience: 3.0
+      income: 1.0
+      experience: 1.0
     leather_boots:
       income: 1.0
-      experience: 6.0
+      experience: 1.0
     # Or/and you can give money for each enchantment they got
     DIG_SPEED-1:
-      income: 3.0
-      experience: 10.0
+      income: 1.0
+      experience: 1.0
     dig_speed-2:
-      income: 6.0
-      experience: 20.0
+      income: 1.0
+      experience: 1.0
   # Brewing miscellaneous items
   Brew:
     nether_stalk:
-      income: 5.0
-      experience: 3.0
+      income: 1.0
+      experience: 1.0
     redstone:
-      income: 5.0
-      experience: 3.0
+      income: 1.0
+      experience: 1.0
   # Brushing blocks and getting items from them
   Brush:
     suspicious_sand:
@@ -574,20 +571,20 @@ exampleJob:
   # so you can give money not only for first player who discovers that chunk
   Explore:
     '1':
-      income: 5.0
-      experience: 5.0
+      income: 1.0
+      experience: 1.0
     '2':
-      income: 2.5
-      experience: 2.5
+      income: 1.0
+      experience: 1.0
     '3':
       income: 1.0
       experience: 1.0
     '4':
-      income: 0.5
-      experience: 0.5
+      income: 1.0
+      experience: 1.0
     '5':
-      income: 0.1
-      experience: 0.1
+      income: 1.0
+      experience: 1.0
   # permissions granted for joining to a job
   permissions:
     # example node
@@ -596,12 +593,12 @@ exampleJob:
       # true to give, false to revoke
       value: true
       # The permission node
-      permission: aaaaaatest.node
+      permission: atest.node
       # minimum level needed to grant permission. Use 0 for all levels
       level: 0
     secNode:
       value: true
-      permission: aaaaaatest.node2
+      permission: atest.node2
       # Permission granted when reaching level 10
       level: 10
   # Permissions granted when particular conditions are met

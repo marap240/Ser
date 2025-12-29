@@ -1,0 +1,147 @@
+info:
+  namespace: jobs
+
+items:
+  blank:
+    display_name: ' '
+    permission: jobsmenu
+    resource:
+      material: POPPED_CHORUS_FRUIT
+      generate: true
+      textures:
+      - item/blank
+
+  alchemist:
+    display_name: 'Alchemist'
+    permission: jobsmenu
+    resource:
+      material: POPPED_CHORUS_FRUIT
+      generate: true
+      textures:
+      - item/alchemist
+
+  arrow_left:
+    display_name: ' '
+    permission: jobsmenu
+    resource:
+      material: POPPED_CHORUS_FRUIT
+      generate: true
+      textures:
+      - item/arrow_left
+
+  arrow_right:
+    display_name: ' '
+    permission: jobsmenu
+    resource:
+      material: POPPED_CHORUS_FRUIT
+      generate: true
+      textures:
+      - item/arrow_right
+
+  assassin:
+    display_name: 'Assassin'
+    permission: jobsmenu
+    resource:
+      material: POPPED_CHORUS_FRUIT
+      generate: true
+      textures:
+      - item/assassin
+
+  blacksmith:
+    display_name: 'Blacksmith'
+    permission: jobsmenu
+    resource:
+      material: POPPED_CHORUS_FRUIT
+      generate: true
+      textures:
+      - item/blacksmith
+
+  builder:
+    display_name: 'Builder'
+    permission: jobsmenu
+    resource:
+      material: POPPED_CHORUS_FRUIT
+      generate: true
+      textures:
+      - item/builder
+
+  crafter:
+    display_name: 'Crafter'
+    permission: jobsmenu
+    resource:
+      material: POPPED_CHORUS_FRUIT
+      generate: true
+      textures:
+      - item/crafter
+
+  digger:
+    display_name: 'Digger'
+    permission: jobsmenu
+    resource:
+      material: POPPED_CHORUS_FRUIT
+      generate: true
+      textures:
+      - item/digger
+
+  enchanter:
+    display_name: 'Enchanter'
+    permission: jobsmenu
+    resource:
+      material: POPPED_CHORUS_FRUIT
+      generate: true
+      textures:
+      - item/enchanter
+
+  farmer:
+    display_name: 'Farmer'
+    permission: jobsmenu
+    resource:
+      material: POPPED_CHORUS_FRUIT
+      generate: true
+      textures:
+      - item/farmer
+
+  fisherman:
+    display_name: 'Fisherman'
+    permission: jobsmenu
+    resource:
+      material: POPPED_CHORUS_FRUIT
+      generate: true
+      textures:
+      - item/fisherman
+
+  hunter:
+    display_name: 'Hunter'
+    permission: jobsmenu
+    resource:
+      material: POPPED_CHORUS_FRUIT
+      generate: true
+      textures:
+      - item/hunter
+
+  lumberjack:
+    display_name: 'Lumberjack'
+    permission: jobsmenu
+    resource:
+      material: POPPED_CHORUS_FRUIT
+      generate: true
+      textures:
+      - item/lumberjack
+
+  miner:
+    display_name: 'Miner'
+    permission: jobsmenu
+    resource:
+      material: POPPED_CHORUS_FRUIT
+      generate: true
+      textures:
+      - item/miner
+
+  smelter:
+    display_name: 'Smelter'
+    permission: jobsmenu
+    resource:
+      material: POPPED_CHORUS_FRUIT
+      generate: true
+      textures:
+      - item/smelter

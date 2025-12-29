@@ -3,11 +3,11 @@
   ultimaUbicacion:
     ==: org.bukkit.Location
     world: world
-    x: -2496.41654478582
+    x: 2874.4060892728544
     y: 68.0
-    z: -2823.0497595307675
-    pitch: 12.35372
-    yaw: -47.57837
+    z: -1056.3325136836943
+    pitch: 8.302662
+    yaw: -134.48291
 fb3917eb-9fe6-31ce-a729-d659b2ebdf67:
   visitoSurvival: true
   ultimaUbicacion:

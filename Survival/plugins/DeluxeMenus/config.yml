@@ -9,8 +9,6 @@ metas_list_page_size: 15
 debug: HIGHEST
 check_updates: true
 gui_menus:
-  Jobs:
-    file: jobs.yml
   
   Tienda_Cañas:
     file: tienda_cañas.yml
@@ -59,7 +57,34 @@ gui_menus:
   
   randomtp:
     file: randomtp.yml
-
+  
+  # JOBS
+  alchemist:
+    file: alchemist.yml
+  assassin:
+    file: assassin.yml
+  blacksmith:
+    file: blacksmith.yml
+  builder:
+    file: builder.yml
+  crafter:
+    file: crafter.yml
+  digger:
+    file: digger.yml
+  enchanter:
+    file: enchanter.yml
+  farmer:
+    file: farmer.yml
+  fisherman:
+    file: fisherman.yml
+  hunter:
+    file: hunter.yml
+  lumberjack:
+    file: lumberjack.yml
+  miner:
+    file: miner.yml
+  smelter:
+    file: smelter.yml
 
 
 

@@ -1,0 +1,116 @@
+menu_title: ':offset_-16::fisherman:'
+open_command: fisherman
+size: 54
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.admin
+      deny_commands:
+        - '[message] &cYou don''t have permission to do that!'
+
+items:
+  'job':
+    material: itemsadder-jobs:blank
+    slots: 
+    - 12
+    - 13
+    - 14
+    - 21
+    - 22
+    - 23
+    - 30
+    - 31
+    - 32
+    display_name: "&f&lPescador"
+    lore:
+       - "&#13B2F2Nivel Maximo: &l200"
+       - "&#13B2F2Gana dinero Pescando"
+       - " "
+       - " &7Left-Click para unirte al trabajo"
+       - " &7Right-Click para salir del trabajo"
+    right_click_commands:
+       - '[player] jobs leave pescador'
+    left_click_commands:
+       - '[player] jobs join pescador'
+
+  'arrow_left':
+    material: itemsadder-jobs:arrow_left
+    slot: 45
+    display_name: "&f&l<"
+    lore: 
+       - "&7More jobs"
+    click_commands:
+       - '[openguimenu] farmer'
+
+  'arrow_right':
+    material: itemsadder-jobs:arrow_right
+    slot: 53
+    display_name: "&f&l>"
+    lore:
+       - "&7More jobs"
+    click_commands:
+       - '[openguimenu] hunter'
+                
+  'digger':
+    material: itemsadder-jobs:digger
+    slot: 46
+    display_name: "&f&lDigger"
+    lore:
+       - "&7Learn more about this job"
+    click_commands:
+       - '[openguimenu] digger'
+       
+  'enchanter':
+    material: itemsadder-jobs:enchanter
+    slot: 47
+    display_name: "&f&lEnchanter"
+    lore:
+       - "&7Learn more about this job"
+    click_commands:
+       - '[openguimenu] enchanter'
+       
+  'farmer':
+    material: itemsadder-jobs:farmer
+    slot: 48
+    display_name: "&f&lFarmer"
+    lore:
+       - "&7Learn more about this job"
+    click_commands:
+       - '[openguimenu] farmer'
+       
+  'fisherman':
+    material: itemsadder-jobs:fisherman
+    slot: 49
+    display_name: "&f&lFisherman"
+    lore:
+       - "&7Learn more about this job"
+    click_commands:
+       - '[openguimenu] fisherman'
+       
+  'hunter':
+    material: itemsadder-jobs:hunter
+    slot: 50
+    display_name: "&f&lHunter"
+    lore:
+       - "&7Learn more about this job"
+    click_commands:
+       - '[openguimenu] hunter'
+       
+  'lumberjack':
+    material: itemsadder-jobs:lumberjack
+    slot: 51
+    display_name: "&f&lLumberjack"
+    lore:
+       - "&7Learn more about this job"
+    click_commands:
+       - '[openguimenu] lumberjack'
+       
+  'miner':
+    material: itemsadder-jobs:miner
+    slot: 52
+    display_name: "&f&lMiner"
+    lore:
+       - "&7Learn more about this job"
+    click_commands:
+       - '[openguimenu] miner'

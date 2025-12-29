@@ -1,0 +1,43 @@
+info:
+  namespace: jobs
+
+font_images:
+  alchemist:
+    path: "alchemist.png"
+    y_position: 43
+  assassin:
+    path: "assassin.png"
+    y_position: 43
+  blacksmith:
+    path: "blacksmith.png"
+    y_position: 43
+  builder:
+    path: "builder.png"
+    y_position: 43
+  crafter:
+    path: "crafter.png"
+    y_position: 43
+  digger:
+    path: "digger.png"
+    y_position: 43
+  enchanter:
+    path: "enchanter.png"
+    y_position: 43
+  farmer:
+    path: "farmer.png"
+    y_position: 43
+  fisherman:
+    path: "fisherman.png"
+    y_position: 43
+  hunter:
+    path: "hunter.png"
+    y_position: 43
+  lumberjack:
+    path: "lumberjack.png"
+    y_position: 43
+  miner:
+    path: "miner.png"
+    y_position: 43
+  smelter:
+    path: "smelter.png"
+    y_position: 43

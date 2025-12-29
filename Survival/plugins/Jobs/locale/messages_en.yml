@@ -161,11 +161,10 @@ command:
       info: Edit player's points.
       args: set/add/take [playername] [amount]
     output:
-      set: '&ePlayers (&6%playerdisplayname%&e) points was set to &6%amount%'
-      add: '&ePlayer (&6%playerdisplayname%&e) got additional &6%amount% &epoints.
-        Now they have &6%total%'
-      take: '&ePlayer (&6%playerdisplayname%&e) lost &6%amount% &epoints. Now they
-        have &6%total%'
+      set: '&ePlayers (&6%playerdisplayname%&e) points were set to &6%amount%'
+      add: '&ePlayer (&6%playerdisplayname%&e) got &6%amount% &epoints. Balance &6%total%'
+      take: '&ePlayer (&6%playerdisplayname%&e) lost &6%amount% &epoints. Balance
+        &6%total%'
   editjobs:
     help:
       info: Edit current jobs.
@@ -285,7 +284,7 @@ command:
       info: Shows all jobs saved in archive by user.
       args: '[playername]'
     error:
-      nojob: There is no jobs saved.
+      nojob: There are no jobs saved.
   give:
     help:
       info: Gives item by jobs name and item category name. Player name is optional
@@ -330,25 +329,25 @@ command:
     output:
       break:
         info: '&eBreak'
-        none: '%jobname% does not get money for breaking blocks.'
+        none: '%jobname% does not get money for (Break) action.'
       striplogs:
-        info: '&eStrip logs'
-        none: '%jobname% does not get money for stripping logs.'
+        info: '&eStripLogs'
+        none: '%jobname% does not get money for (StripLogs) action.'
       tntbreak:
         info: '&eTNTBreak'
-        none: '%jobname% does not get money for breaking blocks with TNT.'
+        none: '%jobname% does not get money for (TNTBreak) action.'
       place:
         info: '&ePlace'
-        none: '%jobname% does not get money for placing blocks.'
+        none: '%jobname% does not get money for (Place) action.'
       kill:
         info: '&eKill'
-        none: '%jobname% does not get money for killing monsters.'
+        none: '%jobname% does not get money for (Kill) action.'
       mmkill:
         info: '&eMMKill'
-        none: '%jobname% does not get money for killing Mythic monsters.'
+        none: '%jobname% does not get money for (MMKill) action.'
       fish:
         info: '&eFish'
-        none: '%jobname% does not get money from fishing.'
+        none: '%jobname% does not get money for (Fish) action.'
       pyrofishingpro:
         info: '&ePyroFishingPro'
         none: '%jobname% does not get money for (PyroFishingPro) action.'
@@ -357,52 +356,52 @@ command:
         none: '%jobname% does not get money for (CustomFishing) action.'
       craft:
         info: '&eCraft'
-        none: '%jobname% does not get money from crafting.'
+        none: '%jobname% does not get money for (Craft) action.'
       vtrade:
-        info: '&eVillager trade'
-        none: '%jobname% does not get money for trading a villager.'
+        info: '&eVTrade'
+        none: '%jobname% does not get money for (VTrade) action.'
       smelt:
         info: '&eSmelt'
-        none: '%jobname% does not get money from smelting.'
+        none: '%jobname% does not get money for (Smelt) action.'
       brew:
         info: '&eBrew'
-        none: '%jobname% does not get money from brewing.'
+        none: '%jobname% does not get money for (Brew) action.'
       enchant:
         info: '&eEnchant'
-        none: '%jobname% does not get money from enchanting.'
+        none: '%jobname% does not get money for (Enchant) action.'
       repair:
         info: '&eRepair'
-        none: '%jobname% does not get money from repairing.'
+        none: '%jobname% does not get money for (Repair) action.'
       breed:
         info: '&eBreed'
-        none: '%jobname% does not get money from breeding.'
+        none: '%jobname% does not get money for (Breed) action.'
       tame:
         info: '&eTame'
-        none: '%jobname% does not get money from taming.'
+        none: '%jobname% does not get money for (Tame) action.'
       dye:
         info: '&eDye'
-        none: '%jobname% does not get money from dyeing.'
+        none: '%jobname% does not get money for (Dye) action.'
       shear:
         info: '&eShear'
-        none: '%jobname% does not get money from shearing sheep.'
+        none: '%jobname% does not get money for (Shear) action.'
       milk:
         info: '&eMilk'
-        none: '%jobname% does not get money from milking cows.'
+        none: '%jobname% does not get money for (Milk) action.'
       explore:
         info: '&eExplore'
-        none: '%jobname% does not get money from exploring.'
+        none: '%jobname% does not get money for (Explore) action.'
       eat:
         info: '&eEat'
-        none: '%jobname% does not get money from eating food.'
+        none: '%jobname% does not get money for (Eat) action.'
       customkill:
         info: '&ecustom-kill'
         none: '%jobname% does not get money for (custom-kill) action.'
       collect:
         info: '&eCollect'
-        none: '%jobname% does not get money for collecting blocks.'
+        none: '%jobname% does not get money for (Collect) action.'
       bake:
         info: '&eBake'
-        none: '%jobname% does not get money for cooking foods.'
+        none: '%jobname% does not get money for (Bake) action.'
       bucket:
         info: '&eBucket'
         none: '%jobname% does not get money for (Bucket) action.'
@@ -494,8 +493,8 @@ command:
       info: Clear block ownership
       args: '[playername]'
     output:
-      cleared: '&2Removed &7[furnaces] &2furnaces, &7[brewing] &2brewing stands, &7[smoker]&2
-        smokers and &7[blast]&2 blast furnaces.'
+      cleared: '&2Removed &7[furnaces] &2furnaces &7[brewing] &2brewing &7[smoker]&2
+        smokers &7[blast]&2 blast'
       lost: '&cLost ownership of &7[type] &cat [location]'
   skipquest:
     help:
@@ -627,7 +626,7 @@ command:
       info: Transfer a player's job from an old job to a new job.
       args: '[playername] [oldjob] [newjob]'
     output:
-      target: You have been transferred from %oldjobname% to %newjobname%.
+      target: '&fYou have been transferred from %oldjobname% &fto %newjobname%.'
   promote:
     help:
       info: Promote the player X levels in a job.

@@ -1,0 +1,557 @@
+Artesano:
+  fullname: Artesano
+  shortname: A
+  displayName: "{#ffbb00}Artesano"
+  FullDescription:
+  - "Gana dinero y xp al crear artículos.."
+  ChatColour: GOLD
+  chat-display: shortjob
+  BossBarColour: YELLOW
+  max-level: 100
+  leveling-progression-equation: 13*(joblevel)+(joblevel*joblevel*5)
+  income-progression-equation: baseincome+(baseincome*(joblevel-2)*0.01)-((baseincome+(baseincome*(joblevel-2)*0.01))
+      * ((numjobs-1)*0.01))
+  points-progression-equation: basepoints+(basepoints*(joblevel-2)*0.01)-((basepoints+(basepoints*(joblevel-2)*0.01))
+      * ((numjobs-1)*0.01))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  maxDailyQuests: 1
+  Quests:
+    '1':
+      Name: "Artesano 1"
+      Objectives:
+      - Craft;CRAFTING_TABLE;1
+      - Craft;FURNACE;1
+      - Craft;TORCH;64
+      RewardCommands:
+      - "eco give [playerName] 150"
+      - "jobs exp [playerName] Artesano add 150"
+      - 'title [playerName] title {"text":"§a§lMisión completada!"}'
+      - 'title [playerName] subtitle {"text":"§fHas completado la búsqueda del artesano.!"}'
+      RewardDesc:
+      - "{#707070}¡Debes crear artículos específicos para completar!"
+      - ""
+      - "{#ffbb00}&lRecompensas"
+      - " &8- &e&l$&e150"
+      - " &8- {#ffbb00}150 &lXP"
+    '2':
+      Name: "Artesano 2"
+      Objectives:
+      - Craft;SMOKER;1
+      - Craft;BLAST_FURNACE;1
+      - Craft;CAMPFIRE;1
+      RewardCommands:
+      - "eco give [playerName] 150"
+      - "jobs exp [playerName] Crafter add 150"
+      - 'title [playerName] title {"text":"§a§lMisión completada!"}'
+      - 'title [playerName] subtitle {"text":"§fHas completado la búsqueda del artesano.!"}'
+      RewardDesc:
+      - "{#707070}Debe crear elementos específicos para completar!"
+      - ""
+      - "{#ffbb00}&lRecompensas"
+      - " &8- &e&l$&e150"
+      - " &8- {#ffbb00}150 &lXP"
+    '3':
+      Name: "Artesano 3"
+      Objectives:
+      - Craft;GLOWSTONE;1
+      - Craft;ANCHOR;1
+      - Craft;NETHERITE_INGOT;1
+      RewardCommands:
+      - "eco give [playerName] 300"
+      - "jobs exp [playerName] Crafter add 30"
+      - 'title [playerName] title {"text":"§a§lMisión completada!"}'
+      - 'title [playerName] subtitle {"text":"§fHas completado la búsqueda del artesano.!"}'
+      RewardDesc:
+      - "{#707070}Debe crear elementos específicos para completar!"
+      - ""
+      - "{#ffbb00}&lRecompensas"
+      - " &8- &e&l$&e300"
+      - " &8- {#ffbb00}300 &lXP"
+  Gui:
+    Item: CRAFTING_TABLE
+  Craft:
+    ARMOR_STAND:
+      income: 3.0
+      points: 3.0
+      experience: 2.5
+    ACACIA_WOOD:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    OAK_WOOD:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    DARK_OAK_WOOD:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    SPRUCE_WOOD:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    BIRCH_WOOD:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    JUNGLE_WOOD:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    RED_BANNER:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    ORANGE_BANNER:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    YELLOW_BANNER:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    LIME_BANNER:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    GREEN_BANNER:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    BLUE_BANNER:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    LIGHT_BLUE_BANNER:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    CYAN_BANNER:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    PURPLE_BANNER:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    MAGENTA_BANNER:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    PINK_BANNER:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    WHITE_BANNER:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    LIGHT_GRAY_BANNER:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    GRAY_BANNER:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    BROWN_BANNER:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    BLACK_BANNER:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    RED_BED:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    ORANGE_BED:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    YELLOW_BED:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    LIME_BED:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    GREEN_BED:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    BLUE_BED:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    LIGHT_BLUE_BED:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    CYAN_BED:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    PURPLE_BED:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    MAGENTA_BED:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    PINK_BED:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    WHITE_BED:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    LIGHT_GRAY_BED:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    GRAY_BED:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    BROWN_BED:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    BLACK_BED:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    BEACON:
+      income: 500.0
+      points: 100.0
+      experience: 100.0
+    BOOK:
+      income: 0.5
+      points: 0.5
+      experience: 0
+    BOOKSHELF:
+      income: 2.0
+      points: 2.0
+      experience: 1.0
+    BOWL:
+      income: 0.5
+      points: 0.5
+      experience: 0.1
+    BREWING_STAND:
+      income: 5.0
+      points: 5.0
+      experience: 3.5
+    BUCKET:
+      income: 2.5
+      points: 2.5
+      experience: 1.5
+    CAULDRON:
+      income: 5.0
+      points: 5.0
+      experience: 3.0
+    CHEST:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    CHEST_MINECART:
+      income: 0.1
+      points: 0.1
+      experience: 0
+    CLOCK:
+      income: 1.5
+      points: 1.5
+      experience: 1.0
+    COMPASS:
+      income: 1.5
+      points: 1.5
+      experience: 1.0
+    CRAFTING_TABLE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    DISPENSER:
+      income: 2.5
+      points: 2.5
+      experience: 2.0
+    DROPPER:
+      income: 2.5
+      points: 2.5
+      experience: 2.0
+    ENCHANTING_TABLE:
+      income: 50.0
+      points: 50.0
+      experience: 25.0
+    ENDER_CHEST:
+      income: 5.0
+      points: 5.0
+      experience: 4.0
+    FLOWER_POT:
+      income: 0.5
+      points: 0.5
+      experience: 0
+    FURNACE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    FURNACE_MINECART:
+      income: 0.5
+      points: 0.5
+      experience: 0
+    HOPPER:
+      income: 5.0
+      points: 5.0
+      experience: 3.5
+    HOPPER_MINECART:
+      income: 0.1
+      points: 0.1
+      experience: 0
+    IRON_BARS:
+      income: 2.0
+      points: 2.0
+      experience: 1.0
+    ITEM_FRAME:
+      income: 2.5
+      points: 2.5
+      experience: 1.0
+    JUKEBOX:
+      income: 5.0
+      points: 5.0
+      experience: 4.0
+    LADDER:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    LEAD:
+      income: 0.5
+      points: 0.5
+      experience: 0.1
+    LEVER:
+      income: 0.1
+      points: 0.1
+      experience: 0
+    LIGHT_WEIGHTED_PRESSURE_PLATE:
+      income: 5.0
+      points: 5.0
+      experience: 3.5
+    JACK_O_LANTERN:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    MINECART:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    NOTEBLOCK:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    PAINTING:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    OAK_SIGN:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    CRIMSON_SIGN:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    WARPED_SIGN:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    DARK_OAK_SIGN:
+      income: 1.0
+      points: 1.0
+      experience: 0
+    BIRCH_SIGN:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    SPRUCE_SIGN:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    JUNGLE_SIGN:
+      income: 1.0
+      points: 1.0
+      experience: 0.5.5
+    TNT:
+      income: 8.0
+      points: 8.0
+      experience: 6.5
+    TNT_MINECART:
+      income: 0.1
+      points: 0.1
+      experience: 0
+    TORCH:
+      income: 0.2
+      points: 0.2
+      experience: 0
+    TRAPPED_CHEST:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    TRIPWIRE_HOOK:
+      income: 1.5
+      points: 1.5
+      experience: 1.0
+    WRITABLE_BOOK:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    BARREL:
+      income: 2.5
+      points: 2.0
+      experience: 1.5
+    CAMPFIRE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    CARTOGRAPHY_TABLE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    COMPOSTER:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    CONDUIT:
+      income: 10.0
+      points: 5.0
+      experience: 5.0
+    FLETCHING_TABLE:
+      income: 2.0
+      points: 2.0
+      experience: 1.5
+    GRINDSTONE:
+      income: 1.5
+      points: 1.5
+      experience: 1.0
+    LECTERN:
+      income: 2.0
+      points: 2.0
+      experience: 1.5
+    SCAFFOLDING:
+      income: 0.1
+      points: 0.1
+      experience: 0.1
+    SMITHING_TABLE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    SMOKER:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    BLAST_FURNACE:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    STONECUTTER:
+      income: 1.0
+      points: 1.0
+      experience: 0.5
+    HONEY_BLOCK:
+      income: 5.0
+      points: 5.0
+      experience: 3.5
+    HONEY_BOTTLE:
+      income: 1.0
+      points: 1.0
+      experience: 0.1
+    HONEYCOMB:
+      income: 1.0
+      points: 1.0
+      experience: 0.1
+    HONEYCOMB_BLOCK:
+      income: 5.0
+      points: 5.0
+      experience: 3.5
+    SPYGLASS:
+      income: 3.0
+      points: 3.0
+      experience: 1.5
+    RED_CANDLE:
+      income: 0.5
+      points: 0.5
+      experience: 0.75
+    ORANGE_CANDLE:
+      income: 0.5
+      points: 0.5
+      experience: 0.75
+    YELLOW_CANDLE:
+      income: 0.5
+      points: 0.5
+      experience: 0.75
+    LIME_CANDLE:
+      income: 0.5
+      points: 0.5
+      experience: 0.75
+    GREEN_CANDLE:
+      income: 0.5
+      points: 0.5
+      experience: 0.75
+    BLUE_CANDLE:
+      income: 0.5
+      points: 0.5
+      experience: 0.75
+    LIGHT_BLUE_CANDLE:
+      income: 0.5
+      points: 0.5
+      experience: 0.75
+    CYAN_CANDLE:
+      income: 0.5
+      points: 0.5
+      experience: 0.75
+    PURPLE_CANDLE:
+      income: 0.5
+      points: 0.5
+      experience: 0.75
+    MAGENTA_CANDLE:
+      income: 0.5
+      points: 0.5
+      experience: 0.75
+    PINK_CANDLE:
+      income: 0.5
+      points: 0.5
+      experience: 0.75
+    WHITE_CANDLE:
+      income: 0.5
+      points: 0.5
+      experience: 0.75
+    LIGHT_GRAY_CANDLE:
+      income: 0.5
+      points: 0.5
+      experience: 0.75
+    GRAY_CANDLE:
+      income: 0.5
+      points: 0.5
+      experience: 0.75
+    BROWN_CANDLE:
+      income: 0.5
+      points: 0.5
+      experience: 0.75
+    BLACK_CANDLE:
+      income: 0.5
+      points: 0.5
+      experience: 0.75
+    CANDLE:
+      income: 0.5
+      points: 0.5
+      experience: 0.75
+    LIGHTNING_ROD:
+      income: 5.0
+      points: 5.0
+      experience: 2.5
+    TINTED_GLASS:
+      income: 3.5
+      points: 1.5
+      experience: 1.0

@@ -1,0 +1,25 @@
+medieval_hv1_background-layouts:
+  elements:
+    # HUD SUPERIOR (VIDA/COMIDA)
+    # Adaptado usando las coordenadas de 'elpe_hudupper'
+    stats_display:
+      asset: 'background_hud_top_medieval_hv1'
+      align: right
+      position:
+        x: 0
+        y: 92
+      offset:
+        x: 0
+        y: 0
+    
+    # HUD INFERIOR (HOTBAR/EXP)
+    # Adaptado usando las coordenadas de 'elpe_hud'
+    hotbar_display:
+      asset: 'background_hud_medieval_hv1'
+      align: center
+      position:
+        x: 50
+        y: 0
+      offset:
+        x: 0
+        y: 58

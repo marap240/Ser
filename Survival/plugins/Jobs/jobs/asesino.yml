@@ -1,0 +1,41 @@
+Asesino:
+  fullname: Asesino
+  shortname: A
+  displayName: "{#7a0505}Asesino"
+  FullDescription:
+  - "Gana dinero y xp matando jugadores."
+  ChatColour: DARK_RED
+  chat-display: shortjob
+  BossBarColour: RED
+  max-level: 100
+  leveling-progression-equation: 13*(joblevel)+(joblevel*joblevel*5)
+  income-progression-equation: baseincome+(baseincome*(joblevel-2)*0.01)-((baseincome+(baseincome*(joblevel-2)*0.01))
+      * ((numjobs-1)*0.01))
+  points-progression-equation: basepoints+(basepoints*(joblevel-2)*0.01)-((basepoints+(basepoints*(joblevel-2)*0.01))
+      * ((numjobs-1)*0.01))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  maxDailyQuests: 1
+  Quests:
+    '1':
+      Name: "Asesino 1"
+      Objectives:
+      - Kill;PLAYER;4
+      RewardCommands:
+      - "eco give [playerName] 300"
+      - "jobs exp [playerName] Asesino add 300"
+      - 'title [playerName] title {"text":"§a§lMisión completada!"}'
+      - 'title [playerName] subtitle {"text":"§fHas completado la misión de Asesino.!"}'
+      RewardDesc:
+      - "{#707070}Debes minar matar a 4 jugadores para completar!"
+      - ""
+      - "{#7a0505}&lRecompensas"
+      - " &8- &e&l$&e300"
+      - " &8- {#7a0505}300 &lXP"
+  Gui:
+    Item: SKELETON_SKULL
+  Kill:
+    PLAYER:
+      income: 25.0
+      points: 25.0
+      experience: 25.0

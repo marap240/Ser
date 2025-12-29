@@ -1,0 +1,257 @@
+ForjadorDeArmaduras:
+  fullname: ForjadorDeArmaduras
+  displayName: "{#6969f5}ForjadorDeArmaduras"
+  shortname: F
+  FullDescription:
+  - "Gana dinero y experiencia creando y reparando armaduras.."
+  ChatColour: BLUE
+  chat-display: shortjob
+  BossBarColour: BLUE
+  max-level: 100
+  leveling-progression-equation: 13*(joblevel)+(joblevel*joblevel*5)
+  income-progression-equation: baseincome+(baseincome*(joblevel-2)*0.01)-((baseincome+(baseincome*(joblevel-2)*0.01))
+      * ((numjobs-1)*0.01))
+  points-progression-equation: basepoints+(basepoints*(joblevel-2)*0.01)-((basepoints+(basepoints*(joblevel-2)*0.01))
+      * ((numjobs-1)*0.01))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  maxDailyQuests: 1
+  Quests:
+    '1':
+      Name: "Forjador De Armaduras 1"
+      Objectives:
+      - Craft;IRON_HELMET;1
+      - Craft;IRON_CHESTPLATE;1
+      - Craft;IRON_LEGGINGS;1
+      - Craft;IRON_BOOTS;1
+      RewardCommands:
+      - "eco give [playerName] 100"
+      - "jobs exp [playerName] ForjadorDeArmaduras add 100"
+      - 'title [playerName] title {"text":"§a§lMisión completada!"}'
+      - 'title [playerName] subtitle {"text":"§fHas completado la misión del forjador de armaduras.!"}'
+      RewardDesc:
+      - "{#707070}Debes fabricar un conjunto completo de armadura de hierro.!"
+      - ""
+      - "{#6969f5}&lRecompensas"
+      - " &8- &e&l$&e100"
+      - " &8- {#6969f5}100 &lXP"
+    '2':
+      Name: "Forjador De Armaduras 2"
+      Objectives:
+      - Craft;GOLDEN_HELMET;1
+      - Craft;GOLDEN_CHESTPLATE;1
+      - Craft;GOLDEN_LEGGINGS;1
+      - Craft;GOLDEN_BOOTS;1
+      RewardCommands:
+      - "eco give [playerName] 100"
+      - "jobs exp [playerName] ForjadorDeArmaduras add 100"
+      - 'title [playerName] title {"text":"§a§lMisión completada!"}'
+      - 'title [playerName] subtitle {"text":"§fHas completado la misión del forjador de armaduras.!"}'
+      RewardDesc:
+      - "{#707070}Debes crear un conjunto completo de armadura dorada.!"
+      - ""
+      - "{#6969f5}&lRecompensas"
+      - " &8- &e&l$&e100"
+      - " &8- {#6969f5}100 &lXP"
+    '3':
+      Name: "Forjador De Armaduras 3"
+      Objectives:
+      - Craft;DIAMOND_HELMET;1
+      - Craft;DIAMOND_CHESTPLATE;1
+      - Craft;DIAMOND_LEGGINGS;1
+      - Craft;DIAMOND_BOOTS;1
+      RewardCommands:
+      - "eco give [playerName] 500"
+      - "jobs exp [playerName] ForjadorDeArmaduras add 500"
+      - 'title [playerName] title {"text":"§a§lMisión completada!"}'
+      - 'title [playerName] subtitle {"text":"§fHas completado la misión del forjador de armaduras.!"}'
+      RewardDesc:
+      - "{#707070}Debes fabricar un conjunto completo de armadura de diamante.!"
+      - ""
+      - "{#6969f5}&lRecompensas"
+      - " &8- &e&l$&e500"
+      - " &8- {#6969f5}500 &lXP"
+  Gui:
+    Item: GOLDEN_CHESTPLATE
+  Craft:
+    LEATHER_HELMET:
+      income: 0.5
+      points: 0.5
+      experience: 0
+    LEATHER_CHESTPLATE:
+      income: 0.5
+      points: 0.5
+      experience: 0
+    LEATHER_LEGGINGS:
+      income: 0.5
+      points: 0.5
+      experience: 0
+    LEATHER_BOOTS:
+      income: 0.5
+      points: 0.5
+      experience: 0
+    CHAINMAIL_HELMET:
+      income: 1.5
+      points: 1.5
+      experience: 0.4
+    CHAINMAIL_CHESTPLATE:
+      income: 1.5
+      points: 1.5
+      experience: 0.4
+    CHAINMAIL_LEGGINGS:
+      income: 1.5
+      points: 1.5
+      experience: 0.4
+    CHAINMAIL_BOOTS:
+      income: 1.5
+      points: 1.5
+      experience: 0.4
+    IRON_HELMET:
+      income: 3.0
+      points: 3.0
+      experience: 1.0
+    IRON_CHESTPLATE:
+      income: 3.0
+      points: 3.0
+      experience: 1.0
+    IRON_LEGGINGS:
+      income: 3.0
+      points: 3.0
+      experience: 1.0
+    IRON_BOOTS:
+      income: 3.0
+      points: 0.5
+      experience: 1.0
+    GOLDEN_HELMET:
+      income: 3.0
+      points: 3.0
+      experience: 1.0
+    GOLDEN_CHESTPLATE:
+      income: 3.0
+      points: 3.0
+      experience: 1.0
+    GOLDEN_LEGGINGS:
+      income: 3.0
+      points: 3.0
+      experience: 1.0
+    GOLDEN_BOOTS:
+      income: 3.0
+      points: 3.0
+      experience: 1.0
+    DIAMOND_HELMET:
+      income: 10.0
+      points: 10.0
+      experience: 5.0
+    DIAMOND_CHESTPLATE:
+      income: 10.0
+      points: 10.0
+      experience: 5.0
+    DIAMOND_LEGGINGS:
+      income: 10.0
+      points: 10.0
+      experience: 5.0
+    DIAMOND_BOOTS:
+      income: 10.0
+      points: 10.0
+      experience: 5.0
+  Repair:
+    LEATHER_HELMET:
+      income: 0.5
+      points: 0.5
+      experience: 0
+    LEATHER_CHESTPLATE:
+      income: 0.5
+      points: 0.5
+      experience: 0
+    LEATHER_LEGGINGS:
+      income: 0.5
+      points: 0.5
+      experience: 0
+    LEATHER_BOOTS:
+      income: 0.5
+      points: 0.5
+      experience: 0
+    CHAINMAIL_HELMET:
+      income: 1.5
+      points: 1.5
+      experience: 0.4
+    CHAINMAIL_CHESTPLATE:
+      income: 1.5
+      points: 1.5
+      experience: 0.4
+    CHAINMAIL_LEGGINGS:
+      income: 1.5
+      points: 1.5
+      experience: 0.4
+    CHAINMAIL_BOOTS:
+      income: 1.5
+      points: 1.5
+      experience: 0.4
+    IRON_HELMET:
+      income: 3.0
+      points: 3.0
+      experience: 1.0
+    IRON_CHESTPLATE:
+      income: 3.0
+      points: 3.0
+      experience: 1.0
+    IRON_LEGGINGS:
+      income: 3.0
+      points: 3.0
+      experience: 1.0
+    IRON_BOOTS:
+      income: 3.0
+      points: 3.0
+      experience: 1.0
+    GOLDEN_HELMET:
+      income: 3.0
+      points: 3.0
+      experience: 1.0
+    GOLDEN_CHESTPLATE:
+      income: 3.0
+      points: 3.0
+      experience: 1.0
+    GOLDEN_LEGGINGS:
+      income: 3.0
+      points: 3.0
+      experience: 1.0
+    GOLDEN_BOOTS:
+      income: 3.0
+      points: 3.0
+      experience: 1.0
+    DIAMOND_HELMET:
+      income: 10.0
+      points: 10.0
+      experience: 5.0
+    DIAMOND_CHESTPLATE:
+      income: 10.0
+      points: 10.0
+      experience: 5.0
+    DIAMOND_LEGGINGS:
+      income: 10.0
+      points: 10.0
+      experience: 5.0
+    DIAMOND_BOOTS:
+      income: 10.0
+      points: 10.0
+      experience: 5.0
+    TURTLE_HELMET:
+      income: 4.5
+      points: 4.5
+      experience: 3.0
+    NETHERITE_HELMET:
+      income: 25.0
+      points: 25.0
+      experience: 10.0
+    NETHERITE_CHESTPLATE:
+      income: 25.0
+      points: 25.0
+      experience: 10.0
+    NETHERITE_LEGGINGS:
+      income: 25.0
+      points: 25.0
+      experience: 10.0
+    NETHERITE_BOOTS:
+      income: 25.0
+      points: 25.0
+      experience: 10.0

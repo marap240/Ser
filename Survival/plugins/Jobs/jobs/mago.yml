@@ -1,0 +1,495 @@
+Mago:
+  fullname: Mago
+  shortname: M
+  displayName: "{#8f04b5}Mago"
+  FullDescription:
+  - "Gana dinero y xp encantando artículos."
+  ChatColour: DARK_PURPLE
+  chat-display: shortjob
+  BossBarColour: PURPLE
+  max-level: 100
+  leveling-progression-equation: 13*(joblevel)+(joblevel*joblevel*5)
+  income-progression-equation: baseincome+(baseincome*(joblevel-2)*0.01)-((baseincome+(baseincome*(joblevel-2)*0.01))
+      * ((numjobs-1)*0.01))
+  points-progression-equation: basepoints+(basepoints*(joblevel-2)*0.01)-((basepoints+(basepoints*(joblevel-2)*0.01))
+      * ((numjobs-1)*0.01))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  maxDailyQuests: 1
+  Quests:
+    '1':
+      Name: "Mago 1"
+      Objectives:
+      - Enchant;DURABILITY-1;1
+      RewardCommands:
+      - "eco give [playerName] 100"
+      - "jobs exp [playerName] Mago add 100"
+      - 'title [playerName] title {"text":"§a§lMisión completada!"}'
+      - 'title [playerName] subtitle {"text":"§fHas completado la búsqueda del mago!"}'
+      RewardDesc:
+      - "{#707070}¡Debes encantar y desbloquear I para completarlo!"
+      - ""
+      - "{#8f04b5}&lRecompensas"
+      - " &8- &e&l$&e100"
+      - " &8- {#8f04b5}100 &lXP"
+    '2':
+      Name: "Mago 1"
+      Objectives:
+      - Enchant;MENDING-1;1
+      RewardCommands:
+      - "eco give [playerName] 500"
+      - "jobs exp [playerName] Mago add 500"
+      - 'title [playerName] title {"text":"§a§lMisión completada!"}'
+      - 'title [playerName] subtitle {"text":"§fHas completado la búsqueda del mago!"}'
+      RewardDesc:
+      - "{#707070}Debes encantar y reparar I para completar!"
+      - ""
+      - "{#8f04b5}&lRecompensas"
+      - " &8- &e&l$&e500"
+      - " &8- {#8f04b5}500 &lXP"
+    '3':
+      Name: "Mago 3"
+      Objectives:
+      - Enchant;PROTECTION_ENVIRONMENTAL-1;1
+      RewardCommands:
+      - "eco give [playerName] 200"
+      - "jobs exp [playerName] Tamer add 200"
+      - 'title [playerName] title {"text":"§a§lMisión completada!"}'
+      - 'title [playerName] subtitle {"text":"§fHas completado la búsqueda del mago!"}'
+      RewardDesc:
+      - "{#707070}Debes encantar y obtener protección I para completar!"
+      - ""
+      - "{#8f04b5}&lRecompensas"
+      - " &8- &e&l$&e200"
+      - " &8- {#8f04b5}200 &lXP"
+  Gui:
+    Item: ENCHANTING_TABLE
+  Enchant:
+    DURABILITY-1:
+      income: 1.0
+      points: 1.5
+      experience: 1.0
+    DURABILITY-2:
+      income: 1.5
+      points: 2.0
+      experience: 1.5
+    DURABILITY-3:
+      income: 2.0
+      points: 2.5
+      experience: 2.0
+    PROTECTION_ENVIRONMENTAL-1:
+      income: 1.5
+      points: 2.0
+      experience: 1.5
+    PROTECTION_ENVIRONMENTAL-2:
+      income: 2.0
+      points: 2.5
+      experience: 2.0
+    PROTECTION_ENVIRONMENTAL-3:
+      income: 2.5
+      points: 3.0
+      experience: 2.5
+    PROTECTION_ENVIRONMENTAL-4:
+      income: 3.0
+      points: 3.5
+      experience: 3.0
+    THORNS-1:
+      income: 1.0
+      points: 1.5
+      experience: 1.0
+    THORNS-2:
+      income: 1.5
+      points: 2.0
+      experience: 1.5
+    THORNS-3:
+      income: 2.0
+      points: 2.5
+      experience: 2.0
+    DAMAGE_UNDEAD-1:
+      income: 2.5
+      points: 1.0
+      experience: 2.5
+    DAMAGE_UNDEAD-2:
+      income: 3.0
+      points: 1.5
+      experience: 3.0
+    DAMAGE_UNDEAD-3:
+      income: 3.5
+      points: 2.0
+      experience: 3.5
+    DAMAGE_UNDEAD-4:
+      income: 4.0
+      points: 2.5
+      experience: 4.0
+    DAMAGE_UNDEAD-5:
+      income: 4.5
+      points: 3.0
+      experience: 4.5
+    SILK_TOUCH-1:
+      income: 2.0
+      points: 1.5
+      experience: 2.0
+    DAMAGE_ALL-1:
+      income: 3.0
+      points: 2.5
+      experience: 3.0
+    DAMAGE_ALL-2:
+      income: 4.0
+      points: 3.5
+      experience: 4.0
+    DAMAGE_ALL-3:
+      income: 5.0
+      points: 4.5
+      experience: 5.0
+    DAMAGE_ALL-4:
+      income: 6.0
+      points: 5.5
+      experience: 6.0
+    DAMAGE_ALL-5:
+      income: 7.0
+      points: 6.5
+      experience: 7.0
+    DIG_SPEED-1:
+      income: 2.5
+      points: 1.5
+      experience: 5.0
+    DIG_SPEED-2:
+      income: 3.0
+      points: 2.0
+      experience: 5.5
+    DIG_SPEED-3:
+      income: 3.5
+      points: 2.5
+      experience: 6.0
+    DIG_SPEED-4:
+      income: 4.0
+      points: 3.0
+      experience: 6.5
+    DIG_SPEED-5:
+      income: 4.5
+      points: 3.5
+      experience: 7.0
+    FIRE_ASPECT-1:
+      income: 1.0
+      points: 2.0
+      experience: 3.0
+    FIRE_ASPECT-2:
+      income: 2.0
+      points: 4.0
+      experience: 6.0
+    LOOT_BONUS_BLOCKS-1:
+      income: 5.0
+      points: 5.0
+      experience: 10.0
+    LOOT_BONUS_BLOCKS-2:
+      income: 10.0
+      points: 10.0
+      experience: 20.0
+    LOOT_BONUS_BLOCKS-3:
+      income: 15.0
+      points: 15.0
+      experience: 30.0
+    LOOT_BONUS_MOBS-1:
+      income: 5.0
+      points: 5.0
+      experience: 10.0
+    LOOT_BONUS_MOBS-2:
+      income: 10.0
+      points: 10.0
+      experience: 20.0
+    LOOT_BONUS_MOBS-3:
+      income: 15.0
+      points: 15.0
+      experience: 30.0
+    OXYGEN-1:
+      income: 2.0
+      points: 2.0
+      experience: 1.0
+    OXYGEN-2:
+      income: 4.0
+      points: 4.0
+      experience: 2.0
+    OXYGEN-3:
+      income: 8.0
+      points: 8.0
+      experience: 4.0
+    PROTECTION_FIRE-1:
+      income: 1.5
+      points: 2.0
+      experience: 1.5
+    PROTECTION_FIRE-2:
+      income: 2.0
+      points: 2.5
+      experience: 2.0
+    PROTECTION_FIRE-3:
+      income: 2.5
+      points: 3.0
+      experience: 2.5
+    PROTECTION_FIRE-4:
+      income: 3.0
+      points: 3.5
+      experience: 3.0
+    PROTECTION_EXPLOSIONS-1:
+      income: 1.5
+      points: 2.0
+      experience: 1.5
+    PROTECTION_EXPLOSIONS-2:
+      income: 2.0
+      points: 2.5
+      experience: 2.0
+    PROTECTION_EXPLOSIONS-3:
+      income: 2.5
+      points: 3.0
+      experience: 2.5
+    PROTECTION_EXPLOSIONS-4:
+      income: 3.0
+      points: 3.5
+      experience: 3.0
+    PROTECTION_FALL-1:
+      income: 1.5
+      points: 2.0
+      experience: 1.5
+    PROTECTION_FALL-2:
+      income: 2.0
+      points: 2.5
+      experience: 2.0
+    PROTECTION_FALL-3:
+      income: 2.5
+      points: 3.0
+      experience: 2.5
+    PROTECTION_FALL-4:
+      income: 3.0
+      points: 3.5
+      experience: 3.0
+    PROTECTION_PROJECTILE-1:
+      income: 1.5
+      points: 2.0
+      experience: 1.5
+    PROTECTION_PROJECTILE-2:
+      income: 2.0
+      points: 2.5
+      experience: 2.0
+    PROTECTION_PROJECTILE-3:
+      income: 2.5
+      points: 3.0
+      experience: 2.5
+    PROTECTION_PROJECTILE-4:
+      income: 3.0
+      points: 3.5
+      experience: 3.0
+    WATER_WORKER:
+      income: 2.0
+      points: 2.5
+      experience: 3.0
+    ARROW_INFINITE:
+      income: 6.0
+      points: 8.0
+      experience: 5.0
+    ARROW_KNOCKBACK-1:
+      income: 2.0
+      points: 2.5
+      experience: 3.0
+    ARROW_KNOCKBACK-2:
+      income: 3.0
+      points: 4.0
+      experience: 5.0
+    ARROW_FIRE:
+      income: 3.0
+      points: 3.5
+      experience: 2.5
+    ARROW_DAMAGE-1:
+      income: 2.0
+      points: 2.5
+      experience: 3.0
+    ARROW_DAMAGE-2:
+      income: 3.0
+      points: 4.0
+      experience: 5.0
+    ARROW_DAMAGE-3:
+      income: 4.0
+      points: 5.0
+      experience: 6.0
+    ARROW_DAMAGE-4:
+      income: 5.0
+      points: 6.0
+      experience: 7.0
+    ARROW_DAMAGE-5:
+      income: 6.0
+      points: 7.0
+      experience: 8.0
+    DAMAGE_ARTHROPODS-1:
+      income: 2.0
+      points: 2.5
+      experience: 3.0
+    DAMAGE_ARTHROPODS-2:
+      income: 3.0
+      points: 4.0
+      experience: 5.0
+    DAMAGE_ARTHROPODS-3:
+      income: 4.0
+      points: 5.0
+      experience: 6.0
+    DAMAGE_ARTHROPODS-4:
+      income: 5.0
+      points: 6.0
+      experience: 7.0
+    DAMAGE_ARTHROPODS-5:
+      income: 6.0
+      points: 7.0
+      experience: 8.0
+    DEPTH_STRIDER-1:
+      income: 1.0
+      points: 1.5
+      experience: 1.5
+    DEPTH_STRIDER-2:
+      income: 2.5
+      points: 3.5
+      experience: 3.5
+    DEPTH_STRIDER-3:
+      income: 3.0
+      points: 4.0
+      experience: 4.0
+    LURE-1:
+      income: 1.0
+      points: 1.5
+      experience: 1.5
+    LURE-2:
+      income: 2.5
+      points: 3.5
+      experience: 3.5
+    LURE-3:
+      income: 3.0
+      points: 4.0
+      experience: 4.0
+    LUCK_OF_THE_SEA-1:
+      income: 1.0
+      points: 1.5
+      experience: 1.5
+    LUCK_OF_THE_SEA-2:
+      income: 2.5
+      points: 3.5
+      experience: 3.5
+    LUCK_OF_THE_SEA-3:
+      income: 3.0
+      points: 4.0
+      experience: 4.0
+    CHANNELING-1:
+      income: 10.0
+      points: 8.0
+      experience: 8.0
+    FROST_WALKER-1:
+      income: 5.0
+      points: 4.0
+      experience: 4.0
+    FROST_WALKER-2:
+      income: 8.0
+      points: 5.0
+      experience: 5.0
+    IMPALING-1:
+      income: 2.5
+      points: 3.0
+      experience: 3.0
+    IMPALING-2:
+      income: 3.0
+      points: 3.5
+      experience: 3.5
+    IMPALING-3:
+      income: 3.5
+      points: 4.0
+      experience: 4.0
+    IMPALING-4:
+      income: 4.0
+      points: 4.5
+      experience: 4.5
+    IMPALING-5:
+      income: 4.5
+      points: 5.0
+      experience: 5.0
+    KNOCKBACK-1:
+      income: 2.0
+      points: 1.0
+      experience: 1.0
+    KNOCKBACK-2:
+      income: 4.0
+      points: 2.0
+      experience: 2.0
+    LOYALTY-1:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    LOYALTY-2:
+      income:  10.0
+      points: 10.0
+      experience: 10.0
+    LOYALTY-3:
+      income: 15.0
+      points: 15.0
+      experience: 15.0
+    MULTISHOT-1:
+      income: 20.0
+      points: 20.0
+      experience: 10.0
+    PIERCING-1:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    PIERCING-2:
+      income: 10.0
+      points: 10.0
+      experience: 10.0
+    PIERCING-3:
+      income: 20.0
+      points: 20.0
+      experience: 20.0
+    PIERCING-4:
+      income: 50.0
+      points: 50.0
+      experience: 50.0
+    QUICK_CHARGE-1:
+      income: 2.0
+      points: 2.0
+      experience: 2.0
+    QUICK_CHARGE-2:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    QUICK_CHARGE-3:
+      income: 10.0
+      points: 10.0
+      experience: 10.0
+    SOUL_SPEED-1:
+      income: 2.0
+      points: 2.0
+      experience: 2.0
+    SOUL_SPEED-2:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    SOUL_SPEED-3:
+      income: 10.0
+      points: 10.0
+      experience: 10.0
+    SWEEPING_EDGE-1:
+      income: 2.0
+      points: 2.0
+      experience: 2.0
+    SWEEPING_EDGE-2:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    SWEEPING_EDGE-3:
+      income: 10.0
+      points: 10.0
+      experience: 10.0
+    RIPTIDE-1:
+      income: 2.0
+      points: 2.0
+      experience: 2.0
+    RIPTIDE-2:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    RIPTIDE-3:
+      income: 10.0
+      points: 10.0
+      experience: 10.0

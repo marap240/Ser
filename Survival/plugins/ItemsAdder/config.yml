@@ -33,7 +33,7 @@ resource-pack:
             trigger_on_failed_times: 5
     external-host:
       enabled: true
-      url: https://download.mc-packs.net/pack/4f1627bfc6e16af77e7e239b2b371b855c1e84d6.zip
+      url: https://download.mc-packs.net/pack/3e7317d13fff29f49d75cd553acd4c6366c8a034.zip
       skip-url-file-type-check___DONT_ASK_HELP_IF_SET_TRUE: false
   title:
     enabled: true
@@ -205,7 +205,7 @@ font_images:
     enabled: false
     update-every-ticks: 3600
 text_effects:
-  enabled: true
+  enabled: false
   hide_scoreboard_numbers: false
   hide_scoreboard_numbers_old_clients: false
   legacy_colors_compatibility: true

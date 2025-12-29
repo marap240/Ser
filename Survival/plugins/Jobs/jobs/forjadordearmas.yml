@@ -1,0 +1,328 @@
+ForjadorDeArmas:
+  fullname: ForjadorDeArmas
+  shortname: H
+  displayName: "{#abffe0}ForjadorDeArmas"
+  FullDescription:
+  - "Gana dinero y experiencia creando y reparando artículos."
+  ChatColour: AQUA
+  chat-display: shortjob
+  BossBarColour: BLUE
+  max-level: 100
+  leveling-progression-equation: 13*(joblevel)+(joblevel*joblevel*5)
+  income-progression-equation: baseincome+(baseincome*(joblevel-2)*0.01)-((baseincome+(baseincome*(joblevel-2)*0.01))
+      * ((numjobs-1)*0.01))
+  points-progression-equation: basepoints+(basepoints*(joblevel-2)*0.01)-((basepoints+(basepoints*(joblevel-2)*0.01))
+      * ((numjobs-1)*0.01))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  maxDailyQuests: 1
+  Quests:
+    '1':
+      Name: "Forjador De Armas 1"
+      Objectives:
+      - Craft;IRON_SWORD;1
+      - Craft;IRON_PICKAXE;1
+      - Craft;IRON_AXE;1
+      - Craft;IRON_SHOVEL;1
+      - Craft;IRON_HOE;1
+      RewardCommands:
+      - "eco give [playerName] 100"
+      - "jobs exp [playerName] ForjadorDeArmas add 100"
+      - 'title [playerName] title {"text":"§a§¡Misión completada!"}'
+      - 'title [playerName] subtitle {"text":"§fHas completado esta misión de herrero.!"}'
+      RewardDesc:
+      - "{#707070}¡Debes fabricar un conjunto completo de armas de hierro!"
+      - ""
+      - "{#abffe0}&lRecompensas"
+      - " &8- &e&l$&e100"
+      - " &8- {#abffe0}100 &lXP"
+    '2':
+      Name: "Forjador De Armas 2"
+      Objectives:
+      - Craft;GOLDEN_SWORD;1
+      - Craft;GOLDEN_PICKAXE;1
+      - Craft;GOLDEN_AXE;1
+      - Craft;GOLDEN_SHOVEL;1
+      - Craft;GOLDEN_HOE;1
+      RewardCommands:
+      - "eco give [playerName] 100"
+      - "jobs exp [playerName] ForjadorDeArmas add 100"
+      - 'title [playerName] title {"text":"§a§¡Misión completada!"}'
+      - 'title [playerName] subtitle {"text":"§fHas completado esta misión de herrero.!"}'
+      RewardDesc:
+      - "{#707070}Debes fabricar un conjunto completo de armas doradas.!"
+      - ""
+      - "{#abffe0}&lRecompensas"
+      - " &8- &e&l$&e100"
+      - " &8- {#abffe0}100 &lXP"
+    '3':
+      Name: "Forjador De Armas 3"
+      Objectives:
+      - Craft;DIAMOND_SWORD;1
+      - Craft;DIAMOND_PICKAXE;1
+      - Craft;DIAMOND_AXE;1
+      - Craft;DIAMOND_SHOVEL;1
+      - Craft;DIAMOND_HOE;1
+      RewardCommands:
+      - "eco give [playerName] 500"
+      - "jobs exp [playerName] ForjadorDeArmas add 500"
+      - 'title [playerName] title {"text":"§a§¡Misión completada!"}'
+      - 'title [playerName] subtitle {"text":"§fHas completado esta misión de herrero.!"}'
+      RewardDesc:
+      - "{#707070}Debes fabricar un conjunto completo de armas de diamantes.!"
+      - ""
+      - "{#abffe0}&lRecompensas"
+      - " &8- &e&l$&e500"
+      - " &8- {#abffe0}500 &lXP"
+  Gui:
+    Item: ANVIL
+  Craft:
+    WOODEN_SWORD:
+      income: 0.5
+      points: 0.5
+      experience: 0
+    WOODEN_PICKAXE:
+      income: 0.5
+      points: 0.5
+      experience: 0
+    WOODEN_AXE:
+      income: 0.5
+      points: 0.5
+      experience: 0
+    WOODEN_SHOVEL:
+      income: 0.5
+      points: 0.5
+      experience: 0
+    WOODEN_HOE:
+      income: 0.5
+      points: 0.5
+      experience: 0
+    STONE_SWORD:
+      income: 1.5
+      points: 1.5
+      experience: 0.4
+    STONE_PICKAXE:
+      income: 1.5
+      points: 1.5
+      experience: 0.4
+    STONE_AXE:
+      income: 1.5
+      points: 1.5
+      experience: 0.4
+    STONE_SHOVEL:
+      income: 1.5
+      points: 1.5
+      experience: 0.4
+    STONE_HOE:
+      income: 1.5
+      points: 1.5
+      experience: 0.4
+    IRON_SWORD:
+      income: 3.0
+      points: 3.0
+      experience: 1.0
+    IRON_PICKAXE:
+      income: 3.0
+      points: 3.0
+      experience: 1.0
+    IRON_AXE:
+      income: 3.0
+      points: 3.0
+      experience: 1.0
+    IRON_SHOVEL:
+      income: 0.5
+      points: 0.5
+      experience: 0
+    IRON_HOE:
+      income: 3.0
+      points: 3.0
+      experience: 1.0
+    GOLDEN_SWORD:
+      income: 3.0
+      points: 3.0
+      experience: 1.0
+    GOLDEN_PICKAXE:
+      income: 3.0
+      points: 3.0
+      experience: 1.0
+    GOLDEN_AXE:
+      income: 3.0
+      points: 3.0
+      experience: 1.0
+    GOLDEN_SHOVEL:
+      income: 0.5
+      points: 0.5
+      experience: 0
+    GOLDEN_HOE:
+      income: 3.0
+      points: 3.0
+      experience: 1.0
+    DIAMOND_SWORD:
+      income: 10.0
+      points: 10.0
+      experience: 5.0
+    DIAMOND_PICKAXE:
+      income: 10.0
+      points: 10.0
+      experience: 5.0
+    DIAMOND_AXE:
+      income: 10.0
+      points: 10.0
+      experience: 5.0
+    DIAMOND_SHOVEL:
+      income: 10.0
+      points: 10.0
+      experience: 5.0
+    DIAMOND_HOE:
+      income: 10.0
+      points: 10.0
+      experience: 5.0
+    BOW:
+      income: 2.5
+      points: 2.5
+      experience: 1.5
+    CROSSBOW:
+      income: 2.5
+      points: 2.5
+      experience: 1.5
+    SHIELD:
+      income: 2.0
+      points: 2.0
+      experience: 1.0
+  Repair:
+    WOODEN_SWORD:
+      income: 0.5
+      points: 0.5
+      experience: 0
+    WOODEN_PICKAXE:
+      income: 0.5
+      points: 0.5
+      experience: 0
+    WOODEN_AXE:
+      income: 0.5
+      points: 0.5
+      experience: 0
+    WOODEN_SHOVEL:
+      income: 0.5
+      points: 0.5
+      experience: 0
+    WOODEN_HOE:
+      income: 0.5
+      points: 0.5
+      experience: 0
+    STONE_SWORD:
+      income: 1.5
+      points: 1.5
+      experience: 0.4
+    STONE_PICKAXE:
+      income: 1.5
+      points: 1.5
+      experience: 0.4
+    STONE_AXE:
+      income: 1.5
+      points: 1.5
+      experience: 0.4
+    STONE_SHOVEL:
+      income: 1.5
+      points: 1.5
+      experience: 0.4
+    STONE_HOE:
+      income: 1.5
+      points: 1.5
+      experience: 0.4
+    IRON_SWORD:
+      income: 3.0
+      points: 3.0
+      experience: 1.0
+    IRON_PICKAXE:
+      income: 3.0
+      points: 3.0
+      experience: 1.0
+    IRON_AXE:
+      income: 3.0
+      points: 3.0
+      experience: 1.0
+    IRON_SHOVEL:
+      income: 0.5
+      points: 0.5
+      experience: 0
+    IRON_HOE:
+      income: 3.0
+      points: 3.0
+      experience: 1.0
+    GOLDEN_SWORD:
+      income: 3.0
+      points: 3.0
+      experience: 1.0
+    GOLDEN_PICKAXE:
+      income: 3.0
+      points: 3.0
+      experience: 1.0
+    GOLDEN_AXE:
+      income: 3.0
+      points: 3.0
+      experience: 1.0
+    GOLDEN_SHOVEL:
+      income: 0.5
+      points: 0.5
+      experience: 0
+    GOLDEN_HOE:
+      income: 3.0
+      points: 3.0
+      experience: 1.0
+    DIAMOND_SWORD:
+      income: 10.0
+      points: 10.0
+      experience: 5.0
+    DIAMOND_PICKAXE:
+      income: 10.0
+      points: 10.0
+      experience: 5.0
+    DIAMOND_AXE:
+      income: 10.0
+      points: 10.0
+      experience: 5.0
+    DIAMOND_SHOVEL:
+      income: 10.0
+      points: 10.0
+      experience: 5.0
+    DIAMOND_HOE:
+      income: 10.0
+      points: 10.0
+      experience: 5.0
+    BOW:
+      income: 2.5
+      points: 2.5
+      experience: 1.5
+    CROSSBOW:
+      income: 2.5
+      points: 2.5
+      experience: 1.5
+    SHIELD:
+      income: 2.0
+      points: 2.0
+      experience: 1.0
+    NETHERITE_SWORD:
+      income: 25.0
+      points: 25.0
+      experience: 10.0
+    NETHERITE_PICKAXE:
+      income: 25.0
+      points: 25.0
+      experience: 10.0
+    NETHERITE_AXE:
+      income: 25.0
+      points: 25.0
+      experience: 10.0
+    NETHERITE_SHOVEL:
+      income: 25.0
+      points: 25.0
+      experience: 10.0
+    NETHERITE_HOE:
+      income: 25.0
+      points: 25.0
+      experience: 10.0
+    TRIDENT:
+      income: 5.0
+      points: 5.0
+      experience: 2.5

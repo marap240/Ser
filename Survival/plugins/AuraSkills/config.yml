@@ -81,7 +81,7 @@ hooks:
   Nexo:
     enabled: true
 action_bar:
-  enabled: true
+  enabled: false
   idle: true
   ability: true
   xp: false

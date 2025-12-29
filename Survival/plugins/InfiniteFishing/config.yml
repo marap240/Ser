@@ -30,8 +30,8 @@ disable-season-notification: false
 # Fishing Configuration
 fish-evaluation: true # Enable fish evaluation
 fish-evaluation-chance: 0.3 # Chance to catch a fish with unknown rarity (0.0 - 1.0) (0.3 = 30%)
-fish-evaluation-custom: false # Use a custom resource-pack evaluator
-fish-evaluation-custom-offset: "" # Custom resource-pack evaluator offset
+fish-evaluation-custom: true # Use a custom resource-pack evaluator
+fish-evaluation-custom-offset: "" # Custom resource-pack evaluator offset
 fish-evaluation-custom-symbol: "큓" # Custom resource-pack evaluator symbol
 fish-include-vanilla-loot: true # Include vanilla loot in the fish loot table
 fish-vanila-loot-chance: 0.1 # Chance to catch vanilla loot (0.0 - 1.0) (0.1 = 10%)

@@ -7,7 +7,7 @@
 # Default language.
 # Example: en, ru
 # File in locale folder with same name should exist. Example: messages_ru.yml
-locale-language: en
+locale-language: es
 storage:
   # storage method, can be MySQL or sqlite
   method: sqlite
@@ -77,7 +77,7 @@ Optimizations:
     Delay: 15
   # When set to true players who gets negative experience can delevel job up to level 1
   # ATTENTION! Set it to true only if you certain that commands performed on level up will not cause issues if player start level and delevel in a row.
-  AllowDelevel: false
+  AllowDelevel: true
   # Enabling this option some places will indicate players level as XIV instead of 14
   # Only or player levels
   RomanNumbers: false
@@ -89,8 +89,7 @@ Optimizations:
     # the payments will only works in the given worlds.
     UseAsWhiteList: false
     List:
-    - Example
-    - Worlds
+    - world
   Explore:
     # Do you want to use new exploration tracking method. Only for 1.16+ servers
     NewMethod: true
@@ -106,20 +105,39 @@ Logging:
 broadcast:
   on-skill-up:
     # Do all players get a message when someone goes up a skill level?
-    use: false
+    use: true
   on-level-up:
     # Do all players get a message when someone goes up a level?
-    use: false
+    use: true
     # For what levels you want to broadcast message? Keep it at 0 if you want for all of them
     levels:
-    - 0
+    - 5
+    - 10
+    - 15
+    - 20
+    - 25
+    - 30
+    - 35
+    - 40
+    - 45
+    - 50
+    - 55
+    - 60
+    - 65
+    - 70
+    - 75
+    - 80
+    - 85
+    - 90
+    - 95
+    - 100
 DailyQuests:
   # Enables or disables daily quests
-  Enabled: false
+  Enabled: true
   # Defines time in 24hour format when we want to give out new daily quests
   # Any daily quests given before reset will be invalid and new ones will be given out
   ResetTime:
-    Hour: 4
+    Hour: 24
     Minute: 0
   # Defines amount of skips player can do on a quest
   # This allows player to abandon current quest and get new one
@@ -201,15 +219,13 @@ allow-pay-for-durability-loss:
   # What items (tools) are whitelisted the player get paid, when this item has durability loss?
   # Enchantments are supported, usage:
   # itemName=ENCHANTMENT_NAME-level
-  WhiteListedItems:
-  - wooden_pickaxe=DURABILITY-1
-  - fishing_rod
+  WhiteListedItems: []
 # Modifys chat to add chat titles. If you're using a chat manager, you may add the tag {jobs} to your chat format and disable this.
 modify-chat:
-  use: false
-  prefix: '&c['
-  suffix: '&c]&r '
-  separator: ' '
+  use: true
+  prefix: '{#808080}['
+  suffix: '{#808080}]'
+  separator: ' {#808080}┃ &r'
 # Do you want to use custom item/block/mob/enchant/color names?
 # With this set to true names like Stone:1 will be translated to Granite
 # Name list is in TranslatableWords.yml file
@@ -269,7 +285,7 @@ Economy:
   DynamicPayment:
     # Do you want to use dynamic payment dependent on how many players already working for jobs?
     # This can help automatically lift up payments for not so popular jobs and lower for most popular ones
-    use: false
+    use: true
     # totalworkers: The total number of players on the server who have jobs
     # totaljobs: The number of jobs that are enabled
     # jobstotalplayers: The number of people in that particular job
@@ -288,13 +304,13 @@ Economy:
   # If this account don't have enough money to pay for players for, player will get message
   UseServerAccount: false
   # Username should be with Correct capitalization
-  AccountName: Server
+  AccountName: YourNetwork
   Taxes:
     # Do you want to use taxes feature for jobs payment?
     # You can bypass taxes with permission jobs.tax.bypass
     use: false
     # Username should be with Correct capitalization, it can be same as setup in server account before
-    AccountName: Server
+    AccountName: YourNetwork
     # Amount in percentage. You can grant money and points permissions (jobs.tax.money.amount, jobs.tax.points.amount) for taxes.
     Amount: 15.0
     # Do you want to transfer taxes to server account?
@@ -378,7 +394,7 @@ Economy:
     PayForRenaming: true
   Enchant:
     # Do you want to give money for enchanting items in anvil?
-    PayForEnchantingOnAnvil: true
+    PayForEnchantingOnAnvil: false
     # Do you want to allow players to enchant their boosted items?
     AllowEnchantingBoostedItems: true
   Crafting:
@@ -389,7 +405,7 @@ Economy:
     PayForCombiningItems: true
   VTrade:
     # With this true, player will get money for all trade items instead of each trade action
-    payForEachTradeItem: false
+    payForEachTradeItem: true
   MilkingCow:
     # With this true, when timer is still going, cow milking event will be canceled
     # With this false, player will get bucket of milk, but still no payment
@@ -406,10 +422,10 @@ ExploitProtections:
     # This can be overridden with jobs.maxfurnaces.[amount] permission node
     MaxDefaultAvailable: 20
   BlastFurnaces:
-    Reassign: false
+    Reassign: true
     MaxDefaultAvailable: 15
   Smokers:
-    Reassign: false
+    Reassign: true
     MaxDefaultAvailable: 15
   BrewingStands:
     # When enabled, players interacted brewing stands will be saved into file and will be reassigned after restart to keep giving out money
@@ -479,7 +495,7 @@ ExploitProtections:
   # MythicMobs plugin support
   # Disable if you having issues with it or using old version
   MythicMobs:
-    enabled: true
+    enabled: false
   # CustomFishing plugin support (Optional)
   # If setting is enabled, Fish and PyroFishingPro actions are disabled and only CustomFishing action is enabled.
   # Leave it disabled if you're not experiencing issues because of CustomFishing Plugin.
@@ -488,9 +504,9 @@ ExploitProtections:
   Smelt:
     # Prevent payments when hoppers moving items into furnace
     # Player will not get paid, but items will be smelted
-    PreventHopperFillUps: false
+    PreventHopperFillUps: true
   Brew:
-    PreventBrewingStandFillUps: false
+    PreventBrewingStandFillUps: true
   # Do you want to show informational message when payments from blocks gets disabled due to hopper transfers
   informOnPaymentDisable: true
 # Breeder finder.
@@ -531,7 +547,7 @@ BossBar:
     DefaultState: Batched
   # Defines in how many parts bossbar will be split visually
   # Valid options: 1, 6, 10, 12, 20
-  SegmentCount: 1
+  SegmentCount: 20
   # How long in sec to show BossBar for player
   Timer: 6
 # You can enable/disable message shown for players in action bar
@@ -580,7 +596,7 @@ Fireworks:
     ShootTime: 20
 # You can disable this to save SMALL amount of server resources
 Signs:
-  Enable: true
+  Enable: false
   Colors:
     ColorizeJobName: true
   # This is update for same job signs, to avoid huge lag if you have bunch of same type signs. Keep it from 1 to as many sec you want
@@ -589,7 +605,7 @@ Scoreboard:
   # This will enable to show top list in scoreboard instead of chat
   ShowToplist: true
   # For how long to show scoreboard
-  interval: 10
+  interval: 60
 JobsBrowse:
   # Do you want to show total amount of workers for job in jobs browse window?
   ShowTotalWorkers: true
@@ -664,11 +680,11 @@ JobsGUI:
     SCRAPE:
     - WOODEN_AXE
   # Do you want to show chat information when performing /jobs browse command?
-  ShowChatBrowse: true
+  ShowChatBrowse: false
   # With true left mouse button will join job and right will show more info.
   # With false left mouse button will show more info, right will join job or inversely.
   # Don't forget to adjust locale file!
-  SwitcheButtons: false
+  SwitcheButtons: true
   # Allows players to join a specified job via GUI.
   DisableJoiningJobThroughGui: false
   # Do you want to show the action names in GUI?
@@ -702,7 +718,7 @@ Commands:
   PageRow:
     JobsTop:
       # Defines amount of players to be shown in one page for /jobs top & /jobs gtop
-      AmountToShow: 15
+      AmountToShow: 10
       # List of player names who should be excluded from /jobs top & /jobs gtop
       HiddenPlayers:
       - Zrips

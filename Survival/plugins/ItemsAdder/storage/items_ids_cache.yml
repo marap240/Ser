@@ -595,6 +595,24 @@ PAPER:
   mmoitems_pack:perfect_emerald: 1054
   mmoitems_pack:true_black: 1055
   mmoitems_pack:lost_soul: 1056
+  jobs:blank: 10282
+  jobs:alchemist: 10283
+  jobs:arrow_left: 10284
+  jobs:arrow_right: 10285
+  jobs:assassin: 10286
+  jobs:blacksmith: 10287
+  jobs:builder: 10288
+  jobs:crafter: 10289
+  jobs:digger: 10290
+  jobs:enchanter: 10291
+  jobs:farmer: 10292
+  jobs:fisherman: 10293
+  jobs:hunter: 10294
+  jobs:lumberjack: 10295
+  jobs:miner: 10296
+  jobs:smelter: 10297
+  jobs:alquimista: 10298
+  jobs:asesino: 10299
 GOLDEN_HORSE_ARMOR:
   cubees:cubees-icon-basalt_delta_cubee: 7191044
   cubees:cubees-icon-blackstone_cubee: 7191045
@@ -945,6 +963,11 @@ IRON_SWORD:
 GRAY_DYE:
   mmoitems_pack:grimoire_of_the_damned: 1001
   mmoitems_pack:grimoire_of_the_loyal: 1002
+  mmohud:toggle_switch_on: 1
+  mmohud:toggle_switch_off: 2
+  mmohud:menu_foodicon: 3
+  mmohud:menu_stats: 4
+  mmohud:menu_currency: 5
 BOW:
   mmoitems_pack:bow1: 1001
   mmoitems_pack:bow2: 1002
@@ -969,3 +992,20 @@ LEATHER_LEGGINGS:
 LEATHER_BOOTS:
   mmoitems_pack:uranium_boots: 2
   mmoitems_pack:damned_boots: 1
+POPPED_CHORUS_FRUIT:
+  jobs:blank: 10000
+  jobs:alchemist: 10001
+  jobs:arrow_left: 10002
+  jobs:arrow_right: 10003
+  jobs:assassin: 10004
+  jobs:blacksmith: 10005
+  jobs:builder: 10006
+  jobs:crafter: 10007
+  jobs:digger: 10008
+  jobs:enchanter: 10009
+  jobs:farmer: 10010
+  jobs:fisherman: 10011
+  jobs:hunter: 10012
+  jobs:lumberjack: 10013
+  jobs:miner: 10014
+  jobs:smelter: 10015

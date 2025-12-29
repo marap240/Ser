@@ -1,0 +1,131 @@
+Forrajeo:
+  fullname: Forrajeo
+  shortname: F
+  displayName: "{#cc7708}Forrajeo"
+  FullDescription:
+  - "Gana dinero y xp talando/plantando un árbol."
+  ChatColour: GOLD
+  chat-display: shortjob
+  BossBarColour: YELLOW
+  max-level: 100
+  leveling-progression-equation: 13*(joblevel)+(joblevel*joblevel*5)
+  income-progression-equation: baseincome+(baseincome*(joblevel-2)*0.01)-((baseincome+(baseincome*(joblevel-2)*0.01))
+      * ((numjobs-1)*0.01))
+  points-progression-equation: basepoints+(basepoints*(joblevel-2)*0.01)-((basepoints+(basepoints*(joblevel-2)*0.01))
+      * ((numjobs-1)*0.01))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  maxDailyQuests: 1
+  Quests:
+    '1':
+      Name: "Forrajeo 1"
+      Objectives:
+      - Break;OAK_LOG;16
+      RewardCommands:
+      - "eco give [playerName] 100"
+      - "jobs exp [playerName] Forrajeo add 100"
+      - 'title [playerName] title {"text":"§a§lMisión completada!"}'
+      - 'title [playerName] subtitle {"text":"§fHas completado esta misión de forrajeo.!!"}'
+      RewardDesc:
+      - "{#707070}¡Debes cortar 8 troncos de roble para completar!"
+      - ""
+      - "{#cc7708}&lRecompensas"
+      - " &8- &e&l$&e100"
+      - " &8- {#cc7708}100 &lXP"
+    '2':
+      Name: "Forrajeo 2"
+      Objectives:
+      - Break;ACACIA_LOG;16
+      RewardCommands:
+      - "eco give [playerName] 100"
+      - "jobs exp [playerName] Forrajeo add 100"
+      - 'title [playerName] title {"text":"§a§lMisión completada!"}'
+      - 'title [playerName] subtitle {"text":"§fHas completado esta misión de forrajeo.!!"}'
+      RewardDesc:
+      - "{#707070}¡Debes cortar 8 troncos de acacia para completar!"
+      - ""
+      - "{#cc7708}&lRecompensas"
+      - " &8- &e&l$&e100"
+      - " &8- {#cc7708}100 &lXP"
+    '3':
+      Name: "Forrajeo 3"
+      Objectives:
+      - Break;DARK_OAK_LOG;16
+      RewardCommands:
+      - "eco give [playerName] 100"
+      - "jobs exp [playerName] Forrajeo add 100"
+      - 'title [playerName] title {"text":"§a§lMisión completada!"}'
+      - 'title [playerName] subtitle {"text":"§fHas completado esta misión de forrajeo.!!"}'
+      RewardDesc:
+      - "{#707070}¡Debes cortar 8 troncos de roble oscuro para completar!"
+      - ""
+      - "{#cc7708}&lRecompensas"
+      - " &8- &e&l$&e100"
+      - " &8- {#cc7708}100 &lXP"
+  Gui:
+    Item: JUNGLE_SAPLING
+  Break:
+    OAK_LOG:
+      income: 0.5
+      points: 0.5
+      experience: 0.3
+    BIRCH_LOG:
+      income: 0.5
+      points: 0.5
+      experience: 0.3
+    SPRUCE_LOG:
+      income: 0.5
+      points: 0.5
+      experience: 0.3
+    DARK_OAK_LOG:
+      income: 0.5
+      points: 0.5
+      experience: 0.3
+    JUNGLE_LOG:
+      income: 0.5
+      points: 0.5
+      experience: 0.3
+    ACACIA_LOG:
+      income: 0.5
+      points: 0.5
+      experience: 0.3
+    OAK_WOOD:
+      income: 1.5
+      points: 1.5
+      experience: 0.8
+    BIRCH_WOOD:
+      income: 1.5
+      points: 1.5
+      experience: 0.8
+    SPRUCE_WOOD:
+      income: 1.5
+      points: 1.5
+      experience: 0.8
+    DARK_OAK_WOOD:
+      income: 1.5
+      points: 1.5
+      experience: 0.8
+    JUNGLE_WOOD:
+      income: 1.5
+      points: 1.5
+      experience: 0.8
+    ACACIA_WOOD:
+      income: 1.5
+      points: 1.5
+      experience: 0.8
+    WARPED_STEM:
+      income: 1.5
+      points: 1.5
+      experience: 0.8
+    WARPED_HYPHAE:
+      income: 1.5
+      points: 1.5
+      experience: 0.8
+    CRIMSON_STEM:
+      income: 1.5
+      points: 1.5
+      experience: 0.8
+    CRIMSON_HYPHAE:
+      income: 1.5
+      points: 1.5
+      experience: 0.8

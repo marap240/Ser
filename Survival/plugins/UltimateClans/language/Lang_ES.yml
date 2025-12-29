@@ -162,7 +162,7 @@ LANGUAGE:
   - ' <white>Badera: <aqua>%uclans_banner_material%'
   help clan list view header: '<newline><blue><bold> Lista de Top Clanes:</bold> <newline> <gray>Orden: <green>%current%'
   help clan list view format all: '<click:suggest_command:"/{_clan} {_info} %uclans_tag_nocolor% "><hover:show_text:''<green>Click para ver.''> <gray>- %uclans_tag_color%<reset><dark_gray> | <white>Creación: <green>%uclans_creation_date_formated% <gray>| <white>Lider: <green>%uclans_leader% | <white>Miembros: <green>%uclans_count_members% <yellow>[CLICK]</hover></click>'
-  help clan list view format kill: '<click:suggest_command:"/{_clan} {_info} %uclans_tag_nocolor% "><hover:show_text:''<green>Click para ver.''> <gray>- %uclans_tag_color%<reset><dark_gray> | <white>Asesinatos: <green>%uclans_clan_kills% <gray>| <white>Lider: <green>%uclans_leader% | <white>Miembros: <green>%uclans_count_members% <yellow>[CLICK]</hover></click>'
+  help clan list view format kill: '<click:suggest_command:"/{_clan} {_info} %uclans_tag_nocolor% "><hover:show_text:''<green>Click para ver.''> <gray>- %uclans_tag_color%<reset><dark_gray> | <white>Asesinos: <green>%uclans_clan_kills% <gray>| <white>Lider: <green>%uclans_leader% | <white>Miembros: <green>%uclans_count_members% <yellow>[CLICK]</hover></click>'
   help clan list view format death: '<click:suggest_command:"/{_clan} {_info} %uclans_tag_nocolor% "><hover:show_text:''<green>Click para ver.''> <gray>- %uclans_tag_color%<reset><dark_gray> | <white>Muertes: <green>%uclans_clan_deaths% <gray>| <white>Lider: <green>%uclans_leader% | <white>Miembros: <green>%uclans_count_members% <yellow>[CLICK]</hover></click>'
   help clan list view format kdr: '<click:suggest_command:"/{_clan} {_info} %uclans_tag_nocolor% "><hover:show_text:''<green>Click para ver.''> <gray>- %uclans_tag_color%<reset><dark_gray> | <white>KDR: <green>%uclans_clan_kdr% <gray>| <white>Lider: <green>%uclans_leader% | <white>Miembros: <green>%uclans_count_members% <yellow>[CLICK]</hover></click>'
   help clan list view format member: '<click:suggest_command:"/{_clan} {_info} %uclans_tag_nocolor% "><hover:show_text:''<green>Click para ver.''> <gray>- %uclans_tag_color%<reset><dark_gray> | <white>Miembros: <green>%uclans_count_members% <gray>| <white>Lider: <green>%uclans_leader% | <white>Miembros: <green>%uclans_count_members% <yellow>[CLICK]</hover></click>'
@@ -211,7 +211,7 @@ LANGUAGE:
   - ' <white>Abierto a todos: <aqua>%uclans_isopen_formated%'
   - ' <white>Miembros: <aqua>%uclans_count_members% <gray>(%uclans_count_onlinemembers% online)'
   - '<blue><bold>|</bold> <blue>Kdr:'
-  - ' <white>Asesinatos: <aqua>%uclans_clan_kills%'
+  - ' <white>Asesinos: <aqua>%uclans_clan_kills%'
   - ' <white>Muertes: <aqua>%uclans_clan_deaths%'
   - ' <white>KDR Total: <aqua>%uclans_clan_kdr%'
   - '<blue><bold>|</bold> <blue>Status:'
@@ -233,7 +233,7 @@ LANGUAGE:
   translaction yes: <green>Si
   translaction no: <red>No
   translaction no clan: <red>Sin clan
-  translaction kill: Asesinato
+  translaction kill: Asesino
   translaction death: Muertes
   translaction kdr: KDR
   translaction member: Miembro(s)
@@ -287,7 +287,7 @@ LANGUAGE:
   disabled function gui: <red>Esta función está desactivada.
   admin opened clanchest: '%tag% <red>Un administrador abrió el cofre del clan.'
   top kdr format: '<aqua>%num%: <gray>| <green>%uclans_tag_color% <reset><gray>| <white>KDR: <aqua>%uclans_clan_kdr%'
-  top kill format: '<aqua>%num%: <gray>| <green>%uclans_tag_color% <reset><gray>| <white>Asesinatos: <aqua>%uclans_clan_kills%'
+  top kill format: '<aqua>%num%: <gray>| <green>%uclans_tag_color% <reset><gray>| <white>Asesinos: <aqua>%uclans_clan_kills%'
   top death format: '<aqua>%num%: <gray>| <green>%uclans_tag_color% <reset><gray>| <white>Muertes: <aqua>%uclans_clan_deaths%'
   top member format: '<aqua>%num%: <gray>| <green>%uclans_tag_color% <reset><gray>| <white>Miembros: <aqua>%uclans_count_members%'
   top bank format: '<aqua>%num%: <gray>| <green>%uclans_tag_color% <reset><gray>| <white>Banco: <aqua>%uclans_bank_balance%'

@@ -306,7 +306,7 @@ GUI:
   - ' '
   - '<yellow>Sobre kdr:'
   - ' '
-  - ' <dark_gray>• <white>Asesinatos: <aqua>%uclans_clan_kills%'
+  - ' <dark_gray>• <white>Asesinos: <aqua>%uclans_clan_kills%'
   - ' <dark_gray>• <white>Muertes: <aqua>%uclans_clan_deaths%'
   - ' <dark_gray>• <white>Kdr Total: <aqua>%uclans_clan_kdr%'
   General clan_stats items banner name: <green>Bandera del Clan
@@ -620,7 +620,7 @@ GUI:
   General clan_top items current_kill lore:
   - <dark_gray>Información de clan
   - ' '
-  - ' <dark_gray>⚔ <white>Asesinatos: <green>%uclans_clan_kills%'
+  - ' <dark_gray>⚔ <white>Asesinos: <green>%uclans_clan_kills%'
   - ' '
   - ' <dark_gray>✎ <white>Etiqt: <aqua>%uclans_tag_color%'
   - ' <dark_gray>✎ <white>Líder: <aqua>%uclans_leader%'
